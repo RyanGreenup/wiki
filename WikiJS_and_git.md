@@ -2,33 +2,27 @@
 title: WikiJS_and_git
 description: 
 published: true
-date: 2020-05-31T03:04:55.999Z
+date: 2020-05-31T03:08:28.481Z
 tags: 
 ---
 
-# Potential Gotchyas
-If you fuck up the config you're going to have to wipe it out and 
-restart the container, see [this Github Issue](https://github.com/github/hub/issues/1644)
-
-You'll need need to have the settings be pretty much just like this:
-Basically follow [the documentation](https://docs.requarks.io/storage/git), strictly, but
+Basically follow [the
+documentation](https://docs.requarks.io/storage/git), strictly, but
 instead of the path use the contents of the key, everything else MUST be
 exactly as described here
-| Parameter                | Value                                                                                                      |   |
-| ---                      | ---                                                                                                        |   |
-| Authentication Type      | SSH                                                                                                        |   |
-| Repo URL                 | git@github.com:RyanGreenup/wiki.git                                                                        |   |
-| Branch                   | master                                                                                                     |   |
-| SSH Private Key Mode     | Content  [fn:notpath]                                                                                      |   |
-| SSH Private Key Contents | Put the key contents in here, so like =cat github.pem=                                                     |   |
-| Username                 | Absolutely MUST be left blank, if you ever put something here see [[*Removing Bad Config][Removing Bad Config]] to reset it          |   |
-| Email                    | Apparently the email must be the same as what's linked to GitHub, no clue but I did that to save heartache |   |
-| Local Repo Path          | I don't think this matters, it's usally =./data/repo=                                                      |   |
-| Synd Direction           | Bi-Directional                                                                                             |   |
 
+ | Parameter                | Value                                                                                                      | 
+| ---                      | ---                                                                                                        | 
+| Authentication Type      | SSH                                                                                                        | 
+| Repo URL                 | git@github.com:RyanGreenup/wiki.git                                                                        | 
+| Branch                   | master                                                                                                     | 
+| SSH Private Key Mode     | Content  [fn:notpath]                                                                                      | 
+| SSH Private Key Contents | Put the key contents in here, so like =cat github.pem=                                                     | 
+| Username                 | Absolutely MUST be left blank, if you ever put something here see [*Removing Bad Config*](#Removing-Bad-Config)  to reset it          | 
+| Email                    | Apparently the email must be the same as what's linked to GitHub, no clue but I did that to save heartache | 
+| Local Repo Path          | I don't think this matters, it's usally =./data/repo=                                                      | 
+| Synd Direction           | Bi-Directional                                                                                             | 
 
-
-GitHub
 ------
 
 When you add the public key (i.e. `github.pem.pub`) to *GitHub*, make
@@ -48,17 +42,21 @@ annoying.
 
 2.  ssh into the docker container:
 
-    ```bash
-    sudo docker exec -it \ /bin/bash
-    ```
+    \#+begin~src~ bash
+
+sudo docker exec -it \ /bin/bash
+
+\#+end~src~
 
 1.  go to the repo (probably `/wiki/./data/repo`) and `rm -rf repo`
 
 2.  exit the container and restart it
 
-    ```
-    exit sudo docker restart \
-    ```
+    \#+begin~src~ bash
+
+exit sudo docker restart \
+
+\#+end~src~
 
 Footnotes
 =========
@@ -66,4 +64,7 @@ Footnotes
 [^1]: If you do a path you\'re going to have to `ssh` into the docker
     container to create the key, if you have `ssh` into whatever is
     running the container this can get confusing so don\'t do that.
+
+This was converted from =org= to =md= using =pandoc -t gfm= at time: 
+2020-05-31T03-05-52
 
