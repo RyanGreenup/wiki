@@ -2,7 +2,7 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-05-31T23:49:37.227Z
+date: 2020-05-31T23:50:01.066Z
 tags: git
 ---
 
@@ -103,7 +103,7 @@ See for example [the SWA PCA article](/University/Social_Web_Analytics/05_Visual
 2. Put all the images on a local server, see for instance this image:
 
   * ![Example of Image on a server](https://ryansnotes.org/webdav/screenshot_from_2020-05-10_14-35-35.png =100x)
-  * This does permanently solve the image problem, but, there are a few pitfalls
+  * This does permanently solve the image problem, but, there are a few pitfalls (I think you could use `git` or `webdav`, either should be fine).
     * all the links will be relative to the domain, this means you MUST, have a domain name.
 
 
