@@ -2,7 +2,7 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-05-31T23:28:06.417Z
+date: 2020-05-31T23:28:50.405Z
 tags: git
 ---
 
@@ -92,10 +92,13 @@ See for example [the SWA PCA article](/University/Social_Web_Analytics/05_Visual
 ![20200423103234597_1312556818.png](./20200423103234597_1312556818.png)
 ![20200423103234597_1312556818.png](/University/Social_Web_Analytics/media/20200423103234597_1312556818.png)
 ```
-> top image image will not render because of the naming weirdness, but, the bottom will, you can fix this by manually re-inserting the links but it's a pita.
+> In this example the top image image will not render because of the naming weirdness, but, the bottom will, you can fix this by manually re-inserting the links but it's a pita.
 {.is-warning}
 
-This image
+### How to fix this
+
+1. Use a flat file structure
+2. See what wikiJS does.
 ## Footnotes
 
 [^why]: If you do a path you\'re going to have to `ssh` into the docker
