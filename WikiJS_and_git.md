@@ -1,9 +1,9 @@
 ---
-title: WikiJS_and_git
+title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-05-31T03:49:29.195Z
-tags: 
+date: 2020-05-31T03:52:51.780Z
+tags: git
 ---
 
 Basically follow [the
@@ -14,9 +14,9 @@ exactly as described here
  | Parameter                | Value                                                                                                      | 
 | ---                      | ---                                                                                                        | 
 | Authentication Type      | SSH                                                                                                        | 
-| Repo URL                 | git@github.com:RyanGreenup/wiki.git                                                                        | 
+| Repo URL                 | `git@github.com:RyanGreenup/wiki.git`                                                                       | 
 | Branch                   | master                                                                                                     | 
-| SSH Private Key Mode     | Content  [fn:notpath]                                                                                      | 
+| SSH Private Key Mode     | Content  [^why]                                                                                      | 
 | SSH Private Key Contents | Put the key contents in here, so like =cat github.pem=                                                     | 
 | Username                 | Absolutely MUST be left blank, if you ever put something here see [*Removing Bad Config*](#Removing-Bad-Config)  to reset it          | 
 | Email                    | Apparently the email must be the same as what's linked to GitHub, no clue but I did that to save heartache | 
@@ -41,21 +41,17 @@ annoying.
 
 2.  ssh into the docker container:
 
-    \#+begin~src~ bash
-
-sudo docker exec -it \ /bin/bash
-
-\#+end~src~
-
+    ```bash
+    sudo docker exec -it \ /bin/bash
+    ```
+    
 1.  go to the repo (probably `/wiki/./data/repo`) and `rm -rf repo`
 
 2.  exit the container and restart it
 
-    \#+begin~src~ bash
-
-exit sudo docker restart \
-
-\#+end~src~
+    ```bash
+    exit sudo docker restart \
+    ```
 
 ## Adding / Importing Files
 The only way I could get it to work is if I first removed the YAML from the =.md= file, then let *WikiJS* import it and then modified the YAML to reflect any changes.
@@ -69,10 +65,6 @@ Changing the YAML Title does work though.
 ## Footnotes
 
 
-[^1]: If you do a path you\'re going to have to `ssh` into the docker
+[^why]: If you do a path you\'re going to have to `ssh` into the docker
     container to create the key, if you have `ssh` into whatever is
     running the container this can get confusing so don\'t do that.
-
-This was converted from =org= to =md= using =pandoc -t gfm= at time: 
-2020-05-31T03-05-52
-
