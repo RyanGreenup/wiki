@@ -1,8 +1,3 @@
----
-tags: [Notebooks/University/Social Web Analytics]
-title: "05 PCA and MDS Visualisation"
----
-
 # Visualisation and MDS
 ## Load Packages
 First Load all the packages:
