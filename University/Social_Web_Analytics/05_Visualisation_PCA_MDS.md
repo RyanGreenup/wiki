@@ -1,3 +1,11 @@
+---
+title: Successfully Modified the YAML
+description: 
+published: true
+date: 2020-05-31T03:42:48.226Z
+tags: 
+---
+
 # Visualisation and MDS
 ## Load Packages
 First Load all the packages:
@@ -137,10 +145,12 @@ tw2 <- rtweet::post_tweet(status = "Political Wordcloud Using TF-IDF #WSU300958"
 The next step is using [PCA](../../Programming/R/IntroDataSci/PCA-PrincipalComponentAnalysis_10_IntroDataSci.md) to visualise the higher dimensional data.
 
 
-<!-- Sometimes you need a dot, <br> ruins the spacing Important --><details  open markdown="0"><summary><p>
+
 
 :warning: Scaling bug :warning:
-</p></summary><p>
+
+
+
 
 
 If you scale the data first, whether by using `scale = TRUE`, using `scale()` or
@@ -149,10 +159,12 @@ come out with large outliers, like this:
 
 ![Principlie Comonents with Scaling](media/20200423103234597_1312556818.png)
 
-</p>
-<!--Newline Important-->
-</details>
-<!--Newline Important-->
+
+
+
+
+
+
 
 PCA operates by taking a matrix of values, whereby rows are observations and
 columns are features, this means we need rows as Documents and Columns as
@@ -187,11 +199,14 @@ corresponding loading vectors. Roughly speaking, the loading vectors help show
 the explanation each variable contributes to a principle component.[^2] 
 
 
-  <p style = "font-family:Courier New,Courier, monospace,serif;font-size:22px;font-style:italic; " align="right"  color=blue>
-   <b> 
-      #biplot <br>
-      </b>
-      </p>
+  
+    
+      #biplot 
+
+      
+      
+
+
 
 A biplot can be produced by simply using the `biplot` function:
 
@@ -372,7 +387,7 @@ which will produce a data frame like this:
 
 ```
      MDX    MDY Party 
-   <dbl>  <dbl> <fct> 
+       
 1 -0.427  0.211 Greens
 2 -0.447  0.294 Greens
 3 -0.240 -0.320 Greens
