@@ -2,7 +2,7 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-05-31T23:50:01.066Z
+date: 2020-05-31T23:51:49.125Z
 tags: git
 ---
 
@@ -104,7 +104,9 @@ See for example [the SWA PCA article](/University/Social_Web_Analytics/05_Visual
 
   * ![Example of Image on a server](https://ryansnotes.org/webdav/screenshot_from_2020-05-10_14-35-35.png =100x)
   * This does permanently solve the image problem, but, there are a few pitfalls (I think you could use `git` or `webdav`, either should be fine).
-    * all the links will be relative to the domain, this means you MUST, have a domain name.
+    * all the links will be relative to the domain, this means you MUST, have a domain name and you must be prepared to rename every image in the event that your domain name expires.
+    * You can only access images if you're online, (even if you were offline, the images will follow the path to the domain, even if they were accessible on `localhost`, this also requires some manual interrvention.
+    * This does however mean that images will either all work or not work and maybe I can find a self-hosted `imgur` program to try and streamline it?
 
 
 
