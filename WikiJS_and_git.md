@@ -2,8 +2,8 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-05-31T23:14:08.967Z
-tags: 
+date: 2020-05-31T23:28:06.417Z
+tags: git
 ---
 
 Basically follow [the
@@ -81,10 +81,55 @@ Dont use Camel Case or Snake Case, spaces are indicated by hyphens just like lis
 | `foobar` | `foobar` |
 |`foo bar` | I don't know, and I don't care, this would only make life more difficult and make links less useable |
 
-also only md files will be imported, not images or files  
+## Potential Gotchyas
+Images will be imported, but /WikiJS/ doesn't use folders (per se), it uses a flat folder structure with long names where any words delimited by `/` are treated like folders.
 
+In practice this will behave exactly the same, except, for when you reference an image trying to use `./`, then it will obviusly not catch it.
+
+See for example [the SWA PCA article](/University/Social_Web_Analytics/05_Visualisation_PCA_MDS):
+
+```markdown
+![20200423103234597_1312556818.png](./20200423103234597_1312556818.png)
+![20200423103234597_1312556818.png](/University/Social_Web_Analytics/media/20200423103234597_1312556818.png)
+```
+> top image image will not render because of the naming weirdness, but, the bottom will, you can fix this by manually re-inserting the links but it's a pita.
+{.is-warning}
+
+This image
 ## Footnotes
 
 [^why]: If you do a path you\'re going to have to `ssh` into the docker
     container to create the key, if you have `ssh` into whatever is
     running the container this can get confusing so don\'t do that.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
