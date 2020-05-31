@@ -2,7 +2,7 @@
 title: Initial Page
 description: 
 published: true
-date: 2020-05-31T02:20:08.899Z
+date: 2020-05-31T03:02:50.217Z
 tags: 
 ---
 
