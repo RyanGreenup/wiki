@@ -2,7 +2,7 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-05-31T23:34:22.952Z
+date: 2020-05-31T23:47:51.574Z
 tags: git
 ---
 
@@ -98,7 +98,14 @@ See for example [the SWA PCA article](/University/Social_Web_Analytics/05_Visual
 ### How to fix this
 > Currently I'm just re-adjusting the images, but, this means that the wiki WILL BE INCOMPATIBLE, with waht I'm doing, because the images will never line up.
 {.is-danger}
-1. Use a flat file structure and change where root is mounted?
+1. Use a flat file structure and change where root is mounted, then the images will render locally?
+  * This sounds awful
+2. Put all the images on a local server, see for instance:
+
+![Example of Image on a server](https://ryansnotes.org/webdav/screenshot_from_2020-05-10_14-35-35.png=300px)
+
+
+
 
 ## Footnotes
 
