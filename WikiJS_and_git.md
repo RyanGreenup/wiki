@@ -2,7 +2,7 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-05-31T04:16:27.900Z
+date: 2020-05-31T04:16:33.991Z
 tags: git
 ---
 
@@ -68,7 +68,7 @@ Renaming Works as well
 Changing the YAML Title does work though.
 
 ### Deleting Files
-You might find life easier if you delete files from inside WikiJS, but, With 3/4 syncs and a `touch filename.md` in between it eventually worked but YMMV :shrug:
+You might find life easier if you delete files from inside WikiJS, but, With 3/4 syncs and a `touch filename.md` in between it eventually worked but YMMV 
 
 
 ## File Names
