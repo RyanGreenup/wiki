@@ -2,7 +2,7 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-05-31T03:53:31.812Z
+date: 2020-05-31T04:12:56.224Z
 tags: git
 ---
 
@@ -59,7 +59,7 @@ The only way I could get it to work is if I first removed the YAML from the =.md
 After that I could modify the YAML however I liked
 
 ### Tags
-Have not actually tried tags tbh.
+Yeah Don't Touch these
 
 ### Renaming
 Renaming Works as well
@@ -69,6 +69,15 @@ Changing the YAML Title does work though.
 
 ## Footnotes
 
+## File Names
+Dont use Camel Case or Snake Case, spaces are indicated by hyphens just like lisp, e.g.:
+
+| File Name | Wiki JS Interpertation |
+|---|---|
+| `foo-bar` | `foo bar` |
+| `foo_bar` | `foo_bar` |
+| `foobar` | `foobar` |
+|`foo bar` | I don't know, and I don't care, this would only make life more difficult and make links less useable |
 
 [^why]: If you do a path you\'re going to have to `ssh` into the docker
     container to create the key, if you have `ssh` into whatever is
