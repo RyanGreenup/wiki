@@ -2,7 +2,7 @@
 title: Thinking About Data
 description: 
 published: true
-date: 2020-05-31T14:45:01.836Z
+date: 2020-05-31T15:09:52.384Z
 tags: 
 ---
 
