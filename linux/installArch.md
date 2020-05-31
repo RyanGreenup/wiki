@@ -2,7 +2,7 @@
 title: Install Arch Linux
 description: 
 published: true
-date: 2020-05-31T03:35:33.497Z
+date: 2020-05-31T14:45:05.758Z
 tags: 
 ---
 

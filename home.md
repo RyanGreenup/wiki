@@ -2,8 +2,8 @@
 title: Initial Page
 description: 
 published: true
-date: 2020-05-31T14:58:26.546Z
-tags: public
+date: 2020-05-31T15:08:32.696Z
+tags: 
 ---
 
 # Home

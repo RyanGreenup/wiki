@@ -2,8 +2,8 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-05-31T04:16:36.583Z
-tags: git
+date: 2020-05-31T14:45:13.907Z
+tags: 
 ---
 
 Basically follow [the
