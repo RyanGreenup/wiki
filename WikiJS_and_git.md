@@ -2,7 +2,7 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-05-31T03:52:51.780Z
+date: 2020-05-31T03:53:31.812Z
 tags: git
 ---
 
@@ -54,10 +54,15 @@ annoying.
     ```
 
 ## Adding / Importing Files
-The only way I could get it to work is if I first removed the YAML from the =.md= file, then let *WikiJS* import it and then modified the YAML to reflect any changes.
+The only way I could get it to work is if I first removed the YAML from the =.md= file, then let *WikiJS* import it.
+
+After that I could modify the YAML however I liked
+
+### Tags
+Have not actually tried tags tbh.
 
 ### Renaming
-I haven't tried renaming tbh.
+Renaming Works as well
 
 ### YAML Title
 Changing the YAML Title does work though.
