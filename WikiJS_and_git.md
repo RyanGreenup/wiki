@@ -2,7 +2,7 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-05-31T04:12:56.224Z
+date: 2020-05-31T15:17:28.939Z
 tags: git
 ---
 
@@ -67,7 +67,9 @@ Renaming Works as well
 ### YAML Title
 Changing the YAML Title does work though.
 
-## Footnotes
+### Deleting Files
+You might find life easier if you delete files from inside WikiJS, but, With 3/4 syncs and a `touch filename.md` in between it eventually worked but YMMV 
+
 
 ## File Names
 Dont use Camel Case or Snake Case, spaces are indicated by hyphens just like lisp, e.g.:
@@ -78,6 +80,10 @@ Dont use Camel Case or Snake Case, spaces are indicated by hyphens just like lis
 | `foo_bar` | `foo_bar` |
 | `foobar` | `foobar` |
 |`foo bar` | I don't know, and I don't care, this would only make life more difficult and make links less useable |
+
+also only md files will be imported, not images or files  
+
+## Footnotes
 
 [^why]: If you do a path you\'re going to have to `ssh` into the docker
     container to create the key, if you have `ssh` into whatever is

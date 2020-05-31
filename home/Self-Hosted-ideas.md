@@ -2,7 +2,7 @@
 title: #Self Hosted
 description: 
 published: true
-date: 2020-05-30T07:06:03.317Z
+date: 2020-05-31T14:44:57.991Z
 tags: 
 ---
 

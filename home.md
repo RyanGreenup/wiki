@@ -2,7 +2,7 @@
 title: Initial Page
 description: 
 published: true
-date: 2020-05-31T03:35:22.500Z
+date: 2020-05-31T15:08:32.696Z
 tags: 
 ---
 
@@ -11,6 +11,7 @@ tags:
 [Randomness](/University/Thinking-About-Data/01Randomness)
 [Confidence Intervals](/University/Thinking-About-Data/Confidence-Intervals)
 
+[Managing Guests](managing-guests-in-wikijs)
 <kbd>Ctrl</kbd> + <kbd>s</kbd> works which is nice
 
 
@@ -18,6 +19,11 @@ tags:
 
 
 ![png_image.png](/png_image.png =x100)
+
+
+![](media/15909376339300.png)
+
+
 
 
 [Self-Hosted-ideas](/home/Self-Hosted-ideas)
@@ -30,6 +36,9 @@ also whats the risk of http if im just going to use mobile data
 [wikis and note taking](/home/wikis-and-note-taking)
 
 ## Note to Self
+
+> This should really be in my to do list app, I mean, whats the point otherwise, Im paying for it I may as well use it.
+{.is-warning}
 
 * [Install Arch](linux/installArch)
     * Look at *XFCE* and `i3`

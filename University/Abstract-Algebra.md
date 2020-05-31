@@ -2,7 +2,7 @@
 title: Abstract Algebra
 description: 
 published: true
-date: 2020-05-31T03:35:26.207Z
+date: 2020-05-31T14:45:03.739Z
 tags: 
 ---
 
