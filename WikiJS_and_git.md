@@ -2,7 +2,7 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-05-31T23:48:49.855Z
+date: 2020-05-31T23:49:37.227Z
 tags: git
 ---
 
@@ -100,9 +100,11 @@ See for example [the SWA PCA article](/University/Social_Web_Analytics/05_Visual
 {.is-danger}
 1. Use a flat file structure and change where root is mounted, then the images will render locally?
   * This sounds awful
-2. Put all the images on a local server, see for instance:
+2. Put all the images on a local server, see for instance this image:
 
   * ![Example of Image on a server](https://ryansnotes.org/webdav/screenshot_from_2020-05-10_14-35-35.png =100x)
+  * This does permanently solve the image problem, but, there are a few pitfalls
+    * all the links will be relative to the domain, this means you MUST, have a domain name.
 
 
 
