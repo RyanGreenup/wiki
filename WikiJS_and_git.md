@@ -2,7 +2,7 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-05-31T23:48:24.806Z
+date: 2020-05-31T23:48:28.056Z
 tags: git
 ---
 
@@ -102,7 +102,7 @@ See for example [the SWA PCA article](/University/Social_Web_Analytics/05_Visual
   * This sounds awful
 2. Put all the images on a local server, see for instance:
 
-![Example of Image on a server](https://ryansnotes.org/webdav/screenshot_from_2020-05-10_14-35-35.png=50x100)
+![Example of Image on a server](https://ryansnotes.org/webdav/screenshot_from_2020-05-10_14-35-35.png =50x100)
 
 
 
