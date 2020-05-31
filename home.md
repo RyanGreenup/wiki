@@ -2,7 +2,7 @@
 title: Initial Page
 description: 
 published: true
-date: 2020-05-31T14:57:24.862Z
+date: 2020-05-31T14:58:26.546Z
 tags: public
 ---
 
@@ -11,6 +11,7 @@ tags: public
 [Randomness](/University/Thinking-About-Data/01Randomness)
 [Confidence Intervals](/University/Thinking-About-Data/Confidence-Intervals)
 
+[Managing Guests](managing-guests-in-wikijs)
 <kbd>Ctrl</kbd> + <kbd>s</kbd> works which is nice
 
 
