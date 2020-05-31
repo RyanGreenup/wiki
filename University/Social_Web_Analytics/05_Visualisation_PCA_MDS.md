@@ -2,13 +2,9 @@
 title: Successfully Modified the YAML
 description: 
 published: true
-<<<<<<< HEAD
 date: 2020-05-31T03:42:48.226Z
-
-=======
 date: 2020-05-31T14:45:16.315Z
 tags: 
->>>>>>> 12a5637b36ecc6759c38a27df97f920013ce36fe
 ---
 
 # Visualisation and MDS
