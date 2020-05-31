@@ -20,7 +20,7 @@ tags:
   + I'd never have to pay for *Dropbox* again
     + I wonder if I could access the data on the iPad so it's actually accessible?
       + Or would I just be better off with git?
-  
+      
 + ~~[Standard Notes](https://app.standardnotes.org/) is kinda cool but I don't see how it's different from *WikiJS* (see also [OpenNotes](https://github.com/FoxUSA/OpenNote))~~
 * OneNote Reading List
 * Evernote File Dump
@@ -43,7 +43,7 @@ oh and a books manager would be nice so i can access textbooks from anywhere (we
  + [ebook managwr](https://getpolarized.io/) and or consider using [webdav](./usingwebdav), something so I can quickly find all my books on all devices, maybe honestly just nextcloud with full text search (or paperless)
    + I tried Calibre but it was just too slow
      + [a nice tutorial on nextcloud](https://websiteforstudents.com/setup-nextcloud-on-ubuntu-18-04-lts-beta-with-apache2-mariadb-and-php-7-1-support/)
-
+  
 -   you can host a [hackmd Now CodiMd](https://demo.codimd.org/) which is really cool but im not sure what id do with it   theres also [this katex editor](https://josephernest.github.io/writing/) thats way way smoother  
 
 
@@ -100,11 +100,10 @@ I like *Plex* but is there a way I could share access to my *Plex* library?
 > [See the list](https://github.com/awesome-selfhosted/awesome-selfhosted#video-streaming)
 
 + Jellyfish is one them
+
 + [Olaris Discussion is where to start](https://www.reddit.com/r/selfhosted/comments/givr4j/the_olaris_team_wants_your_input_foss_plex/)'
 
-### File Sharing
 
-Does Samba Bring Anything to the table?
 
 
 ## Document Server
@@ -123,8 +122,4 @@ Ohhh you can download it, but the ios UI sucks balls
 + [Teedy](https://github.com/sismics/docs) Is another really nice option, with a clear business strategy.
   + ~~This doesn't let you highlight the text from within the webapp.~~ It does for some actually
   + You have to prefix searches with `full:`, this will get annoying.
-
-### NextCloud
-
-If you could figure out how to get elasticsearch to work in nextcloud this problem would be solved
 
