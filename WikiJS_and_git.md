@@ -28,8 +28,7 @@ exactly as described here
 When you add the public key (i.e. `github.pem.pub`) to *GitHub*, make
 sure you give it write permissions as well.
 
-Removing Bad Config
-===================
+## Removing Bad Config
 
 If you create a bad config WikiJS won\'t wipe it out which is super
 annoying.
@@ -58,8 +57,11 @@ exit sudo docker restart \
 
 \#+end~src~
 
-Footnotes
-=========
+## Adding / Importing Files
+The only way I could get it to work is if I first removed the YAML from the =.md= file, then let *WikiJS* import it and then modified the YAML to reflect any changes.
+
+## Footnotes
+
 
 [^1]: If you do a path you\'re going to have to `ssh` into the docker
     container to create the key, if you have `ssh` into whatever is
