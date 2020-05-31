@@ -2,7 +2,7 @@
 title: Just a Test
 description: 
 published: true
-date: 2020-05-31T23:14:07.147Z
+date: 2020-05-31T23:46:20.456Z
 tags: 
 ---
 
@@ -25,4 +25,5 @@ $$
 
 I even included a screenshot
 
+![Self Hosted Screen](https://ryansnotes.org/webdav/screenshot_from_2020-05-10_14-35-35.png)
 ![I even Included a screenshot](/screenshot_from_2020-05-10_14-35-35.png)
