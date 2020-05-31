@@ -1,3 +1,11 @@
+---
+title: WikiJS_and_git
+description: 
+published: true
+date: 2020-05-31T03:04:21.423Z
+tags: 
+---
+
 # Potential Gotchyas
 If you fuck up the config you're going to have to wipe it out and 
 restart the container, see [this Github Issue](https://github.com/github/hub/issues/1644)
@@ -41,21 +49,17 @@ annoying.
 
 2.  ssh into the docker container:
 
-    \#+begin~src~ bash
-
-sudo docker exec -it \ /bin/bash
-
-\#+end~src~
+    ```bash
+    sudo docker exec -it \ /bin/bash
+    ```
 
 1.  go to the repo (probably `/wiki/./data/repo`) and `rm -rf repo`
 
 2.  exit the container and restart it
 
-    \#+begin~src~ bash
-
-exit sudo docker restart \
-
-\#+end~src~
+    ```
+    exit sudo docker restart \
+    ```
 
 Footnotes
 =========
@@ -63,7 +67,4 @@ Footnotes
 [^1]: If you do a path you\'re going to have to `ssh` into the docker
     container to create the key, if you have `ssh` into whatever is
     running the container this can get confusing so don\'t do that.
-
-This was converted from =org= to =md= using =pandoc -t gfm= at time: 
-2020-05-31T02-58-11
 
