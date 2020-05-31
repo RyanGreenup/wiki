@@ -2,7 +2,7 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-05-31T23:33:55.970Z
+date: 2020-05-31T23:34:04.270Z
 tags: git
 ---
 
@@ -97,7 +97,7 @@ See for example [the SWA PCA article](/University/Social_Web_Analytics/05_Visual
 
 ### How to fix this
 > Currently I'm just re-adjusting the images, but, this means that the wiki WILL BE INCOMPATIBLE, with waht I'm doing, because the images will never line up.
-{.is-warning}
+{.is-danger}
 1. Use a flat file structure
 2. See what wikiJS does.
 ## Footnotes
