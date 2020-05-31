@@ -2,7 +2,7 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-05-31T03:56:35.080Z
+date: 2020-05-31T04:01:00.004Z
 tags: git
 ---
 
@@ -69,6 +69,14 @@ Changing the YAML Title does work though.
 
 ## Footnotes
 
+## File Names
+Dont use Camel Case or Snake Case, spaces are indicated by hyphens just like lisp, e.g.:
+
+| File Name | Wiki JS Interpertation |
+| `foo-bar` | `foo bar` |
+| `foo_bar` | `foo_bar` |
+| `foobar` | `foobar` |
+|`foo bar` | I don't know, and I don't care |
 
 [^why]: If you do a path you\'re going to have to `ssh` into the docker
     container to create the key, if you have `ssh` into whatever is
