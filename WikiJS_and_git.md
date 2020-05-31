@@ -2,7 +2,7 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-05-31T04:01:09.684Z
+date: 2020-05-31T04:12:56.224Z
 tags: git
 ---
 
@@ -77,7 +77,7 @@ Dont use Camel Case or Snake Case, spaces are indicated by hyphens just like lis
 | `foo-bar` | `foo bar` |
 | `foo_bar` | `foo_bar` |
 | `foobar` | `foobar` |
-|`foo bar` | I don't know, and I don't care |
+|`foo bar` | I don't know, and I don't care, this would only make life more difficult and make links less useable |
 
 [^why]: If you do a path you\'re going to have to `ssh` into the docker
     container to create the key, if you have `ssh` into whatever is
