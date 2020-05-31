@@ -2,8 +2,8 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-05-31T14:45:13.907Z
-tags: 
+date: 2020-05-31T15:17:28.939Z
+tags: git
 ---
 
 Basically follow [the
@@ -80,6 +80,8 @@ Dont use Camel Case or Snake Case, spaces are indicated by hyphens just like lis
 | `foo_bar` | `foo_bar` |
 | `foobar` | `foobar` |
 |`foo bar` | I don't know, and I don't care, this would only make life more difficult and make links less useable |
+
+also only md files will be imported, not images or files  
 
 ## Footnotes
 
