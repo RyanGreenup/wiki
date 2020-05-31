@@ -1,5 +1,5 @@
 ---
-title: Successfully Modified the YAML
+title: 05 PCA and MDS
 description: 
 published: true
 date: 2020-05-31T03:42:48.226Z
