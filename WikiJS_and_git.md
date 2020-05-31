@@ -2,7 +2,7 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-05-31T23:34:04.270Z
+date: 2020-05-31T23:34:22.952Z
 tags: git
 ---
 
@@ -98,8 +98,8 @@ See for example [the SWA PCA article](/University/Social_Web_Analytics/05_Visual
 ### How to fix this
 > Currently I'm just re-adjusting the images, but, this means that the wiki WILL BE INCOMPATIBLE, with waht I'm doing, because the images will never line up.
 {.is-danger}
-1. Use a flat file structure
-2. See what wikiJS does.
+1. Use a flat file structure and change where root is mounted?
+
 ## Footnotes
 
 [^why]: If you do a path you\'re going to have to `ssh` into the docker
