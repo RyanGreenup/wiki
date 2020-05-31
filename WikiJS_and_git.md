@@ -2,7 +2,7 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-05-31T23:51:49.125Z
+date: 2020-05-31T23:52:39.296Z
 tags: git
 ---
 
@@ -106,7 +106,8 @@ See for example [the SWA PCA article](/University/Social_Web_Analytics/05_Visual
   * This does permanently solve the image problem, but, there are a few pitfalls (I think you could use `git` or `webdav`, either should be fine).
     * all the links will be relative to the domain, this means you MUST, have a domain name and you must be prepared to rename every image in the event that your domain name expires.
     * You can only access images if you're online, (even if you were offline, the images will follow the path to the domain, even if they were accessible on `localhost`, this also requires some manual interrvention.
-    * This does however mean that images will either all work or not work and maybe I can find a self-hosted `imgur` program to try and streamline it?
+    * This does however mean that images will either all work or all not work (as opposed to the current mess of half and half), and sharing MD/HTML files will be much easier if the path is to a public site
+    * Maybe I can find a self-hosted `imgur` program to try and streamline it?
 
 
 
