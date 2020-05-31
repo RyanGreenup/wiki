@@ -2,7 +2,7 @@
 title: 01 Randomness
 description: First Lesson
 published: true
-date: 2020-05-31T02:20:22.241Z
+date: 2020-05-31T03:03:04.518Z
 tags: 
 ---
 

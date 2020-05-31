@@ -2,7 +2,7 @@
 title: Is Docker too Slow
 description: 
 published: true
-date: 2020-05-31T02:20:15.391Z
+date: 2020-05-31T03:02:57.632Z
 tags: 
 ---
 
