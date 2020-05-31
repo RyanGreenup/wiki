@@ -2,11 +2,11 @@
 title: Successfully Modified the YAML
 description: 
 published: true
-date: 2020-05-31T23:21:07.254Z
+date: 2020-05-31T23:21:53.206Z
 tags: 
 ---
 
-![20200423103234597_1312556818.png](./media/20200423103234597_1312556818.png)# Visualisation and MDS
+![20200423103234597_1312556818.png](/University/Social_Web_Analytics/media/20200423103234597_1312556818.png)# Visualisation and MDS
 ## Load Packages
 First Load all the packages:
 
