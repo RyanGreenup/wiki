@@ -2,7 +2,7 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-05-31T03:53:31.812Z
+date: 2020-05-31T03:56:35.080Z
 tags: git
 ---
 
@@ -59,7 +59,7 @@ The only way I could get it to work is if I first removed the YAML from the =.md
 After that I could modify the YAML however I liked
 
 ### Tags
-Have not actually tried tags tbh.
+Yeah Don't Touch these
 
 ### Renaming
 Renaming Works as well
