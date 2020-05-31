@@ -2,7 +2,7 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-05-31T04:01:00.004Z
+date: 2020-05-31T04:01:09.684Z
 tags: git
 ---
 
@@ -73,6 +73,7 @@ Changing the YAML Title does work though.
 Dont use Camel Case or Snake Case, spaces are indicated by hyphens just like lisp, e.g.:
 
 | File Name | Wiki JS Interpertation |
+|---|---|
 | `foo-bar` | `foo bar` |
 | `foo_bar` | `foo_bar` |
 | `foobar` | `foobar` |
