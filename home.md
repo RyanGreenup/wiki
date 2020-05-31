@@ -2,7 +2,7 @@
 title: Initial Page
 description: 
 published: true
-date: 2020-05-31T03:35:22.500Z
+date: 2020-05-31T14:44:17.272Z
 tags: 
 ---
 
@@ -30,6 +30,9 @@ also whats the risk of http if im just going to use mobile data
 [wikis and note taking](/home/wikis-and-note-taking)
 
 ## Note to Self
+
+> This should really be in my to do list app, I mean, whats the point otherwise, Im paying for it I may as well use it.
+{.is-warning}
 
 * [Install Arch](linux/installArch)
     * Look at *XFCE* and `i3`
