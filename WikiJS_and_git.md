@@ -2,7 +2,7 @@
 title: WikiJS_and_git
 description: 
 published: true
-date: 2020-05-31T03:35:20.551Z
+date: 2020-05-31T03:49:29.195Z
 tags: 
 ---
 
@@ -59,6 +59,12 @@ exit sudo docker restart \
 
 ## Adding / Importing Files
 The only way I could get it to work is if I first removed the YAML from the =.md= file, then let *WikiJS* import it and then modified the YAML to reflect any changes.
+
+### Renaming
+I haven't tried renaming tbh.
+
+### YAML Title
+Changing the YAML Title does work though.
 
 ## Footnotes
 
