@@ -2,7 +2,7 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-05-31T23:28:50.405Z
+date: 2020-05-31T23:33:55.970Z
 tags: git
 ---
 
@@ -93,10 +93,11 @@ See for example [the SWA PCA article](/University/Social_Web_Analytics/05_Visual
 ![20200423103234597_1312556818.png](/University/Social_Web_Analytics/media/20200423103234597_1312556818.png)
 ```
 > In this example the top image image will not render because of the naming weirdness, but, the bottom will, you can fix this by manually re-inserting the links but it's a pita.
-{.is-warning}
+{.is-danger}
 
 ### How to fix this
-
+> Currently I'm just re-adjusting the images, but, this means that the wiki WILL BE INCOMPATIBLE, with waht I'm doing, because the images will never line up.
+{.is-warning}
 1. Use a flat file structure
 2. See what wikiJS does.
 ## Footnotes
