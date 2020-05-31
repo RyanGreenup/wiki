@@ -2,7 +2,7 @@
 title: Using BTRFS Subvolumes and `dm_crypt`
 description: 
 published: true
-date: 2020-05-31T03:27:53.740Z
+date: 2020-05-31T03:29:11.398Z
 tags: 
 ---
 
