@@ -2,7 +2,7 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-06-01T06:38:50.675Z
+date: 2020-06-01T06:39:33.430Z
 tags: git, public
 ---
 
@@ -109,6 +109,8 @@ See for example [the SWA PCA article](/University/Social_Web_Analytics/05_Visual
   
 > images cannot be included relatively, e.g. `./image.png` will fail, but, `./filename` will work and it will respect folders, this means that you can include links just like you would in the `git` repo ??(if you sanitise the estension?)
 {is-warning}
+
+[Note-Taking-Applications](./University/Note-Taking-Applications.md)
 
 ## Footnotes
 
