@@ -2,7 +2,7 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-06-01T02:09:15.687Z
+date: 2020-06-01T06:21:14.123Z
 tags: git, public
 ---
 
@@ -106,7 +106,9 @@ See for example [the SWA PCA article](/University/Social_Web_Analytics/05_Visual
   
   * See [Hosting Images](/hosting-images.md)
   
-
+  
+> this also means that relative links between kd md kd files wont work  
+{is-warning}
 
 ## Footnotes
 
