@@ -2,7 +2,7 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-06-01T07:07:31.896Z
+date: 2020-06-01T07:19:00.957Z
 tags: git, public
 ---
 
@@ -115,6 +115,7 @@ See for example [the SWA PCA article](/University/Social_Web_Analytics/05_Visual
 > * [/hosting-images.md](/hosting-images.md)
 > * [hosting-images.md](hosting-images.md)
 
+> observe that these work in the preview pane in the ditor but not in the actual page, this is clearly a bug  
 {is-warning}
 
 
