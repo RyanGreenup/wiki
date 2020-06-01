@@ -2,7 +2,7 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-06-01T06:21:14.123Z
+date: 2020-06-01T06:38:50.675Z
 tags: git, public
 ---
 
@@ -107,7 +107,7 @@ See for example [the SWA PCA article](/University/Social_Web_Analytics/05_Visual
   * See [Hosting Images](/hosting-images.md)
   
   
-> this also means that relative links between kd md kd files wont work  
+> images cannot be included relatively, e.g. `./image.png` will fail, but, `./filename` will work and it will respect folders, this means that you can include links just like you would in the `git` repo ??(if you sanitise the estension?)
 {is-warning}
 
 ## Footnotes
