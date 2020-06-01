@@ -2,7 +2,7 @@
 title: Installing Pepperminty
 description: 
 published: true
-date: 2020-06-01T15:37:05.814Z
+date: 2020-06-01T15:46:18.739Z
 tags: 
 ---
 
@@ -19,4 +19,18 @@ It isn't clearly specified, but you need to
 2. enable them in `/etc/php/php.ini`
 
 ## Block Access
-Next you'll need to block access to the `peppermint.json` file.
+Next you'll need to block access to the `peppermint.json` file, you could acheive this with the following in the *Apache* config:
+
+```
+## /etc/http/conf/config ## Arch
+## /etc/apache2/sites-available/000-default.conf ## Ubuntu
+
+
+<Files "/srv/http/peppermint/peppermint.json">
+AllowOverride None
+Order Deny, Allow
+Deny from All
+</Files>
+// Extra Sanity
+RedirectMatch 404 /srv/http/peppermint/peppermint.json
+```
