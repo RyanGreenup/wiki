@@ -2,7 +2,7 @@
 title: Installing Pepperminty
 description: 
 published: true
-date: 2020-06-01T15:36:25.759Z
+date: 2020-06-01T15:37:05.814Z
 tags: 
 ---
 
@@ -16,4 +16,7 @@ Set up an apache server with support for PHP, confirm that the php works, just f
 It isn't clearly specified, but you need to
 
 1. install the `php` modules through the package manager
-2. enable them in `php
+2. enable them in `/etc/php/php.ini`
+
+## Block Access
+Next you'll need to block access to the `peppermint.json` file.
