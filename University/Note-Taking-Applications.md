@@ -2,7 +2,7 @@
 title: Note Taking Applications
 description: 
 published: true
-date: 2020-06-01T05:08:12.915Z
+date: 2020-06-01T07:13:27.076Z
 tags: 
 ---
 
@@ -14,4 +14,7 @@ Zim is really great and although I'm sold on just doubling down on a wiki platfo
 The only issue is that Zim doesn't support math really, so, that's a deal breaker, these are some possible alternatives:
 
 * Cherry Tree?
+
+## Wikis
+[raneto](http://docs.raneto.com/install/installing-raneto)
 
