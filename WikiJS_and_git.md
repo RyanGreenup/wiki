@@ -2,7 +2,7 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-06-01T00:48:34.493Z
+date: 2020-06-01T00:48:44.018Z
 tags: git
 ---
 
@@ -111,7 +111,7 @@ See for example [the SWA PCA article](/University/Social_Web_Analytics/05_Visual
       * One such example is [airlift](https://github.com/moshee/airlift/) but I can't figure out how to proxy apache to it????
       * WebDav works with the *Document's* app
       * I could also just use nextcloud:
-        * ![this is an inage](https://ryansnotes.org/nextcloud/index.php/s/QBCWTpekEJwjRSt/preview =30x)
+        * ![this is an inage](https://ryansnotes.org/nextcloud/index.php/s/QBCWTpekEJwjRSt/preview =100x)
 
 
 
