@@ -2,7 +2,7 @@
 title: Hosting Images
 description: 
 published: true
-date: 2020-06-01T02:09:29.716Z
+date: 2020-06-01T02:11:57.218Z
 tags: 
 ---
 
@@ -45,6 +45,22 @@ tags:
       * Also there's [Cheverto](https://write.corbpie.com/chevereto-a-self-hosted-imgur-alternative/)
 
       * piwigo is another
+
+
+
+
+## Lifetime Domains
+These are not a thing, can't be done, but it might not matter, if you use a simple webdav then a domain name can be fixed, essentially, with `sed`, it's not ideal but if you just did something like replacing this  `\!.*\[.*\]\(.*ryansnotes.org.*)` with `\!.*\[.*\]\(.*newdomain.org.*)` you'd be set, so it probably doesn't matter toooo much, but it's fucking invonient for sure
+
+
+
+
+
+
+
+
+
+
 
 
 
