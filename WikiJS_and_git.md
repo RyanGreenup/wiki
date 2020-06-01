@@ -2,7 +2,7 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-06-01T01:33:39.217Z
+date: 2020-06-01T01:59:47.821Z
 tags: git, public
 ---
 
@@ -117,6 +117,7 @@ See for example [the SWA PCA article](/University/Social_Web_Analytics/05_Visual
         * [See this issue, they implemented preview links](https://github.com/nextcloud/server/pull/6599)
       * There's also [Koken](https://github.com/koken)
       * Also there's [Cheverto](https://write.corbpie.com/chevereto-a-self-hosted-imgur-alternative/)
+      * piwigo is another
 
 
 
