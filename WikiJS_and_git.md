@@ -2,7 +2,7 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-06-01T01:13:30.967Z
+date: 2020-06-01T01:30:25.874Z
 tags: git, public
 ---
 
@@ -114,6 +114,7 @@ See for example [the SWA PCA article](/University/Social_Web_Analytics/05_Visual
         * This is arguably the simplest
       * I could also just use nextcloud:
         * ![this is an inage](https://ryansnotes.org/nextcloud/index.php/s/QBCWTpekEJwjRSt/preview =100x)
+        * [See this issue](https://github.com/nextcloud/server/pull/6599)
 
 
 
