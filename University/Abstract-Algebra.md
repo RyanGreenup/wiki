@@ -2,7 +2,7 @@
 title: Abstract Algebra
 description: 
 published: true
-date: 2020-05-31T23:14:15.389Z
+date: 2020-06-01T07:05:03.897Z
 tags: 
 ---
 
@@ -13,6 +13,13 @@ tags:
 > \[2.2\]** 
 
 -   Numbers and Sets
+
+
+* [/University/Note-Taking-Applications](/University/Note-Taking-Applications)
+* [/University/Note-Taking-Applications.md](/University/Note-Taking-Applications.md)
+* [./University/Note-Taking-Applications.md](./University/Note-Taking-Applications.md)
+* [University/Note-Taking-Applications.md](University/Note-Taking-Applications.md)
+
 
 Numbers and Sets
 ----------------
