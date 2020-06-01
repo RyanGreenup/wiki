@@ -2,7 +2,7 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-06-01T06:51:14.883Z
+date: 2020-06-01T07:01:59.329Z
 tags: git, public
 ---
 
@@ -112,6 +112,8 @@ See for example [the SWA PCA article](/University/Social_Web_Analytics/05_Visual
 > * [Note-Taking-Applications](./University/Note-Taking-Applications.md)
 > * [hosting-images](/hosting-images)
 > * [./hosting-images.md](./hosting-images.md)
+> * [/hosting-images.md](/hosting-images.md)
+> * [hosting-images.md](hosting-images.md)
 
 {is-warning}
 
