@@ -2,7 +2,7 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-06-01T00:44:56.337Z
+date: 2020-06-01T00:48:34.493Z
 tags: git
 ---
 
@@ -110,7 +110,8 @@ See for example [the SWA PCA article](/University/Social_Web_Analytics/05_Visual
     * Maybe I can find a self-hosted `imgur` program to try and streamline it?
       * One such example is [airlift](https://github.com/moshee/airlift/) but I can't figure out how to proxy apache to it????
       * WebDav works with the *Document's* app
-      * I could also just use nextcloud
+      * I could also just use nextcloud:
+        * ![this is an inage](https://ryansnotes.org/nextcloud/index.php/s/QBCWTpekEJwjRSt/preview =30x)
 
 
 
