@@ -2,7 +2,7 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-06-01T00:20:20.642Z
+date: 2020-06-01T00:44:27.372Z
 tags: git
 ---
 
@@ -108,7 +108,8 @@ See for example [the SWA PCA article](/University/Social_Web_Analytics/05_Visual
     * You can only access images if you're online, (even if you were offline, the images will follow the path to the domain, even if they were accessible on `localhost`, this also requires some manual interrvention.
     * This does however mean that images will either all work or all not work (as opposed to the current mess of half and half), and sharing MD/HTML files will be much easier if the path is to a public site
     * Maybe I can find a self-hosted `imgur` program to try and streamline it?
-      * One such example is [airlift](https://github.com/moshee/airlift/)
+      * One such example is [airlift](https://github.com/moshee/airlift/) but I can't figure out how to proxy apache to it????
+      * WebDav works with the *Document's* app
 
 
 
