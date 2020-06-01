@@ -2,7 +2,7 @@
 title: Hosting Images
 description: 
 published: true
-date: 2020-06-01T02:13:49.059Z
+date: 2020-06-01T02:14:12.457Z
 tags: 
 ---
 
@@ -58,7 +58,8 @@ This kinda ties you to nextcloud though so ehh, but it makes more sense than som
 ## Using wikiJS
 This is a weird way to go about it, but given the problem is created by WikiJS you could just translate the image into a path to the image on WikiJS:
 
-![This is on WikiJS [here](https://ryansnotes.org/nextcloud/index.php/s/QBCWTpekEJwjRSt/preview)](https://ryansnotes.org/nextcloud/index.php/s/QBCWTpekEJwjRSt/preview =100x)
+> `https://ryansnotes.org/nextcloud/index.php/s/QBCWTpekEJwjRSt/preview`
+> ![This is on WikiJS [here](https://ryansnotes.org/nextcloud/index.php/s/QBCWTpekEJwjRSt/preview)](https://ryansnotes.org/nextcloud/index.php/s/QBCWTpekEJwjRSt/preview =100x)
 
 
 
