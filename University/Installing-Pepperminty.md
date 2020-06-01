@@ -1,0 +1,19 @@
+---
+title: Installing Pepperminty
+description: 
+published: true
+date: 2020-06-01T15:36:25.759Z
+tags: 
+---
+
+# Installing Pepperminty
+So follow [these](https://starbeamrainbowlabs.com/labs/peppermint/__nightdocs/04-Getting-Started.html) instructions.
+
+## PHP and Apache
+Set up an apache server with support for PHP, confirm that the php works, just follow the *arch Wiki* guide.
+
+## Install Modules
+It isn't clearly specified, but you need to
+
+1. install the `php` modules through the package manager
+2. enable them in `php
