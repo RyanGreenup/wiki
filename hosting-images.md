@@ -2,7 +2,7 @@
 title: Hosting Images
 description: 
 published: true
-date: 2020-06-01T02:11:57.218Z
+date: 2020-06-01T02:13:49.059Z
 tags: 
 ---
 
@@ -52,6 +52,13 @@ tags:
 ## Lifetime Domains
 These are not a thing, can't be done, but it might not matter, if you use a simple webdav then a domain name can be fixed, essentially, with `sed`, it's not ideal but if you just did something like replacing this  `\!.*\[.*\]\(.*ryansnotes.org.*)` with `\!.*\[.*\]\(.*newdomain.org.*)` you'd be set, so it probably doesn't matter toooo much, but it's fucking invonient for sure
 
+## Nextcloud
+This kinda ties you to nextcloud though so ehh, but it makes more sense than something like airlift
+
+## Using wikiJS
+This is a weird way to go about it, but given the problem is created by WikiJS you could just translate the image into a path to the image on WikiJS:
+
+![This is on WikiJS [here](https://ryansnotes.org/nextcloud/index.php/s/QBCWTpekEJwjRSt/preview)](https://ryansnotes.org/nextcloud/index.php/s/QBCWTpekEJwjRSt/preview =100x)
 
 
 
