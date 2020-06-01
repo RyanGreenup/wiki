@@ -2,7 +2,7 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-06-01T01:08:02.493Z
+date: 2020-06-01T01:08:28.117Z
 tags: git
 ---
 
@@ -107,10 +107,11 @@ See for example [the SWA PCA article](/University/Social_Web_Analytics/05_Visual
     * all the links will be relative to the domain, this means you MUST, have a domain name and you must be prepared to rename every image in the event that your domain name expires.
     * You can only access images if you're online, (even if you were offline, the images will follow the path to the domain, even if they were accessible on `localhost`, this also requires some manual interrvention.
     * This does however mean that images will either all work or all not work (as opposed to the current mess of half and half), and sharing MD/HTML files will be much easier if the path is to a public site
+    * This also means that the images will be public
     * Maybe I can find a self-hosted `imgur` program to try and streamline it?
       * One such example is [airlift](https://github.com/moshee/airlift/) but I can't figure out how to proxy apache to it????
       * WebDav works with the *Document's* app
-        * This is arguably the simplest, but, I can't hide the images hmmm
+        * This is arguably the simplest
       * I could also just use nextcloud:
         * ![this is an inage](https://ryansnotes.org/nextcloud/index.php/s/QBCWTpekEJwjRSt/preview =100x)
 
