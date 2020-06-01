@@ -2,7 +2,7 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-06-01T07:01:59.329Z
+date: 2020-06-01T07:07:31.896Z
 tags: git, public
 ---
 
@@ -107,7 +107,7 @@ See for example [the SWA PCA article](/University/Social_Web_Analytics/05_Visual
   * See [Hosting Images](/hosting-images.md)
   
   
-> images cannot be included relatively, e.g. `./image.png` will fail, but, `./filename` will work and it will respect folders, this means that you can include links just like you would in the `git` repo see e.g.:
+> images cannot be included relatively, e.g. `./image.png` will fail, so will, `./filename.md`, however `/file.md` will work, so im not sure how i can use that to make this work bInwant to include links just like you would in the `git` repo see e.g.:
 
 > * [Note-Taking-Applications](./University/Note-Taking-Applications.md)
 > * [hosting-images](/hosting-images)
