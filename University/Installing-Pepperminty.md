@@ -2,7 +2,7 @@
 title: Installing Pepperminty
 description: 
 published: true
-date: 2020-06-01T15:46:18.739Z
+date: 2020-06-02T00:26:44.893Z
 tags: 
 ---
 
@@ -26,7 +26,10 @@ Next you'll need to block access to the `peppermint.json` file, you could acheiv
 ## /etc/apache2/sites-available/000-default.conf ## Ubuntu
 
 
-<Files "/srv/http/peppermint/peppermint.json">
+## This blockes by file name, it doesn't want a path which is quite confusing, but in practice it's usually fine.
+# /srv/http/peppermin/peppermint.json
+
+<Files "peppermint.json">
 AllowOverride None
 Order Deny, Allow
 Deny from All
