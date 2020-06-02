@@ -2,7 +2,7 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-06-02T05:55:07.034Z
+date: 2020-06-02T05:55:12.401Z
 tags: git, public
 ---
 
