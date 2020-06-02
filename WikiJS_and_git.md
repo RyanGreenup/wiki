@@ -1,5 +1,5 @@
 ---
-tags: [git, public]
+tags: git, public
 title: WikiJS Git Integration
 created: '2020-06-02T05:33:03.955Z'
 modified: '2020-06-02T05:39:23.860Z'
@@ -10,17 +10,17 @@ documentation](https://docs.requarks.io/storage/git), strictly, but
 instead of the path use the contents of the key, everything else MUST be
 exactly as described here
 
- | Parameter                | Value                                                                                                      | 
-| ---                      | ---                                                                                                        | 
-| Authentication Type      | SSH                                                                                                        | 
-| Repo URL                 | `git@github.com:RyanGreenup/wiki.git`                                                                       | 
-| Branch                   | master                                                                                                     | 
-| SSH Private Key Mode     | Content  [^why]                                                                                      | 
-| SSH Private Key Contents | Put the key contents in here, so like =cat github.pem=                                                     | 
-| Username                 | Absolutely MUST be left blank, if you ever put something here see [*Removing Bad Config*](#Removing-Bad-Config)  to reset it          | 
-| Email                    | Apparently the email must be the same as what's linked to GitHub, no clue but I did that to save heartache | 
-| Local Repo Path          | I don't think this matters, it's usally =./data/repo=                                                      | 
-| Synd Direction           | Bi-Directional                                                                                             | 
+| Parameter                | Value                                                                                                      |
+| ---                      | ---                                                                                                        |
+| Authentication Type      | SSH                                                                                                        |
+| Repo URL                 | `git@github.com:RyanGreenup/wiki.git`                                                                       |
+| Branch                   | master                                                                                                     |
+| SSH Private Key Mode     | Content  [^why]                                                                                      |
+| SSH Private Key Contents | Put the key contents in here, so like =cat github.pem=                                                     |
+| Username                 | Absolutely MUST be left blank, if you ever put something here see [*Removing Bad Config*](#Removing-Bad-Config)  to reset it          |
+| Email                    | Apparently the email must be the same as what's linked to GitHub, no clue but I did that to save heartache |
+| Local Repo Path          | I don't think this matters, it's usally =./data/repo=                                                      |
+| Synd Direction           | Bi-Directional                                                                                             |
 
 ------
 
@@ -104,8 +104,8 @@ See for example [the SWA PCA article](/University/Social_Web_Analytics/05_Visual
   * ![Example of Image on a server](https://ryansnotes.org/webdav/screenshot_from_2020-05-10_14-35-35.png =100x)
   
   * See [Hosting Images](/hosting-images.md)
-  
-  
+
+
 > images cannot be included relatively, e.g. `./image.png` will fail, so will, `./filename.md`, however `/file.md` will work, so im not sure how i can use that to make this work bInwant to include links just like you would in the `git` repo see e.g.:
 
 > * [Note-Taking-Applications](./University/Note-Taking-Applications.md)
