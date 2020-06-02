@@ -2,7 +2,7 @@
 title: Installing Pepperminty
 description: 
 published: true
-date: 2020-06-02T00:26:55.817Z
+date: 2020-06-02T05:52:02.200Z
 tags: 
 ---
 

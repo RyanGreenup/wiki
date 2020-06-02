@@ -1,13 +1,14 @@
 ---
-tags: [git, public]
 title: WikiJS Git Integration
-created: '2020-06-02T05:33:03.955Z'
-modified: '2020-06-02T05:39:23.860Z'
+description: 
+published: true
+date: 2020-06-02T05:51:13.680Z
+tags: 
 ---
 
-Basically follow [the
-documentation](https://docs.requarks.io/storage/git), strictly, but
-instead of the path use the contents of the key, everything else MUST be
+I just finished editing this online wikijs
+
+Basically follow [the documentation](https://docs.requarks.io/storage/git), strictly, but instead of the path use the contents of the key, everything else MUST be
 exactly as described here
 
  | Parameter                | Value                                                                                                      | 
