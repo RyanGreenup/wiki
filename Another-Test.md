@@ -2,7 +2,7 @@
 title: Just a Test
 description: 
 published: true
-date: 2020-05-31T23:14:07.147Z
+date: 2020-06-01T06:34:18.079Z
 tags: 
 ---
 
@@ -17,7 +17,7 @@ echo Hello World!
 ```jl
 print("Hello World")
 ```
-
+[mynewfile](./mynewfile)
 
 $$
 \oint \frac{1}{z} \mathrm{d}x \qquad \ldots \qquad \text{(3)}
@@ -25,4 +25,5 @@ $$
 
 I even included a screenshot
 
+![Self Hosted Screen](https://ryansnotes.org/webdav/screenshot_from_2020-05-10_14-35-35.png)
 ![I even Included a screenshot](/screenshot_from_2020-05-10_14-35-35.png)

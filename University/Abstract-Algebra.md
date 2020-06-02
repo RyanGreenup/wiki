@@ -2,7 +2,7 @@
 title: Abstract Algebra
 description: 
 published: true
-date: 2020-05-31T23:14:15.389Z
+date: 2020-06-01T07:05:41.252Z
 tags: 
 ---
 
@@ -13,6 +13,7 @@ tags:
 > \[2.2\]** 
 
 -   Numbers and Sets
+
 
 Numbers and Sets
 ----------------

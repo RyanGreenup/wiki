@@ -2,8 +2,8 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-05-31T23:14:08.967Z
-tags: 
+date: 2020-06-01T13:07:39.524Z
+tags: git, public
 ---
 
 Basically follow [the
@@ -81,10 +81,79 @@ Dont use Camel Case or Snake Case, spaces are indicated by hyphens just like lis
 | `foobar` | `foobar` |
 |`foo bar` | I don't know, and I don't care, this would only make life more difficult and make links less useable |
 
-also only md files will be imported, not images or files  
+## Potential Gotchyas
+Images will be imported, but /WikiJS/ doesn't use folders (per se), it uses a flat folder structure with long names where any words delimited by `/` are treated like folders.
+
+In practice this will behave exactly the same, except, for when you reference an image trying to use `./`, then it will obviusly not catch it.
+
+See for example [the SWA PCA article](/University/Social_Web_Analytics/05_Visualisation_PCA_MDS):
+
+```markdown
+![20200423103234597_1312556818.png](./20200423103234597_1312556818.png)
+![20200423103234597_1312556818.png](/University/Social_Web_Analytics/media/20200423103234597_1312556818.png)
+```
+> In this example the top image image will not render because of the naming weirdness, but, the bottom will, you can fix this by manually re-inserting the links but it's a pita.
+{.is-danger}
+
+### How to fix this
+> Currently I'm just re-adjusting the images, but, this means that the wiki WILL BE INCOMPATIBLE, with waht I'm doing, because the images will never line up.
+{.is-danger}
+1. Use a flat file structure and change where root is mounted, then the images will render locally?
+  * This sounds awful
+2. Put all the images on a local server, see for instance this image:
+
+  * ![Example of Image on a server](https://ryansnotes.org/webdav/screenshot_from_2020-05-10_14-35-35.png =100x)
+  
+  * See [Hosting Images](/hosting-images.md)
+  
+  
+> images cannot be included relatively, e.g. `./image.png` will fail, so will, `./filename.md`, however `/file.md` will work, so im not sure how i can use that to make this work bInwant to include links just like you would in the `git` repo see e.g.:
+
+> * [Note-Taking-Applications](./University/Note-Taking-Applications.md)
+> * [hosting-images](hosting-images)
+> * [./hosting-images.md](./hosting-images.md)
+> * [/hosting-images.md](/hosting-images.md)
+> * [hosting-images.md](hosting-images.md)
+
+> observe that these work in the preview pane in the ditor but not in the actual page, this is clearly a bug  
+{is-warning}
+
+
 
 ## Footnotes
 
 [^why]: If you do a path you\'re going to have to `ssh` into the docker
     container to create the key, if you have `ssh` into whatever is
     running the container this can get confusing so don\'t do that.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
