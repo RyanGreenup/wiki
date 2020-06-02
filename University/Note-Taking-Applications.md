@@ -2,7 +2,7 @@
 title: Note Taking Applications
 description: 
 published: true
-date: 2020-06-01T15:34:16.004Z
+date: 2020-06-02T03:08:20.808Z
 tags: 
 ---
 
@@ -16,6 +16,7 @@ The only issue is that Zim doesn't support math really, so, that's a deal breake
 * Cherry Tree?
 
 ## Wikis
-[raneto](http://docs.raneto.com/install/installing-raneto)
+* [raneto](http://docs.raneto.com/install/installing-raneto)
 
-[Installing Pepperminty](/University/Installing-Pepperminty.md)
+* [Installing Pepperminty](/University/Installing-Pepperminty.md)
+* [Grav](https://learn.getgrav.org/16/admin-panel/page/editor) supports editing content as well.
