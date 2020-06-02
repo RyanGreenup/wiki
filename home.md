@@ -2,11 +2,14 @@
 title: Initial Page
 description: 
 published: true
-date: 2020-06-02T05:51:55.767Z
-tags: 
+date: 2020-06-02T14:25:10.989Z
+tags: public, furthertest, madeinwikijs
 ---
 
 # Home
+Made after the git reset
+
+
 [Thinking About Data](/University/Thinking-About-Data)
 [Randomness](/University/Thinking-About-Data/01Randomness)
 [Confidence Intervals](/University/Thinking-About-Data/Confidence-Intervals)
