@@ -2,11 +2,11 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-06-02T05:55:53.131Z
+date: 2020-06-02T05:55:12.401Z
 tags: git, public
 ---
 
-I just finished editing this online wikijs, I changed the tags back
+I just finished editing this online wikijs
 
 Basically follow [the documentation](https://docs.requarks.io/storage/git), strictly, but instead of the path use the contents of the key, everything else MUST be
 exactly as described here
