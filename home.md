@@ -2,7 +2,7 @@
 title: Ryans WikiJS
 description: 
 published: true
-date: 2020-06-05T10:22:39.981Z
+date: 2020-06-05T10:24:53.370Z
 tags: testing, new-tag, tabb, charlie
 editor: markdown
 ---
@@ -40,7 +40,7 @@ Made after the git reset
 
 
 
-[Self Hosted Ideas](/Self-Hosted-ideas)
+[Self Hosted Ideas](./Self-Hosted-ideas.md)
 
 
 Consider joplin vs wikiJS on light of org roam server and even other options like leanote  
