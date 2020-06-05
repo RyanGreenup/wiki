@@ -1,10 +1,10 @@
 ---
-title: Self Hosted
+title: Solf Hosted Applications / Ideas to implement
 description: 
 published: true
-date: 2020-06-05T09:59:37.359Z
+date: 2020-06-05T13:32:15.822Z
 tags: 
-editor: undefined
+editor: markdown
 ---
 
 # Ideas for Self Hosting
