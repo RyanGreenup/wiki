@@ -3,7 +3,7 @@ title: Initial Page
 description: 
 published: true
 date: 2020-06-02T14:25:10.989Z
-tags: public, furthertest, madeonGithub, postRevert
+tags: 
 ---
 
 # Home
