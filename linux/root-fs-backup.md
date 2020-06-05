@@ -2,7 +2,7 @@
 title: root file system backup
 description: 
 published: true
-date: 2020-06-05T06:14:27.022Z
+date: 2020-06-05T10:00:18.299Z
 tags: 
 editor: undefined
 ---

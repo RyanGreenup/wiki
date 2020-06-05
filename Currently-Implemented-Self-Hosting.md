@@ -2,7 +2,7 @@
 title: Self Hosting Web Apps Already Implemented
 description: 
 published: true
-date: 2020-06-05T06:13:49.679Z
+date: 2020-06-05T09:59:32.666Z
 tags: 
 editor: undefined
 ---
