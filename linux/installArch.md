@@ -2,7 +2,7 @@
 title: Install Arch Linux
 description: 
 published: true
-date: 2020-06-05T14:25:05.995Z
+date: 2020-06-05T14:26:00.883Z
 tags: 
 editor: markdown
 ---
@@ -109,7 +109,7 @@ Leave out `intel-microcode` at first just to see if it causes any issues.
  
  
  ## Set up Snapper
- Finally set up snapper as described [here](~/Notes/Org/roam/20200524210841-btrfs.org)
+ Finally set up snapper as described [here](file://~/Notes/Org/roam/20200524210841-btrfs.org)
  
  
  
