@@ -2,7 +2,7 @@
 title: Confidence Intervals
 description: 
 published: true
-date: 2020-06-05T06:04:28.891Z
+date: 2020-06-05T06:09:14.291Z
 tags: 
 editor: undefined
 ---
