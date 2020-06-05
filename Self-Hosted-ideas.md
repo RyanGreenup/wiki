@@ -1,5 +1,5 @@
 ---
-title: #Self Hosted
+title: Self Hosted
 description: 
 published: true
 date: 2020-05-31T14:44:57.991Z
