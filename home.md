@@ -2,9 +2,9 @@
 title: Ryans WikiJS
 description: 
 published: true
-date: 2020-06-05T09:58:43.403Z
-tags: testing, new-tag, tabb, charlie
-editor: markdown
+date: 2020-06-05T09:58:44.592Z
+tags: 
+editor: undefined
 ---
 
 # New Version (Beta)

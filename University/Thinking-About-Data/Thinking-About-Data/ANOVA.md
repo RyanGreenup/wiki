@@ -2,7 +2,7 @@
 title: ANOVA
 description: 
 published: true
-date: 2020-06-05T06:09:23.744Z
+date: 2020-06-05T06:14:46.729Z
 tags: 
 editor: undefined
 ---
