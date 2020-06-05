@@ -2,8 +2,9 @@
 title: Tikz
 description: 
 published: true
-date: 2020-06-02T05:52:12.491Z
+date: 2020-06-05T06:04:39.884Z
 tags: 
+editor: undefined
 ---
 
 # Tikz

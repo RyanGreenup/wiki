@@ -2,8 +2,9 @@
 title: root file system backup
 description: 
 published: true
-date: 2020-06-02T05:52:11.573Z
+date: 2020-06-05T06:04:17.407Z
 tags: 
+editor: undefined
 ---
 
 The reason of the advices to not backup the "`/`" folder is this: typically, there are many virtual (and, sometimes, physical) filesystems attached to it. A virtual filesystem is like a `/proc`: it doesn't have physical files on the hard disk, instead listing/reading/writing their file structure manipulates some data structures of the kernel. For example, writing 1 into `/sys/bus/pci/rescan` doesn't write anything to anywhere on a hard disk, instead it re-scans the PCI bus for new devices.

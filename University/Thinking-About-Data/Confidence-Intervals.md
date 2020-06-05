@@ -2,8 +2,9 @@
 title: Confidence Intervals
 description: 
 published: true
-date: 2020-06-02T05:52:16.946Z
+date: 2020-06-05T06:04:28.891Z
 tags: 
+editor: undefined
 ---
 
 # The Confidence Interval is not the probability

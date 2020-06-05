@@ -2,8 +2,9 @@
 title: mynewfile
 description: 
 published: true
-date: 2020-06-02T05:51:58.469Z
+date: 2020-06-05T06:03:46.405Z
 tags: 
+editor: undefined
 ---
 
 asdklfjasdfkalsdjfalksdfjlkasdfjlkasdfj

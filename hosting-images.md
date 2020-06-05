@@ -2,8 +2,9 @@
 title: Hosting Images
 description: 
 published: true
-date: 2020-06-02T05:51:56.676Z
+date: 2020-06-05T06:03:42.115Z
 tags: 
+editor: undefined
 ---
 
 2. Put all the images on a local server, see for instance this image:

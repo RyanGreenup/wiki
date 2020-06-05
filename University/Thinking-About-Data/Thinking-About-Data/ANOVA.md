@@ -2,8 +2,9 @@
 title: ANOVA
 description: 
 published: true
-date: 2020-06-02T05:52:21.550Z
+date: 2020-06-05T06:04:41.214Z
 tags: 
+editor: undefined
 ---
 
 # Generalisation of $t$
