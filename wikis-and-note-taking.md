@@ -2,7 +2,7 @@
 title: Alternative Wikis
 description: My thoughts on Using a wiki like WikiJS or media Wiki as opposed to or in conjuction to org-roam/org-deft and markdown.
 published: true
-date: 2020-06-05T10:21:16.556Z
+date: 2020-06-06T14:28:23.611Z
 tags: 
 editor: undefined
 ---

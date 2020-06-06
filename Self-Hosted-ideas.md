@@ -2,7 +2,7 @@
 title: Solf Hosted Applications / Ideas to implement
 description: 
 published: true
-date: 2020-06-05T13:32:17.010Z
+date: 2020-06-06T14:28:03.871Z
 tags: 
 editor: undefined
 ---
