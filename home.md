@@ -2,7 +2,7 @@
 title: Ryans WikiJS
 description: 
 published: true
-date: 2020-06-06T14:48:01.709Z
+date: 2020-06-06T14:48:26.747Z
 tags: testing, new-tag, tabb, charlie, jibbly
 editor: markdown
 ---
@@ -27,9 +27,9 @@ I have since added the tags in, are they no longer added to the YAML????
 Made after the git reset
 
 
-[Thinking About Data](/University/Thinking-About-Data)
-[Randomness](/University/Thinking-About-Data/01Randomness)
-[Confidence Intervals](/University/Thinking-About-Data/Confidence-Intervals)
+[Thinking About Data](./University/Thinking-About-Data.md)
+[Randomness](/University/Thinking-About-Data/01Randomness.md)
+[Confidence Intervals](/University/Thinking-About-Data/Confidence-Intervals.md)
 
 [Managing Guests](managing-guests-in-wikijs)
 <kbd>Ctrl</kbd> + <kbd>s</kbd> works which is nice
