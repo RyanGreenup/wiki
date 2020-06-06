@@ -2,7 +2,7 @@
 title: Ryans WikiJS
 description: 
 published: true
-date: 2020-06-05T10:24:53.370Z
+date: 2020-06-06T06:24:38.529Z
 tags: testing, new-tag, tabb, charlie
 editor: markdown
 ---
@@ -16,6 +16,7 @@ I have since added the tags in, are they no longer added to the YAML????
 ## New Features
 * Kroki
 * MathJax
+* Mobile Editing is now bearable
 
 # Home
 Made after the git reset
