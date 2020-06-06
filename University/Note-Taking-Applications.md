@@ -2,7 +2,7 @@
 title: Note Taking Applications
 description: 
 published: true
-date: 2020-06-06T14:28:30.093Z
+date: 2020-06-06T14:45:32.150Z
 tags: 
 editor: undefined
 ---
