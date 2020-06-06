@@ -2,8 +2,8 @@
 title: Alternative Wikis
 description: 
 published: true
-date: 2020-06-06T10:06:04.158Z
-tags: 
+date: 2020-06-06T10:06:46.760Z
+tags: wiki, note taking
 editor: markdown
 ---
 
