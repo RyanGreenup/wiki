@@ -2,11 +2,13 @@
 title: Alternative Wikis
 description: 
 published: true
-date: 2020-06-06T14:45:00.638Z
-tags: 
-editor: undefined
+date: 2020-06-06T23:53:26.588Z
+tags: wiki, note taking
+editor: markdown
 ---
 
+
+RETURN TO NORMAL VIEW
 Alternatives
 ============
 
@@ -22,11 +24,13 @@ math and markdown
     -   KaTeX means it doesn't scale as well as say *MediaWiki*
     - Checkout [this page](http://ryansnotes.org/mediawiki/index.php/Abstract_Algebra) compared to [this one](/University/Abstract-Algebra) for example, although that might scale better in org roam?
 -   [tikiwiki](http://doc.tiki.org/Keywords) sounds promising
+-   dokuwiki is interesting but not for me i dont think
+-   bookstack is nice but feature sparse
+-   pepperminty is nice because its so simple. 
 
 Cloud Storage
 -------------
 
 the the options are seafile, nextcloud and owncloud. next cloud seems
 like the most modern with the better app
-
 
