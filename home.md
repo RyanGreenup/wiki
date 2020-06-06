@@ -2,7 +2,7 @@
 title: Ryans WikiJS
 description: 
 published: true
-date: 2020-06-06T06:24:38.529Z
+date: 2020-06-06T06:37:29.353Z
 tags: testing, new-tag, tabb, charlie
 editor: markdown
 ---
@@ -17,6 +17,8 @@ I have since added the tags in, are they no longer added to the YAML????
 * Kroki
 * MathJax
 * Mobile Editing is now bearable
+  * In saying that editing straight to the wiki is actually a lot nicer, I much prefer it because theres no fucking around with sync
+  * the  comparability If wikiJS with  markdown  and GitHub means it is the clear   choice compared to  mediawiki 
 
 # Home
 Made after the git reset
