@@ -2,7 +2,7 @@
 title: Ryans WikiJS
 description: 
 published: true
-date: 2020-06-07T02:17:14.566Z
+date: 2020-06-07T02:20:24.552Z
 tags: testing, new-tag, tabb, charlie, jibbly, new-from-github, sans-square
 editor: markdown
 ---
@@ -36,11 +36,9 @@ Made after the git reset
 <kbd>Ctrl</kbd> + <kbd>s</kbd> works which is nice
 
 
-[giphy](https://gph.is/g/Zk6KWVy)
+![giphy](https://gph.is/g/Zk6KWVy)
 
-
-![png_image.png](/png_image.png =x100)
-
+<iframe src="https://giphy.com/embed/iHE5nHXkWYBqYHWjyA" width="480" height="337" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/originals-covid-psa-19-iHE5nHXkWYBqYHWjyA">via GIPHY</a></p>
 
 ![](media/15909376339300.png)
 
