@@ -6,7 +6,8 @@ date: 2020-06-07T02:21:11.457Z
 tags: testing, new-tag, tabb, charlie, jibbly, new-from-github, sans-square
 editor: markdown
 ---
-
+Now as I write in here
+It just works
 # New Version (Beta)
 ## Bugs
 This version fixes [./relative-links](./relative-links) but you can't delete home, you can only move it, edge-case though tb.
