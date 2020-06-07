@@ -72,6 +72,7 @@ also whats the risk of http if im just going to use mobile data
     
  ## Wiki Stuff
  * [Using Elastic Search in WikJS](./Notes/Using-Elastic-Search.md)
+ * [Kroki](./wikijs/kroki.md)
  
  
  
