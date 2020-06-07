@@ -2,7 +2,7 @@
 title: Integrating With Notable
 description: 
 published: true
-date: 2020-06-07T03:53:53.941Z
+date: 2020-06-07T04:54:45.741Z
 tags: 
 editor: ckeditor
 -->
@@ -18,7 +18,13 @@ editor: ckeditor
 <p>&nbsp;</p>
 <ol>
   <li>Write a script to extract yaml tags with `ripgrep` and `cut`</li>
-  <li>Write Write a script to interface that with TMSU</li>
+  <li>Write Write a script to interface that with TMSU<ol>
+      <li>This is the real trick, I just need to write a plan on how to implement this<ol>
+          <li>Once Tags are represented through the file system searching through notes and tags will be really eazy with fzf (e.g. `<span style="font-family:'Courier New', Courier, monospace;">ls | fzf | xargs cd ` </span>and just using recoll</li>
+        </ol>
+      </li>
+    </ol>
+  </li>
   <li>Find a nice way to browse through the tmsu mounted tags with vscode</li>
 </ol>
 <p>&nbsp;</p>
