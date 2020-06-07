@@ -59,3 +59,7 @@ also whats the risk of http if im just going to use mobile data
   ## Documentation
 *  [Tikz](/University/Documentation/Tikz)
     * [upmath](/University/Documentation/Tikz/upmath)
+
+### Wiki Stuff
+* [Kroki](./wiki/kroki.md)
+
