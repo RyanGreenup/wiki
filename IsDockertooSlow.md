@@ -2,9 +2,9 @@
 title: Is Docker too Slow
 description: 
 published: true
-date: 2020-06-06T14:45:05.023Z
+date: 2020-06-07T01:08:56.950Z
 tags: 
-editor: undefined
+editor: markdown
 ---
 
 # Is Docker Too Slow?
@@ -14,6 +14,8 @@ So Docker was super easy to set up `sudo snap install docker`, and, if I want to
 Would it be better if I bit the bullet and set up *WikiJS* on a proper installation for want of performance?
 
 Would that make the set up more or less portable?
+
+ nah it doesn't matter because updating through  docker is amazing nd really simple
 
 Portability Considerations
 ==========================
