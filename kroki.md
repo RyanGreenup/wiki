@@ -1,10 +1,29 @@
+---
+title: kroki
+description: 
+published: true
+date: 2020-06-07T13:22:27.863Z
+tags: 
+editor: markdown
+---
+
 # Kroki
 
 Here's a [really cool diagram](https://kroki.io/examples.html) 
 
+```kroki
+mermaid
 
+graph TD
+  A[ Anyone ] -->|Can help | B( Go to github.com/yuzutech/kroki )
+  B --> C{ How to contribute? }
+  C --> D[ Reporting bugs ]
+  C --> E[ Sharing ideas ]
+  C --> F[ Advocating ]
+```
 
 ```kroki
+
 digraph "unix" {
   graph [ fontname = "Helvetica-Oblique",
           fontsize = 36,
