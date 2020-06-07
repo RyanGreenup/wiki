@@ -2,7 +2,7 @@
 title: Ryans WikiJS
 description: 
 published: true
-date: 2020-06-07T02:20:24.552Z
+date: 2020-06-07T02:21:11.457Z
 tags: testing, new-tag, tabb, charlie, jibbly, new-from-github, sans-square
 editor: markdown
 ---
@@ -35,18 +35,9 @@ Made after the git reset
 [Managing Guests](managing-guests-in-wikijs)
 <kbd>Ctrl</kbd> + <kbd>s</kbd> works which is nice
 
-
-![giphy](https://gph.is/g/Zk6KWVy)
-
-<iframe src="https://giphy.com/embed/iHE5nHXkWYBqYHWjyA" width="480" height="337" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/originals-covid-psa-19-iHE5nHXkWYBqYHWjyA">via GIPHY</a></p>
-
-![](media/15909376339300.png)
-
-
-
-
 [Self Hosted Ideas](./Self-Hosted-ideas.md)
 
+[Integrating With Notable Etc.](./Notes/integrating-wikijs.md)
 
 Consider joplin vs wikiJS on light of org roam server and even other options like leanote  
 
