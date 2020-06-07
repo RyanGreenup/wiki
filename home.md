@@ -3,7 +3,7 @@ title: Ryans WikiJS
 description: 
 published: true
 date: 2020-06-06T14:48:26.747Z
-tags: [testing, new-tag, tabb, charlie, jibbly, new-from-github, with-square]
+tags: testing, new-tag, tabb, charlie, jibbly, new-from-github, sans-square
 editor: markdown
 ---
 
