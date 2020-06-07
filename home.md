@@ -2,10 +2,11 @@
 title: Ryans WikiJS
 description: 
 published: true
-date: 2020-06-07T02:21:11.457Z
+date: 2020-06-07T05:04:14.562Z
 tags: testing, new-tag, tabb, charlie, jibbly, new-from-github, sans-square
 editor: markdown
 ---
+
 Now as I write in here
 It just works
 # New Version (Beta)
@@ -67,4 +68,21 @@ also whats the risk of http if im just going to use mobile data
   ## Documentation
 *  [Tikz](/University/Documentation/Tikz)
     * [upmath](/University/Documentation/Tikz/upmath)
+    
+    
+ ## Wiki Stuff
+ * [Using Elastic Search in WikJS](./Notes/Using-Elastic-Search.md)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
