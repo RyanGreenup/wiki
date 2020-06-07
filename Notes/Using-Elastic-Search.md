@@ -2,9 +2,9 @@
 title: Using Elastic Search
 description: 
 published: true
-date: 2020-06-07T05:05:54.494Z
+date: 2020-06-07T05:05:55.547Z
 tags: 
-editor: markdown
+editor: undefined
 ---
 
 # Elastic Search Via Docker

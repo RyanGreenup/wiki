@@ -2,9 +2,9 @@
 title: Ryans WikiJS
 description: 
 published: true
-date: 2020-06-07T05:04:14.562Z
-tags: testing, new-tag, tabb, charlie, jibbly, new-from-github, sans-square
-editor: markdown
+date: 2020-06-07T05:04:15.667Z
+tags: 
+editor: undefined
 ---
 
 Now as I write in here
@@ -68,9 +68,9 @@ also whats the risk of http if im just going to use mobile data
   ## Documentation
 *  [Tikz](/University/Documentation/Tikz)
     * [upmath](/University/Documentation/Tikz/upmath)
-
-### Wiki Stuff
-* [Kroki](./wiki/kroki.md)
+    
+    
+ ## Wiki Stuff
  * [Using Elastic Search in WikJS](./Notes/Using-Elastic-Search.md)
  
  
