@@ -2,7 +2,7 @@
 title: Ryans WikiJS
 description: 
 published: true
-date: 2020-06-06T14:48:26.747Z
+date: 2020-06-07T02:17:14.566Z
 tags: testing, new-tag, tabb, charlie, jibbly, new-from-github, sans-square
 editor: markdown
 ---
@@ -21,7 +21,8 @@ I have since added the tags in, are they no longer added to the YAML????
   * In saying that editing straight to the wiki is actually a lot nicer, I much prefer it because theres no fucking around with sync
   * the  comparability If wikiJS with  markdown  and GitHub means it is the clear   choice compared to  mediawiki
 * links work
-* No tag export for git sync
+* Tag export for git sync still omits square brackets
+  * Still though I could just use `rg` and some thinking to pass these tags to *TMSU* anyway so this might not be as big an issue as I made it out to be.
 
 # Home
 Made after the git reset
