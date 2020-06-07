@@ -1,36 +1,45 @@
 ---
-title: Initial Page
+title: Ryans WikiJS
 description: 
 published: true
-date: 2020-06-02T14:25:10.989Z
-tags: 
+date: 2020-06-07T05:04:14.562Z
+tags: testing, new-tag, tabb, charlie, jibbly, new-from-github, sans-square
+editor: markdown
 ---
+
+Now as I write in here
+It just works
+# New Version (Beta)
+## Bugs
+This version fixes [./relative-links](./relative-links) but you can't delete home, you can only move it, edge-case though tb.
+jibbletag
+
+I have since added the tags in, are they no longer added to the YAML????
+
+## New Features
+* Kroki
+* MathJax
+* Mobile Editing is now bearable
+  * In saying that editing straight to the wiki is actually a lot nicer, I much prefer it because theres no fucking around with sync
+  * the  comparability If wikiJS with  markdown  and GitHub means it is the clear   choice compared to  mediawiki
+* links work
+* Tag export for git sync still omits square brackets
+  * Still though I could just use `rg` and some thinking to pass these tags to *TMSU* anyway so this might not be as big an issue as I made it out to be.
 
 # Home
 Made after the git reset
 
 
-[Thinking About Data](/University/Thinking-About-Data)
-[Randomness](/University/Thinking-About-Data/01Randomness)
-[Confidence Intervals](/University/Thinking-About-Data/Confidence-Intervals)
+[Thinking About Data](./University/Thinking-About-Data.md)
+[Randomness](/University/Thinking-About-Data/01Randomness.md)
+[Confidence Intervals](/University/Thinking-About-Data/Confidence-Intervals.md)
 
 [Managing Guests](managing-guests-in-wikijs)
 <kbd>Ctrl</kbd> + <kbd>s</kbd> works which is nice
 
+[Self Hosted Ideas](./Self-Hosted-ideas.md)
 
-[giphy](https://gph.is/g/Zk6KWVy)
-
-
-![png_image.png](/png_image.png =x100)
-
-
-![](media/15909376339300.png)
-
-
-
-
-[Self-Hosted-ideas](/home/Self-Hosted-ideas)
-
+[Integrating With Notable Etc.](./Notes/integrating-wikijs.md)
 
 Consider joplin vs wikiJS on light of org roam server and even other options like leanote  
 
@@ -59,7 +68,27 @@ also whats the risk of http if im just going to use mobile data
   ## Documentation
 *  [Tikz](/University/Documentation/Tikz)
     * [upmath](/University/Documentation/Tikz/upmath)
+<<<<<<< HEAD
 
 ### Wiki Stuff
 * [Kroki](./wiki/kroki.md)
+=======
+    
+    
+ ## Wiki Stuff
+ * [Using Elastic Search in WikJS](./Notes/Using-Elastic-Search.md)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+>>>>>>> 2b8acf171d459655fe54f765dcd53e790b4bc8a5
 

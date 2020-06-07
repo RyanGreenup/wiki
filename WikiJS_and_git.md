@@ -2,8 +2,9 @@
 title: WikiJS Git Integration
 description: 
 published: true
-date: 2020-06-02T05:55:12.401Z
-tags: git, public
+date: 2020-06-06T14:45:08.986Z
+tags: 
+editor: undefined
 ---
 
 I just finished editing this online wikijs

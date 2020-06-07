@@ -2,8 +2,9 @@
 title: 05 PCA and MDS
 description: 
 published: true
-date: 2020-06-02T05:52:13.924Z
+date: 2020-06-06T14:45:50.839Z
 tags: 
+editor: undefined
 ---
 
 ![20200423103234597_1312556818.png](/University/Social_Web_Analytics/media/20200423103234597_1312556818.png)# Visualisation and MDS

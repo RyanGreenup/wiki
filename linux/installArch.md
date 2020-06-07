@@ -2,8 +2,9 @@
 title: Install Arch Linux
 description: 
 published: true
-date: 2020-06-02T05:52:10.379Z
+date: 2020-06-06T14:45:42.765Z
 tags: 
+editor: undefined
 ---
 
 # Installation Notes
@@ -107,7 +108,48 @@ Leave out `intel-microcode` at first just to see if it causes any issues.
  + Does Gnome3 with Pop-Shell Work?
  
  
+ ## Set up Snapper
+ Finally set up snapper as described [here](file://~/Notes/Org/roam/20200524210841-btrfs.org)
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 3
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 3
  
  
  

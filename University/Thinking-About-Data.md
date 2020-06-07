@@ -2,8 +2,9 @@
 title: Thinking About Data
 description: 
 published: true
-date: 2020-06-02T05:52:03.999Z
+date: 2020-06-06T14:45:33.442Z
 tags: 
+editor: undefined
 ---
 
 + [Randomness](/University/Thinking-About-Data/01Randomness)

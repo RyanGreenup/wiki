@@ -2,9 +2,9 @@
 title: README
 description: 
 published: true
-date: 2020-06-02T05:51:53.811Z
+date: 2020-06-06T14:45:06.213Z
 tags: 
+editor: undefined
 ---
 
-# wiki
-This is where the WikiJS repo is going
+Just testing the WikiJS GitHub Sync

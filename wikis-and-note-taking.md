@@ -2,7 +2,7 @@
 title: Alternative Wikis
 description: My thoughts on Using a wiki like WikiJS or media Wiki as opposed to or in conjuction to org-roam/org-deft and markdown.
 published: true
-date: 2020-06-06T14:45:41.378Z
+date: 2020-06-06T14:45:25.688Z
 tags: 
 editor: undefined
 ---
@@ -49,21 +49,17 @@ So what i like about wiki's like WikiJS is that:
 + You'd have to create a text database index anyway (*MkDocs*)
 + You'd have to create a relation index (`org`-*Roam*)
 
-
-
-### Conclusion
-Wikis do bring something to the table and should be embraced
-
-
 | Pros         | Cons                |
 |--------------|---------------------|
 | quick search | No Grep             |
 | Back Links   | Trickier to back up |
 
 
-But in conjuction with existing solutions not in place of.
 
-Something like *Notable* with a Vim/Emacs set up is necessary (possibly with a VsCode set up as well for comforts), this should be complemented by a wiki not replaced by.
+
+
+
+
 
 
 
