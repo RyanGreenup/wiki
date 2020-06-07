@@ -68,14 +68,9 @@ also whats the risk of http if im just going to use mobile data
   ## Documentation
 *  [Tikz](/University/Documentation/Tikz)
     * [upmath](/University/Documentation/Tikz/upmath)
-<<<<<<< HEAD
 
 ### Wiki Stuff
 * [Kroki](./wiki/kroki.md)
-=======
-    
-    
- ## Wiki Stuff
  * [Using Elastic Search in WikJS](./Notes/Using-Elastic-Search.md)
  
  
@@ -90,5 +85,4 @@ also whats the risk of http if im just going to use mobile data
  
  
  
->>>>>>> 2b8acf171d459655fe54f765dcd53e790b4bc8a5
 
