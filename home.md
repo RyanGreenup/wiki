@@ -2,15 +2,17 @@
 title: Ryans WikiJS
 description: 
 published: true
-date: 2020-06-07T05:04:15.667Z
-tags: 
-editor: undefined
+date: 2020-06-08T15:45:11.363Z
+tags: testing, new-tag, tabb, charlie, jibbly, new-from-github, sans-square
+editor: markdown
 ---
 
 Now as I write in here
 It just works
 # New Version (Beta)
-## Bugs
+
+## Bug
+s
 This version fixes [./relative-links](./relative-links) but you can't delete home, you can only move it, edge-case though tb.
 jibbletag
 
@@ -74,8 +76,16 @@ also whats the risk of http if im just going to use mobile data
  * [Using Elastic Search in WikJS](./Notes/Using-Elastic-Search.md)
  * [Kroki](./wikijs/kroki.md)
  
+ ### Markdown Editors
+I just lost some work when the laptop crashed, the markdown editors I was considering where listed on the arche wiki, the one I was interested in was moeeditor. 
+
+With regards to notetaking and wikis, O need to consider how clumsy it is to get material in and out and frankly the most painless tool is WikiJS, I’m not super happy with its mobile interface though. 
+
+I may play with Moin moin simply because it doesn’t require a dB. 
+
+ ideally Id use editors with interlinking support, recoll for searching (fzf ns script is perfect) and tmsu for tagging  
  
- 
+ I like notable but because ots not FOSS I dont want to get to wrapped up in it (I should keep an eye on zim and boostnote though)  
  
  
  
