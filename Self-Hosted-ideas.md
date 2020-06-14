@@ -2,7 +2,7 @@
 title: Solf Hosted Applications / Ideas to implement
 description: 
 published: true
-date: 2020-06-14T09:44:12.397Z
+date: 2020-06-14T09:44:27.053Z
 tags: 
 editor: markdown
 ---
@@ -36,7 +36,7 @@ editor: markdown
   + there's [Tracks](https://www.getontracks.org/) and also there's also [volition](https://github.com/usevolition/volition/blob/master/README.md) which looks good, but ultimately the nextcloud tasks app might be the simplest (I should also look at setting up nextcloud markdown editors) i should also look at setting up something like [trello](https://wekan.github.io/) and a [calendar](https://www.calendarserver.org/ccs-calendarserver/)
 
 + the only other thing would be like plex or a media server
-  + Actually I really really want like a music/media server
+  + Actually I really really want like a music/media server, something like apple music or spotify that actually works
 
 + oh also a reading list, like for ios, but available ever (this is more like a todo app though, really the important part is an app so its all painless)
 
