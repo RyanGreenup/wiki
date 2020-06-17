@@ -2,7 +2,7 @@
 title: Recoll  Search Engine
 description: 
 published: true
-date: 2020-06-06T14:45:46.925Z
+date: 2020-06-07T11:55:38.710Z
 tags: 
 editor: undefined
 ---

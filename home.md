@@ -2,9 +2,9 @@
 title: Ryans WikiJS
 description: 
 published: true
-date: 2020-06-17T11:51:15.182Z
-tags: testing, new-tag, tabb, charlie, jibbly, new-from-github, sans-square
-editor: markdown
+date: 2020-06-17T11:53:35.618Z
+tags: 
+editor: undefined
 ---
 
 Now as I write in here

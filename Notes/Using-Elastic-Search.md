@@ -2,7 +2,7 @@
 title: Using Elastic Search
 description: 
 published: true
-date: 2020-06-07T05:05:55.547Z
+date: 2020-06-07T11:55:16.368Z
 tags: 
 editor: undefined
 ---
