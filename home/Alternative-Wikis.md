@@ -19,6 +19,7 @@ math and markdown
 -   *WikiJS* is great because it has good search, tags, syncs markdown
     with git, has a pleasant git-diff
     -   It\'s a little rough on mobile though.
+    - not that this masters though because the Git sun's means that tod just use any Mobile so synced with Working Copy
     -   KaTeX means it doesn't scale as well as say *MediaWiki*
     - Checkout [this page](http://ryansnotes.org/mediawiki/index.php/Abstract_Algebra) compared to [this one](/University/Abstract-Algebra) for example, although that might scale better in org roam?
 -   [tikiwiki](http://doc.tiki.org/Keywords) sounds promising
