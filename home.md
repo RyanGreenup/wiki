@@ -2,7 +2,7 @@
 title: Ryans WikiJS
 description: 
 published: true
-date: 2020-06-17T00:17:07.306Z
+date: 2020-06-17T11:51:15.182Z
 tags: testing, new-tag, tabb, charlie, jibbly, new-from-github, sans-square
 editor: markdown
 ---
@@ -73,11 +73,13 @@ also whats the risk of http if im just going to use mobile data
   * Check out Wiki Alternatives (see [Self Hosted](/home/Self-Hosted-ideas))
 * Test out Pop-Shell with Recoll and a sensible default markdown editor (something WYSIWYG like marktext).
   
+  
+  
   ## Documentation
 *  [Tikz](/University/Documentation/Tikz)
     * [upmath](/University/Documentation/Tikz/upmath)
     
-    
+* [Comparing-Wikis](/Notes/Comparing-Wikis)
  ## Wiki Stuff
  * [Using Elastic Search in WikJS](./Notes/Using-Elastic-Search.md)
  * [Kroki](./wikijs/kroki.md)
