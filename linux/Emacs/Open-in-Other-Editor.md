@@ -2,7 +2,7 @@
 title: Open Files in Other Editor From Emacs
 description: How to take a file in Emacs and open it in another Editor
 published: true
-date: 2020-06-18T02:02:51.864Z
+date: 2020-06-18T02:11:41.439Z
 tags: emacs, vim
 editor: markdown
 ---
@@ -77,11 +77,46 @@ A shortcut generically can be set by:
 ### Doom Specific
 
 #### Global
+I also included some of my own bindings for inspiration:
+
+```elisp
+(map! :leader
+;; #' delimits namespace, i.e. local var
+      "h L" #'global-keycast-mode
+      "f t" #'find-in-dotfiles
+      "f T" #'browse-dotfiles
+      "f k" #'darkroom-mode ;; Just use zen mode with SPC t z
+      "i n" 'open-wiki-index
+      "r o" 'helm-org-rifle-org-directory ;; [[89238]] ord-dir is different to agenda
+      "f z" 'counsel-fzf
+      "r b" 'helm-org-rifle-current-buffer
+      "r d" 'helm-org-rifle-directories
+      "o !" 'open-all-org-agenda-files
+      "/"   'helm-rg
+      "r hh" 'helm-org-in-buffer-headings
+      "r ha" 'helm-org-agenda-files-headings
+      "f mz" 'my-open-current-file-in-zettlr
+      "f mt" 'my-open-current-file-in-typora
+      "f mm" 'my-open-current-file-in-marktext
+      "f mc" 'my-open-current-file-in-vscode
+      )
+```
 
 #### Local
 
-If the keybinding is local then the 
+If the keybinding is local then the shortcut must be prefixed by <kbd>SPACE </kbd> <kbd> m </kbd>
 
+
+```elisp
+(map!  :after markdown-mode
+        :map markdown-mode-map
+        :localleader
+        "f z" 'my-open-current-file-in-zettlr
+        "f t" 'my-open-current-file-in-typora
+        "f m" 'my-open-current-file-in-marktext
+        "f c" 'my-open-current-file-in-vscode
+ )
+```
 
 
 
