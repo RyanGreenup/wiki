@@ -2,9 +2,9 @@
 title: Ryans WikiJS
 description: 
 published: true
-date: 2020-06-17T13:37:12.014Z
-tags: 
-editor: undefined
+date: 2020-06-18T13:18:53.196Z
+tags: testing, new-tag, tabb, charlie, jibbly, new-from-github, sans-square
+editor: markdown
 ---
 
 Now as I write in here
@@ -12,11 +12,25 @@ It just works
 # New Version (Beta)
 
 ## Bug
-s
 This version fixes [./relative-links](./relative-links) but you can't delete home, you can only move it, edge-case though tb.
-jibbletag
 
-I have since added the tags in, are they no longer added to the YAML????
+
+I have since added the tags in, are they no longer added to the YAML, this is an ongoing issue.
+
+### Formatting Test
+
+$$
+\begin{aligned}
+f\left( a \right) &= \frac{1}{2 \pi i} &= \oint_\gamma \frac{f\left( z \right)}{z- a} \mathrm{d}z
+\end{aligned}
+$$ 
+
+In view of this equation then:
+
+$$\begin{aligned}
+\left| \int_C \frac{f\left( z \right)}{z- z_0} \mathrm{d}z - 2 \pi i f\left( z_0 \right)  \right|<2 \pi \varepsilon
+\end{aligned}$$ 
+
 
 ## New Features
 * Kroki
