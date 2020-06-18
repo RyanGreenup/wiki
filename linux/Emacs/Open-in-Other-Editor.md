@@ -2,7 +2,7 @@
 title: Open Files in Other Editor From Emacs
 description: How to take a file in Emacs and open it in another Editor
 published: true
-date: 2020-06-18T02:11:41.439Z
+date: 2020-06-18T04:05:33.329Z
 tags: emacs, vim
 editor: markdown
 ---
@@ -54,13 +54,16 @@ In VSCode we can also specify a folder to open:
 
 
 ```elisp
-(defun my-open-current-file-in-vim ()
+(defun my-open-current-file-in-vscode ()
   (interactive)
-  (async-shell-command
-                                        ;  (format "gvim +%d %s"
-   (format "~/.local/kitty.app/bin/kitty -e nvim +%d %s"
-           (+ (if (bolp) 1 0) (count-lines 1 (point)))
-           (shell-quote-argument buffer-file-name))))
+  (save-window-excursion
+   (async-shell-command
+
+    (format "code --add ~/Notes/MD/notes --goto %S:%d"
+            (shell-quote-argument buffer-file-name)
+            (+ (if (bolp) 1 0) (count-lines 1 (point)))
+            ))
+   ))
 ```
 
 
