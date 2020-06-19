@@ -2,9 +2,9 @@
 title: Open Files in Other Editor From Emacs
 description: How to take a file in Emacs and open it in another Editor
 published: true
-date: 2020-06-18T04:05:34.419Z
-tags: 
-editor: undefined
+date: 2020-06-19T02:03:04.182Z
+tags: emacs, vim
+editor: markdown
 ---
 
 # Open Files in Other Editor
@@ -13,6 +13,10 @@ editor: undefined
 The Following can be used to open files in another editor:
 
 > `~/DotFiles/DoomEmacs/.doom.d/config.el`
+{.is-info}
+
+
+
 ```elisp
 (defun my-open-current-file-in-zettlr ()
   (interactive)
