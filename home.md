@@ -2,7 +2,7 @@
 title: Ryans WikiJS
 description: 
 published: true
-date: 2020-06-19T08:16:52.650Z
+date: 2020-06-19T08:17:21.390Z
 tags: testing, new-tag, tabb, charlie, jibbly, new-from-github, sans-square
 editor: markdown
 ---
@@ -24,6 +24,12 @@ $$
 f\left( a \right) &= \frac{1}{2 \pi i} &= \oint_\gamma \frac{f\left( z \right)}{z- a} \mathrm{d}z
 \end{aligned}
 $$ 
+
+$$
+\begin{align}
+4x
+\end{align}
+$$
 
 In view of this equation then:
 
