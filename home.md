@@ -43,10 +43,8 @@ $$\begin{aligned}
   * Still though I could just use `rg` and some thinking to pass these tags to *TMSU* anyway so this might not be as big an issue as I made it out to be.
   
     ```bash
-    ## Maybe play around with this?
-    rg --pcre2 '(?<=\stags.*)[a-zA-Z]+(?=,)' -t markdown -o \
-        | sed s+:+\ + | sed s/^/tmsu\ tag\ / | bash
-    ```
+     rg --pcre2 '(?<=[---\n[\s\S]ags:).*[,\s|:\s][a-z]+' -t markdown -o | sd -s ':' ' ' | sd -s ',' ' ' | sed s/^/tmsu\ tag\ /
+     ```
 
 # Home
 Made after the git reset
@@ -60,7 +58,6 @@ Made after the git reset
 <kbd>Ctrl</kbd> + <kbd>s</kbd> works which is nice
 
 
-[Self hosted ideas](/Self-Hosted-ideas)
 [Self hosted ideas](./Self-Hosted-ideas.md)
 
 [Integrating With Notable Etc.](./Notes/integrating-wikijs.md)
