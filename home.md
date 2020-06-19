@@ -2,7 +2,7 @@
 title: Ryans WikiJS
 description: 
 published: true
-date: 2020-06-18T13:18:53.196Z
+date: 2020-06-19T01:06:30.774Z
 tags: testing, new-tag, tabb, charlie, jibbly, new-from-github, sans-square
 editor: markdown
 ---
@@ -12,7 +12,7 @@ It just works
 # New Version (Beta)
 
 ## Bug
-This version fixes [./relative-links](./relative-links) but you can't delete home, you can only move it, edge-case though tb.
+This version fixes [./relative-links.md](./relative-links.md) but you can't delete home, you can only move it, edge-case though tb.
 
 
 I have since added the tags in, are they no longer added to the YAML, this is an ongoing issue.
