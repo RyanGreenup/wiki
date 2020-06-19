@@ -2,13 +2,14 @@
 title: Solf Hosted Applications / Ideas to implement
 description: 
 published: true
-date: 2020-06-17T13:37:04.030Z
+date: 2020-06-19T02:13:54.752Z
 tags: 
-editor: undefined
+editor: markdown
 ---
 
 # Ideas for Self Hosting
-> [Currently Implemented Self Hosting](Currently-Implemented-Self-Hosting)
+> [Currently Implemented Self Hosting](home/Currently-Implemented-Self-Hosting)
+[](/home/Currently-Implemented-Self-Hosting)
 > There's a cool list [here](https://github.com/awesome-selfhosted/awesome-selfhosted)
 
 + [paperless](https://github.com/the-paperless-project/paperless)
