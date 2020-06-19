@@ -2,7 +2,7 @@
 title: Ryans WikiJS
 description: 
 published: true
-date: 2020-06-19T01:06:30.774Z
+date: 2020-06-19T02:12:58.198Z
 tags: testing, new-tag, tabb, charlie, jibbly, new-from-github, sans-square
 editor: markdown
 ---
@@ -59,7 +59,9 @@ Made after the git reset
 [Managing Guests](managing-guests-in-wikijs)
 <kbd>Ctrl</kbd> + <kbd>s</kbd> works which is nice
 
-[Self Hosted Ideas](./Self-Hosted-ideas.md)
+
+[Self hosted ideas](/Self-Hosted-ideas)
+[Self hosted ideas](./Self-Hosted-ideas.md)
 
 [Integrating With Notable Etc.](./Notes/integrating-wikijs.md)
 
