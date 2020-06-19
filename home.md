@@ -2,7 +2,7 @@
 title: Ryans WikiJS
 description: 
 published: true
-date: 2020-06-19T08:16:13.969Z
+date: 2020-06-19T08:16:27.738Z
 tags: testing, new-tag, tabb, charlie, jibbly, new-from-github, sans-square
 editor: markdown
 ---
@@ -20,9 +20,9 @@ I have since added the tags in, are they no longer added to the YAML, this is an
 ### Formatting Test
 
 $$
-\begin{aligned}
-f\left( a \right) &= \frac{1}{2 \pi i} &= \oint_\gamma \frac{f\left( z \right)}{z- a} \mathrm{d}z.
-\end{aligned}
+\begin{align}
+f\left( a \right) &= \frac{1}{2 \pi i} &= \oint_\gamma \frac{f\left( z \right)}{z- a} \mathrm{d}z \label{test}
+\end{align}
 $$ 
 
 In view of this equation then:
