@@ -2,7 +2,7 @@
 title: Open Files in Other Editor From Emacs
 description: How to take a file in Emacs and open it in another Editor
 published: true
-date: 2020-06-19T02:03:04.182Z
+date: 2020-06-19T06:51:31.280Z
 tags: emacs, vim
 editor: markdown
 ---
@@ -39,6 +39,8 @@ The Following can be used to open files in another editor:
 ```
 
 ## Vim
+> See also [Open External Files in Vim](./Open-External-Files-in-Vim.md)
+> [this is a test](../test.md)
 
 In Vim we can specify the line number as well:
 
