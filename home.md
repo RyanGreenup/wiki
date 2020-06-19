@@ -2,7 +2,7 @@
 title: Ryans WikiJS
 description: 
 published: true
-date: 2020-06-19T02:12:58.198Z
+date: 2020-06-19T08:16:13.969Z
 tags: testing, new-tag, tabb, charlie, jibbly, new-from-github, sans-square
 editor: markdown
 ---
@@ -21,7 +21,7 @@ I have since added the tags in, are they no longer added to the YAML, this is an
 
 $$
 \begin{aligned}
-f\left( a \right) &= \frac{1}{2 \pi i} &= \oint_\gamma \frac{f\left( z \right)}{z- a} \mathrm{d}z
+f\left( a \right) &= \frac{1}{2 \pi i} &= \oint_\gamma \frac{f\left( z \right)}{z- a} \mathrm{d}z.
 \end{aligned}
 $$ 
 
