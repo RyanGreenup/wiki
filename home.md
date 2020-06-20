@@ -2,7 +2,7 @@
 title: Ryans WikiJS
 description: 
 published: true
-date: 2020-06-20T02:27:01.915Z
+date: 2020-06-20T03:35:49.602Z
 tags: testing, new-tag, tabb, charlie, jibbly, new-from-github, sans-square
 editor: markdown
 ---
@@ -11,7 +11,6 @@ Now as I write in here
 It just works
 # New Version (Beta)
 
-![](https://www.youtube.com/watch?v=oHHSSJDJ4oo)
 
 [test](./this-is-simpler.md)
 
