@@ -2,7 +2,7 @@
 title: Relative Links 2
 description: Testing Relative Links
 published: true
-date: 2020-06-20T03:51:25.781Z
+date: 2020-06-20T04:20:57.950Z
 tags: 
 editor: markdown
 ---
@@ -17,3 +17,5 @@ So I made a link to this page but then moved this page, then the link broke, so 
 [thisbis where i moved the page](/linux/relative-links)
 
 what this means is that ***Every Page MUST have a unique name***
+
+I wonder if there is any advantage to just using a flat folder structure?? Maybe symlink index.md to home md 
