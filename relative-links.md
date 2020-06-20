@@ -2,9 +2,9 @@
 title: Relative Links in WikiJS
 description: 
 published: true
-date: 2020-06-17T13:37:22.161Z
-tags: 
-editor: undefined
+date: 2020-06-20T03:36:49.858Z
+tags: lots of spaces, tags with space, notebooks/path/with/slash
+editor: markdown
 ---
 
 ## Relative Links
