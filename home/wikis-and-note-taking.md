@@ -2,9 +2,9 @@
 title: Alternative Wikis
 description: My thoughts on Using a wiki like WikiJS or media Wiki as opposed to or in conjuction to org-roam/org-deft and markdown.
 published: true
-date: 2020-06-17T13:37:45.275Z
+date: 2020-06-20T08:59:43.330Z
 tags: 
-editor: undefined
+editor: markdown
 ---
 
 # Using Wikis
@@ -48,6 +48,7 @@ So what i like about wiki's like WikiJS is that:
 + Things are locked in a database
 + You'd have to create a text database index anyway (*MkDocs*)
 + You'd have to create a relation index (`org`-*Roam*)
++ I didn't like the colours in Code Blocks [but that can be changed](./Change-Code-Block-Colour-Scheme-Wikijs.md)
 
 
 
