@@ -2,7 +2,7 @@
 title: Ryans WikiJS
 description: 
 published: true
-date: 2020-06-19T08:18:06.521Z
+date: 2020-06-20T01:43:50.019Z
 tags: testing, new-tag, tabb, charlie, jibbly, new-from-github, sans-square
 editor: markdown
 ---
@@ -10,6 +10,8 @@ editor: markdown
 Now as I write in here
 It just works
 # New Version (Beta)
+
+![](https://www.youtube.com/watch?v=oHHSSJDJ4oo)
 
 ## Bug
 This version fixes [./relative-links.md](./relative-links.md) but you can't delete home, you can only move it, edge-case though tb.
