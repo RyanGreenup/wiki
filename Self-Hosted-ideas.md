@@ -2,12 +2,16 @@
 title: Solf Hosted Applications / Ideas to implement
 description: 
 published: true
-date: 2020-06-19T02:14:55.131Z
+date: 2020-06-21T11:35:17.671Z
 tags: 
 editor: markdown
 ---
 
 # Ideas for Self Hosting
+
+> Review Self Hosted Note Servers, in stead of wikis, make sure you've tried everything before you settle.
+{.is-info}
+
 
 > [Currently implemented](./home/Currently-Implemented-Self-Hosting.md)
 > There's a cool list [here](https://github.com/awesome-selfhosted/awesome-selfhosted)
