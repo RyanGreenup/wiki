@@ -2,7 +2,7 @@
 title: Alternative Wikis
 description: My thoughts on Using a wiki like WikiJS or media Wiki as opposed to or in conjuction to org-roam/org-deft and markdown.
 published: true
-date: 2020-06-22T02:39:42.911Z
+date: 2020-06-22T02:49:13.205Z
 tags: 
 editor: markdown
 ---
@@ -88,7 +88,7 @@ wget --page-requisites --convert-links --no-host-directories --no-directories \
 $SITE
 ```
 
-and then you get something like [this page](./LogicalConjunctions.md)
+and then you get something like [this page](./LogicalConjunctions.md), it's arguably far far simpler.
 
 
 
