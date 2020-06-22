@@ -2,7 +2,7 @@
 title: Relative Links in WikiJS
 description: 
 published: true
-date: 2020-06-22T04:31:27.885Z
+date: 2020-06-22T04:31:57.774Z
 tags: 
 editor: markdown
 ---
@@ -19,3 +19,5 @@ In WikiJS the links didn't work as being relative, they now do see:
  then  start typing the ` title `  character and it should auto completes the path.
  
   so to makea link you must know the title  of the page
+  
+  [wikiexample](/home/LogicalConjunctions)
