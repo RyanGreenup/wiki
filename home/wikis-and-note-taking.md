@@ -2,7 +2,7 @@
 title: Alternative Wikis
 description: My thoughts on Using a wiki like WikiJS or media Wiki as opposed to or in conjuction to org-roam/org-deft and markdown.
 published: true
-date: 2020-06-22T01:47:06.135Z
+date: 2020-06-22T02:39:42.911Z
 tags: 
 editor: markdown
 ---
@@ -78,6 +78,17 @@ Exporting from Wikipedia is about the same across all Wikis, believe it or not r
 
 See [Differential Equations](./Differentia-Equations-MW-Export-Pandoc.md) for an example
 
+
+At Anything *WikiJS* is even easier because you can just dump a HTML page into it and call it a day, so you would find the wikipedia page and do:
+
+```bash
+SITE=
+wget --page-requisites --convert-links --no-host-directories --no-directories \
+--directory-prefix=filesToUpload --adjust-extension \
+$SITE
+```
+
+and then you get something like [this page](./LogicalConjunctions.md)
 
 
 
