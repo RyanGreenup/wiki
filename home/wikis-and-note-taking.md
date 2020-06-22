@@ -2,7 +2,7 @@
 title: Alternative Wikis
 description: My thoughts on Using a wiki like WikiJS or media Wiki as opposed to or in conjuction to org-roam/org-deft and markdown.
 published: true
-date: 2020-06-20T08:59:43.330Z
+date: 2020-06-22T01:47:06.135Z
 tags: 
 editor: markdown
 ---
@@ -66,7 +66,17 @@ But in conjuction with existing solutions not in place of.
 
 Something like *Notable* with a Vim/Emacs set up is necessary (possibly with a VsCode set up as well for comforts), this should be complemented by a wiki not replaced by.
 
+### Which one
 
+MediaWiki and Dokuwiki are nice in that you don't have to worry about a folder structure, but in saying that, really, WikiJS merely offers the option of a folder structure, you could by all means use a flat structure and let links handle navigation.
+
+The advantage to folders and tags is just discoverability.
+
+Unfourtunately wikjs does not support [[wiki links]]/
+
+Exporting from Wikipedia is about the same across all Wikis, believe it or not running MediaWiki does not make this easier at all really, in part because the import/export aspect is just so broken.
+
+See [Differential Equations](./Differentia-Equations-MW-Export-Pandoc.md) for an example
 
 
 
