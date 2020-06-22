@@ -2,8 +2,8 @@
 title: Relative Links in WikiJS
 description: 
 published: true
-date: 2020-06-20T03:36:49.858Z
-tags: lots of spaces, tags with space, notebooks/path/with/slash
+date: 2020-06-22T04:31:27.885Z
+tags: 
 editor: markdown
 ---
 
@@ -11,3 +11,11 @@ editor: markdown
 In WikiJS the links didn't work as being relative, they now do see:
 
 > [./path/to/link.md](/path/to/link.md)
+
+ type the following:
+ 
+     [](
+     
+ then  start typing the ` title `  character and it should auto completes the path.
+ 
+  so to makea link you must know the title  of the page
