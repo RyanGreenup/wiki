@@ -2,7 +2,7 @@
 title: Using BTRFS Subvolumes and `dm_crypt`
 description: 
 published: true
-date: 2020-06-30T12:59:26.669Z
+date: 2020-06-30T13:04:24.463Z
 tags: 
 editor: markdown
 ---
@@ -103,9 +103,14 @@ To allow kernel auto detection on a Btrfs subvolume uncomment and edit also_scan
 ## ...
 also_scan_dirs +,@root/boot
 ```
+
 > here `@root` represents the subvolume that contained the root file system
+{.is-info}
+
+
 
 > Again, if you were doing encryption, an easy way to do it is to mount efi at /boot and that way all the arch kernel stuff goes in there, meaning rEFInd will see a linux kernel inside esp/EFI/ (because in Arch thats /boot) and then the kernel parameters will tell it to open the `dm_crypt`.
+{.is-info}
 
 #### Kernel Parameters
 You will also need to specify the `@root` subvolume in the kernel parameters:
@@ -127,7 +132,7 @@ Install `refind` and then make sure to mount the `esp` (probably to `/efi` but i
 
 run `refind-install` and it should do most of the work, but, if you're in a `chroot` environment all the kernel parameters will be wrong.
 
-### Kernal Parameters
+### Kernel Parameters
 So the trick with the kernel parameters is remembering to tell linux about the subvolume, execute the following and then do `:e /boot/refind_linux.conf`:
 
 ```bash
