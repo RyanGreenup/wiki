@@ -2,7 +2,7 @@
 title: Using BTRFS Subvolumes and `dm_crypt`
 description: 
 published: true
-date: 2020-07-03T06:35:55.321Z
+date: 2020-07-03T06:37:50.821Z
 tags: 
 editor: markdown
 ---
@@ -85,6 +85,8 @@ mount -t btrfs -o subvol=@snapshots,$o_btrfs LABEL=system /mnt/.snapshots
 Now install the base *Arch* system using `pacstrap` which should install to `/` which corresponds to the subvolume `@root`, just follow the [Installation Guide](https://wiki.archlinux.org/index.php/Installation_guide#Partition_the_disks) up until the `fstab`.
 
 ```bash
+pacstrap /mnt base linux linux-firmware
+arch-chroot /mnt
 sudo pacman -S neovim emacs ntfs-3g btrfs-progs networkmanager man-db man-pages texinfo git
 ```
 
