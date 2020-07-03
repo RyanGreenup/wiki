@@ -2,7 +2,7 @@
 title: Using BTRFS Subvolumes and `dm_crypt`
 description: 
 published: true
-date: 2020-06-30T13:04:24.463Z
+date: 2020-07-03T06:34:53.075Z
 tags: 
 editor: markdown
 ---
@@ -63,7 +63,7 @@ mount -t btrfs LABEL=system /mnt
 Now all we have to do is to create subvolumes (you'll notice I called them `@root` and `@home` this is necessary for *TimeShift* to work with them, but the names are confusing *IMO* because you're never sure if you have to escape the `@` character, I don't think you do though.)
 
 ```
-btrfs subvolume create /mnt/@root
+btrfs subvolume create /mnt/@
 btrfs subvolume create /mnt/@home
 btrfs subvolume create /mnt/@snapshots
 ```
