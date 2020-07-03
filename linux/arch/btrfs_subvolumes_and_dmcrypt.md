@@ -2,7 +2,7 @@
 title: Using BTRFS Subvolumes and `dm
 description: 
 published: true
-date: 2020-07-03T07:41:15.696Z
+date: 2020-07-03T07:59:26.312Z
 tags: 
 editor: markdown
 ---
@@ -95,6 +95,10 @@ arch-chroot /mnt
 pacman -S neovim emacs ntfs-3g btrfs-progs networkmanager man-db man-pages texinfo git fzf biber texlive-most rust ripgrep skim fd
 cargo install mdcat sd
 ```
+
+> this will take a  while
+{.is-warning}
+
 
 ### Create the `fstab`
 To create the `fstab` just run the following:
