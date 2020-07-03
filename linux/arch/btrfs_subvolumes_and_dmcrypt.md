@@ -2,7 +2,7 @@
 title: Using BTRFS Subvolumes and `dm_crypt`
 description: 
 published: true
-date: 2020-07-03T06:37:50.821Z
+date: 2020-07-03T06:39:46.185Z
 tags: 
 editor: markdown
 ---
@@ -37,10 +37,15 @@ but you'll probably have `nvme0n1p3` or something like that, on my laptop i had 
 
 
 #### Format the Drive
+
 now you have to take the new volume you just mounted from the encryption and format it, we'll format it with the label `system` which might seem ambiguous but in practice it won't be an issue.
 ```bash
 mkfs.btrfs --force --label system /dev/mapper/system
 ```
+
+> dont forget to make a swap space, it is necessary for good performance  
+{.is-warning}
+
 
 #### Set options
 now we want to temporarily mount this so we can make subvolumes, the idea of subvolumes is that the will allow us to use snapshots (and if we use the names `@home` and `@root` we can use *TimeShift* snapshots which gives us a nice *GUI*.
