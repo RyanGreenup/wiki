@@ -2,7 +2,7 @@
 title: Using BTRFS Subvolumes and `dm
 description: 
 published: true
-date: 2020-07-03T07:59:26.312Z
+date: 2020-07-03T09:38:52.277Z
 tags: 
 editor: markdown
 ---
@@ -92,7 +92,7 @@ Now install the base *Arch* system using `pacstrap` which should install to `/` 
 ```bash
 pacstrap /mnt base linux linux-firmware
 arch-chroot /mnt
-pacman -S neovim emacs ntfs-3g btrfs-progs networkmanager man-db man-pages texinfo git fzf biber texlive-most rust ripgrep skim fd
+pacman -S neovim emacs ntfs-3g btrfs-progs networkmanager man-db man-pages texinfo git fzf biber texlive-most rust ripgrep skim fd ssh
 cargo install mdcat sd
 ```
 
