@@ -2,20 +2,21 @@
 title: Ryans WikiJS
 description: 
 published: true
-date: 2020-07-03T02:02:40.425Z
+date: 2020-07-03T10:08:14.703Z
 tags: 
 editor: markdown
 ---
 
 Now as I write in here
 It just works
+
 # New Version (Beta)
 
-\\[
+$$
 \begin{aligned}
 f\left( a \right) &= \frac{1}{2 \pi i} &= \oint_\gamma \frac{f\left( z \right)}{z- a} \mathrm{d}z
 \end{aligned}
-\\]
+$$
 
 
 
