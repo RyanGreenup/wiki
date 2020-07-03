@@ -2,7 +2,7 @@
 title: Ryans WikiJS
 description: 
 published: true
-date: 2020-06-27T12:53:26.414Z
+date: 2020-07-03T02:02:40.425Z
 tags: 
 editor: markdown
 ---
@@ -118,6 +118,20 @@ I may play with Moin moin simply because it doesn’t require a dB.
  ideally Id use editors with interlinking support, recoll for searching (fzf ns script is perfect) and tmsu for tagging  
  
  I like notable but because ots not FOSS I dont want to get to wrapped up in it (I should keep an eye on zim and boostnote though)  
+ 
+ 
+ 
+ $$
+ \int 1+6
+ $$
+ 
+ ![8bf032d2-a742-4d46-bc48-040d78ea137e.jpeg](/8bf032d2-a742-4d46-bc48-040d78ea137e.jpeg)
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
