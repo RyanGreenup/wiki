@@ -2,7 +2,7 @@
 title: Using BTRFS Subvolumes and `dm_crypt`
 description: 
 published: true
-date: 2020-07-03T06:34:53.075Z
+date: 2020-07-03T06:35:55.321Z
 tags: 
 editor: markdown
 ---
@@ -73,7 +73,7 @@ Now just unmount everything and remount the subvolumes:
 
 ```bash
 umount -R /mnt 
-mount -t btrfs -o subvol=@root,$o_btrfs LABEL=system /mnt
+mount -t btrfs -o subvol=@,$o_btrfs LABEL=system /mnt
 
 ## Notice here that these subvolumes are both being 
 ## mounted underneath the root subvolume:
