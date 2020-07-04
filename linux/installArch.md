@@ -2,12 +2,13 @@
 title: Install Arch Linux
 description: 
 published: true
-date: 2020-06-17T13:37:46.720Z
+date: 2020-07-04T10:40:02.528Z
 tags: 
-editor: undefined
+editor: markdown
 ---
 
 # Installation Notes
+> Thes are just some notes that I made while following [*Altercation*'s bullet proof Installation Guide](https://wiki.archlinux.org/index.php/User:Altercation/Bullet_Proof_Arch_Install#Create_and_mount_BTRFS_subvolumes) {.is-info}
 ## BTRFS
 Make sure to use `btrfs` for better integration with *TimeShift*
 
