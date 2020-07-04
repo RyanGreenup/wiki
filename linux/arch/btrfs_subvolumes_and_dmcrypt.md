@@ -2,7 +2,7 @@
 title: Using BTRFS Subvolumes and `dm
 description: 
 published: true
-date: 2020-07-04T02:30:58.882Z
+date: 2020-07-04T03:17:14.236Z
 tags: 
 editor: markdown
 ---
@@ -84,6 +84,7 @@ mount -t btrfs -o subvol=@,$o_btrfs LABEL=system /mnt
 ## mounted underneath the root subvolume:
 mount -t btrfs -o subvol=@home,$o_btrfs LABEL=system /mnt/home
 mount -t btrfs -o subvol=@snapshots,$o_btrfs LABEL=system /mnt/.snapshots
+mount LABEL=EFI /mnt/boot
 ````
 
 ### Install Arch
