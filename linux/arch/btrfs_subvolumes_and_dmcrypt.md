@@ -2,7 +2,7 @@
 title: Using BTRFS Subvolumes and `dm
 description: 
 published: true
-date: 2020-07-04T02:29:39.306Z
+date: 2020-07-04T02:30:58.882Z
 tags: 
 editor: markdown
 ---
@@ -125,8 +125,8 @@ also_scan_dirs +,@/boot
 ```
 
 > here `@root` represents the subvolume that contained the root file system
->> be mindful that the `@root` subvolume should be named `@` simply because thats the way that *Ubuntu* does it and *Timeshift*expects it 
->{.is-warning}
+
+> be mindful that the `@root` subvolume should be named `@` simply because thats the way that *Ubuntu* does it and *Timeshift*expects it
 {.is-info}
 
 
