@@ -2,7 +2,7 @@
 title: Ryans WikiJS
 description: 
 published: true
-date: 2020-07-03T10:08:14.703Z
+date: 2020-07-04T01:30:34.425Z
 tags: 
 editor: markdown
 ---
@@ -19,7 +19,7 @@ f\left( a \right) &= \frac{1}{2 \pi i} &= \oint_\gamma \frac{f\left( z \right)}{
 $$
 
 
-
+see [standards for the wiki](./standards-for-the-wiki.md)
 
 [test](./this-is-simpler.md)
 
