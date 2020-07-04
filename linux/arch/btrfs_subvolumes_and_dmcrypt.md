@@ -2,7 +2,7 @@
 title: Using BTRFS Subvolumes and `dm
 description: 
 published: true
-date: 2020-07-04T03:17:14.236Z
+date: 2020-07-04T03:48:40.408Z
 tags: 
 editor: markdown
 ---
@@ -95,6 +95,7 @@ pacstrap /mnt base linux linux-firmware
 genfstab -U /mnt >> /mnt/etc/fstab
 arch-chroot /mnt
 pacman -S neovim emacs ntfs-3g btrfs-progs networkmanager man-db man-pages texinfo git fzf biber texlive-most rust ripgrep skim fd ssh
+pacman -S intel-ucode ## or amd-ucode
 cargo install mdcat sd
 ```
 
@@ -166,9 +167,9 @@ blkid -s UUID -o value /dev/nvme0n1p7 | vim -
 Put the kernel parameters in like this [as described in the arch-wiki](https://wiki.archlinux.org/index.php/REFInd#Btrfs_subvolume_support):
 
 ```bash
-"Boot using default options"     "root=PARTUUID=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX rootflags=subvol=@root rw add_efi_memmap initrd=@root/boot/intel-ucode.img initrd=@root/boot/amd-ucode.img initrd=boot\initramfs-%v.img"
-"Boot using fallback initramfs"  "root=PARTUUID=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX rootflags=subvol=@root rw add_efi_memmap initrd=@root/boot/intel-ucode.img initrd=@root/boot/amd-ucode.img initrd=@root/boot/initramfs-%v-fallback.img"
-"Boot to terminal"               "root=PARTUUID=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX rootflags=subvol=@root rw add_efi_memmap initrd=@root/boot\intel-ucode.img initrd=@root/boot/amd-ucode.img initrd=@root/boot/initramfs-%v.img systemd.unit=multi-user.target"
+"Boot using default options"     "root=PARTUUID=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX rootflags=subvol=@root rw add_efi_memmap initrd=@r\boot\intel-ucode.img initrd=@root/boot/amd-ucode.img initrd=boot\initramfs-%v.img"
+"Boot using fallback initramfs"  "root=PARTUUID=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX rootflags=subvol=@root rw add_efi_memmap initrd=@\boot\intel-ucode.img initrd=@root\boot\amd-ucode.img initrd=@root\boot\initramfs-%v-fallback.img"
+"Boot to terminal"               "root=PARTUUID=XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX rootflags=subvol=@root rw add_efi_memmap initrd=@\boot\intel-ucode.img initrd=@root\boot\amd-ucode.img initrd=@root\boot\initramfs-%v.img systemd.unit=multi-user.target"
 ```
 
 ### Make rEFInd Scan Subvolumes
