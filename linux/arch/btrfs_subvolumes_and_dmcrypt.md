@@ -2,7 +2,7 @@
 title: Using BTRFS Subvolumes and `dm
 description: 
 published: true
-date: 2020-07-04T03:48:40.408Z
+date: 2020-07-04T04:03:48.407Z
 tags: 
 editor: markdown
 ---
@@ -101,6 +101,13 @@ cargo install mdcat sd
 
 > this will take a  while
 {.is-warning}
+
+### Enable DHCP
+
+```bash
+systemctl enable systemd-networkd
+systemctl enable systemd-rwsolved
+```
 
 
 ### Create the `fstab`
