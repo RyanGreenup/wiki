@@ -2,7 +2,7 @@
 title: Using BTRFS Subvolumes and `dm
 description: 
 published: true
-date: 2020-07-04T04:12:35.156Z
+date: 2020-07-04T04:14:38.156Z
 tags: 
 editor: markdown
 ---
@@ -97,6 +97,7 @@ arch-chroot /mnt
 pacman -S neovim emacs ntfs-3g btrfs-progs networkmanager network-manager-applet nm-connection-editor man-db man-pages texinfo git fzf biber texlive-most rust ripgrep skim fd ssh
 pacman -S intel-ucode ## or amd-ucode
 cargo install mdcat sd
+btrfs quota disable / ## this causes massive slow downs
 ```
 
 > this will take a  while
