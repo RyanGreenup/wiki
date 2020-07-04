@@ -2,7 +2,7 @@
 title: Using BTRFS Subvolumes and `dm
 description: 
 published: true
-date: 2020-07-03T09:38:52.277Z
+date: 2020-07-04T01:49:45.150Z
 tags: 
 editor: markdown
 ---
@@ -91,6 +91,7 @@ Now install the base *Arch* system using `pacstrap` which should install to `/` 
 
 ```bash
 pacstrap /mnt base linux linux-firmware
+genfstab -U /mnt >> /mnt/etc/fstab
 arch-chroot /mnt
 pacman -S neovim emacs ntfs-3g btrfs-progs networkmanager man-db man-pages texinfo git fzf biber texlive-most rust ripgrep skim fd ssh
 cargo install mdcat sd
