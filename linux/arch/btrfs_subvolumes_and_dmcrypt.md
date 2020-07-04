@@ -2,7 +2,7 @@
 title: Using BTRFS Subvolumes and `dm
 description: 
 published: true
-date: 2020-07-04T04:03:48.407Z
+date: 2020-07-04T04:10:57.812Z
 tags: 
 editor: markdown
 ---
@@ -102,11 +102,12 @@ cargo install mdcat sd
 > this will take a  while
 {.is-warning}
 
-### Enable DHCP
+### Enable DHCP and Network Manager
 
 ```bash
 systemctl enable systemd-networkd
-systemctl enable systemd-rwsolved
+systemctl enable systemd-resolved
+systemctl enable NetworkManager
 ```
 
 
