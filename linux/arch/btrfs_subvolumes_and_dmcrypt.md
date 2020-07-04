@@ -2,7 +2,7 @@
 title: Using BTRFS Subvolumes and `dm
 description: 
 published: true
-date: 2020-07-04T02:17:33.192Z
+date: 2020-07-04T02:29:39.306Z
 tags: 
 editor: markdown
 ---
@@ -110,18 +110,26 @@ genfstab -L -p /mnt >> /mnt/etc/fstab
 
 ### Refind
 
-Install [refind](https://www.archlinux.org/packages/extra/any/refind/) and `gdisk`
+Install [refind](https://www.archlinux.org/packages/extra/any/refind/) and `gdisk`, mount the EFI partition into `\boot` and then run the `refind`install script:
+
+```bash
+refind-install
+```
 
 To allow kernel auto detection on a Btrfs subvolume uncomment and edit also_scan_dirs in refind.conf.
 
 ```bash
 ## esp/EFI/refind/refind.conf
 ## ...
-also_scan_dirs +,@root/boot
+also_scan_dirs +,@/boot
 ```
 
 > here `@root` represents the subvolume that contained the root file system
+>> be mindful that the `@root` subvolume should be named `@` simply because thats the way that *Ubuntu* does it and *Timeshift*expects it 
+>{.is-warning}
 {.is-info}
+
+
 
 
 
