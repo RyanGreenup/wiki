@@ -2,7 +2,7 @@
 title: Using BTRFS Subvolumes and `dm
 description: 
 published: true
-date: 2020-07-04T01:49:45.150Z
+date: 2020-07-04T02:17:33.192Z
 tags: 
 editor: markdown
 ---
@@ -109,6 +109,9 @@ genfstab -L -p /mnt >> /mnt/etc/fstab
 ```
 
 ### Refind
+
+Install [refind](https://www.archlinux.org/packages/extra/any/refind/) and `gdisk`
+
 To allow kernel auto detection on a Btrfs subvolume uncomment and edit also_scan_dirs in refind.conf.
 
 ```bash
