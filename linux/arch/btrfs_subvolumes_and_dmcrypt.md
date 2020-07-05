@@ -2,7 +2,7 @@
 title: Using BTRFS Subvolumes and `dm
 description: 
 published: true
-date: 2020-07-05T05:32:02.204Z
+date: 2020-07-05T05:37:59.742Z
 tags: 
 editor: markdown
 ---
@@ -157,6 +157,23 @@ You'll want the mirror list to be sorted by speed:
 
 ```bash
 reflector --latest 200 --verbose --protocol http --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+```
+
+### Set up FZF
+
+```bash
+exec fish
+exec bash
+echo "
+function fis_user_key_bindings
+    fzf_key_bindings
+end" >> ~/.config/fish/functions/fish_user_key_bindings.fish
+echo "
+source /usr/share/fzf/key-bindings.bash
+source /usr/share/fzf/completion.bash
+" >> ~/.bashrc
+exec fish
+exec bash
 ```
 
 ### Refind
