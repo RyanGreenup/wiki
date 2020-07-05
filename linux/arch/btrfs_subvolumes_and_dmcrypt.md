@@ -2,7 +2,7 @@
 title: Using BTRFS Subvolumes and `dm
 description: 
 published: true
-date: 2020-07-04T11:16:36.869Z
+date: 2020-07-05T01:24:24.307Z
 tags: 
 editor: markdown
 ---
@@ -92,7 +92,23 @@ Now install the base *Arch* system using `pacstrap` which should install to `/` 
 
 ```bash
 pacstrap /mnt base linux linux-firmware
+```
+
+Now generate the file system table at `/etc/fstab`
+
+```bash
 genfstab -U /mnt >> /mnt/etc/fstab
+```
+
+Make sure to get rid of all references to `subvolid`, ideally you only want, for example `subvol=@snapshots` as opposed to `subvolid=257, subvol=@snapshots`, the *ID* changes often and this will prevent you from being able to boot:
+
+```
+...
+UUID=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx    /.snapshots    btrfs    rw,noatime,ssd,space_cache,<b>subvolid=257</b>,subvol=@snapshots
+...
+```
+
+```bash
 arch-chroot /mnt
 pacman -S neovim emacs ntfs-3g btrfs-progs networkmanager network-manager-applet nm-connection-editor man-db man-pages texinfo git fzf biber texlive-most rust ripgrep skim fd ssh xdg-user-dirs tldr
 pacman -S intel-ucode ## or amd-ucode
