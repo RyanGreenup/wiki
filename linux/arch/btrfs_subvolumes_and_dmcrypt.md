@@ -2,7 +2,7 @@
 title: Using BTRFS Subvolumes and `dm
 description: 
 published: true
-date: 2020-07-05T05:01:31.016Z
+date: 2020-07-05T05:12:59.949Z
 tags: 
 editor: markdown
 ---
@@ -281,10 +281,28 @@ To remove the bad subvolume:
 sudo su
 mount /dev/sda2 /mnt
 btrfs subvolume delete /mnt/@.bak
+## rm -rf /mnt@.bak  # If the above command fails
 umount -R /mnt
 ```
 
+Confirm that the subvolume was deleted with:
+
+```bash
+suddo btrfs subvolume list /
+```
+
+
 ### Snapper Undo
+
+This is fairly elegant, but specific to *Snapper*:
+
+```bash
+sudo su
+snapper ls
+snapper status 7..3
+snapper diff 7..3
+snapper undo 7..3
+```
 
 
 
