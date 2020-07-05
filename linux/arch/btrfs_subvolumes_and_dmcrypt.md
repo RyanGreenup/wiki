@@ -2,7 +2,7 @@
 title: Using BTRFS Subvolumes and `dm
 description: 
 published: true
-date: 2020-07-05T01:29:38.100Z
+date: 2020-07-05T03:20:21.354Z
 tags: 
 editor: markdown
 ---
@@ -107,7 +107,7 @@ genfstab -U /mnt >> /mnt/etc/fstab
 
 ```bash
 arch-chroot /mnt
-pacman -S neovim emacs ntfs-3g btrfs-progs networkmanager network-manager-applet nm-connection-editor man-db man-pages texinfo git fzf biber texlive-most rust ripgrep skim fd ssh xdg-user-dirs tldr
+pacman -S neovim emacs ntfs-3g btrfs-progs networkmanager network-manager-applet nm-connection-editor man-db man-pages texinfo git fzf biber texlive-most rust ripgrep skim fd ssh xdg-user-dirs tldr snapper keepass
 pacman -S intel-ucode ## or amd-ucode
 cargo install mdcat sd
 ```
@@ -120,6 +120,17 @@ Make sure to disable the `btrfs` quota otherwise *Snapper* will not work very we
 ```bash
 btrfs quota disable / ## this causes massive slow downs
 ```
+
+Now setting up snapper has some extra steps too:
+
+```bash
+umount -R /.snapshots
+rm -r /.snapshots
+snapper -c root create-config /
+mount -av
+snapper -c root create -d "Initial Snapshot"
+```
+
 
 ### Enable DHCP and Network Manager
 
