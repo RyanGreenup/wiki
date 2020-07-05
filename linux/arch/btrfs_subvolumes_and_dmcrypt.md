@@ -2,7 +2,7 @@
 title: Using BTRFS Subvolumes and `dm
 description: 
 published: true
-date: 2020-07-05T01:26:09.465Z
+date: 2020-07-05T01:29:38.100Z
 tags: 
 editor: markdown
 ---
@@ -100,13 +100,10 @@ Now generate the file system table at `/etc/fstab`
 genfstab -U /mnt >> /mnt/etc/fstab
 ```
 
-Make sure to get rid of all references to `subvolid`, ideally you only want, for example `subvol=@snapshots` as opposed to `subvolid=257, subvol=@snapshots`, the *ID* changes often and this will prevent you from being able to boot:
-
-<pre>
-...
-UUID=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx    /.snapshots    btrfs    rw,noatime,ssd,space_cache,<b>subvolid=257</b>,subvol=@snapshots
-...
-</pre>
+>Make sure to get rid of all references to `subvolid`, ideally you only want, for >example `subvol=@snapshots` as opposed to `subvolid=257, subvol=@snapshots`, the *ID* >changes often and this will prevent you from being able to boot:
+><code>
+>UUID=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx    /.snapshots    btrfs    >rw,noatime,ssd,space_cache,<strike><b><i>subvolid=257</strike></i></b></strike>,subvol=@snapshots
+> </code> {.is-warning}
 
 ```bash
 arch-chroot /mnt
