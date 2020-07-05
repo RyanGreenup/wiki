@@ -2,7 +2,7 @@
 title: Using BTRFS Subvolumes and `dm
 description: 
 published: true
-date: 2020-07-05T04:48:18.281Z
+date: 2020-07-05T04:59:20.259Z
 tags: 
 editor: markdown
 ---
@@ -253,9 +253,36 @@ cryptsetup open /dev/disk/by-partlabel/cryptsystem system
 
 ## Restore BTRFS Snapshot{.tabset}
 
-So let's say that you're using *Snapper* and you want to go back to a previous snapshot, there are two ways
+So let's say that you're using *Snapper* and you want to go back to a previous snapshot, there are two ways, the ordinary way of dealing with subvolumes or the method particular to *Snapper*.
+
+First use `snapper ls` (or `snapper -c home ls` to confirm which snapshot number you are concerned with.
+
+> If the system won't boot, rather than using a live-usb with `arch-chroot`, try to pass a kernel parameter to the effect of `rootflags=subvol=.snapshots/7/snapshot` in order to boot the working subvolume {.is-info}
 
 ### Subvolume Snapshots
+
+Subvolumes can be, to a degree, manipulated with standard tools like `mv`, but for deleting and copying subvolumes you will need to use the `btrfs subvolume` command.
+
+To restore a snapshot (assuming`@` is the root subvolume that needs to be restored, the subvolumes are on `/dev/sda2` and the desired snapshot is `7`):
+
+```bash
+sudo su
+mount /dev/sda2 /mnt
+mv /mnt/@ @.bak
+btrfs subvolume snapshot /mnt/@snapshots/7/snapshot /mnt/@
+umount -R /mnt
+```
+
+Then reboot and the snapshot should be restored.
+
+To remove the bad subvolume:
+
+```bash
+sudo su
+mount /dev/sda2 /mnt
+btrfs subvolume delete /mnt/@.bak
+umount -R /mnt
+```
 
 ### Snapper Undo
 
