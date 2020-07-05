@@ -2,7 +2,7 @@
 title: Using BTRFS Subvolumes and `dm
 description: 
 published: true
-date: 2020-07-05T04:08:39.332Z
+date: 2020-07-05T04:28:54.195Z
 tags: 
 editor: markdown
 ---
@@ -107,9 +107,12 @@ genfstab -U /mnt >> /mnt/etc/fstab
 
 ```bash
 arch-chroot /mnt
-pacman -S neovim emacs ntfs-3g btrfs-progs networkmanager network-manager-applet nm-connection-editor man-db man-pages texinfo git fzf biber texlive-most rust ripgrep skim fd ssh xdg-user-dirs tldr snapper keepass sway python-pip signal-desktop
+pacman -S neovim emacs ntfs-3g btrfs-progs networkmanager network-manager-applet nm-connection-editor man-db man-pages texinfo git fzf biber texlive-most rust ripgrep skim fd ssh xdg-user-dirs tldr snapper keepass python-pip signal-desktop
 pacman -S intel-ucode ## or amd-ucode
 cargo install mdcat sd
+
+## Install i3-gaps on Nvidia
+pacman -S sway
 ```
 
 > this will take a  while
