@@ -2,7 +2,7 @@
 title: Using BTRFS Subvolumes and `dm
 description: 
 published: true
-date: 2020-07-05T05:27:35.468Z
+date: 2020-07-05T05:32:02.204Z
 tags: 
 editor: markdown
 ---
@@ -149,6 +149,14 @@ To create the `fstab` just run the following:
 
 ```bash
 genfstab -L -p /mnt >> /mnt/etc/fstab
+```
+
+### Adjust the Mirrors
+
+You'll want the mirror list to be sorted by speed:
+
+```bash
+reflector --latest 200 --verbose --protocol http --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 ```
 
 ### Refind
