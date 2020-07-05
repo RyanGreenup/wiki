@@ -2,7 +2,7 @@
 title: Using BTRFS Subvolumes and `dm
 description: 
 published: true
-date: 2020-07-05T05:15:37.086Z
+date: 2020-07-05T05:16:26.575Z
 tags: 
 editor: markdown
 ---
@@ -253,13 +253,13 @@ cryptsetup open /dev/disk/by-partlabel/cryptsystem system
 
 ## Restore BTRFS Snapshot
 
-### {.tabset}
-
 So let's say that you're using *Snapper* and you want to go back to a previous snapshot, there are two ways, the ordinary way of dealing with subvolumes or the method particular to *Snapper*.
 
 First use `snapper ls` (or `snapper -c home ls` to confirm which snapshot number you are concerned with.
 
 > If the system won't boot, rather than using a live-usb with `arch-chroot`, try to pass a kernel parameter to the effect of `rootflags=subvol=.snapshots/7/snapshot` in order to boot the working subvolume {.is-info}
+
+### {.tabset}
 
 #### Subvolume Snapshots
 
