@@ -2,7 +2,7 @@
 title: Using BTRFS Subvolumes and `dm
 description: 
 published: true
-date: 2020-07-05T04:47:49.948Z
+date: 2020-07-05T04:48:18.281Z
 tags: 
 editor: markdown
 ---
@@ -251,7 +251,7 @@ cryptsetup open /dev/disk/by-partlabel/cryptsystem system
 ```
 
 
-## Restore BTRFS Snapshot {.tabset}
+## Restore BTRFS Snapshot{.tabset}
 
 So let's say that you're using *Snapper* and you want to go back to a previous snapshot, there are two ways
 
