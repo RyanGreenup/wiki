@@ -2,7 +2,7 @@
 title: Ryans WikiJS
 description: 
 published: true
-date: 2020-07-08T22:47:55.444Z
+date: 2020-07-10T14:04:21.533Z
 tags: 
 editor: markdown
 ---
@@ -23,6 +23,9 @@ $$
 see [standards for the wiki](./standards-for-the-wiki.md)
 
 [test](./this-is-simpler.md)
+
+[exporting this wiki](./exporting-this-wiki.md)
+
 
 ## Bug
 This version fixes [./relative-links.md](./relative-links.md) but you can't delete home, you can only move it, edge-case though tb.
