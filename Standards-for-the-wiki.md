@@ -2,7 +2,7 @@
 title: Standards for the Wiki
 description: The Markdown Style to adhere to for fortability sake
 published: true
-date: 2020-07-11T01:24:07.684Z
+date: 2020-07-11T01:56:37.629Z
 tags: markdown
 editor: markdown
 ---
@@ -135,7 +135,16 @@ Although WikiJS doesn't support `#tags`, feel free to use them because they are 
 
       
       
-      
+## Media and Attachments
+
+put attachments and media in directories, they should be prefixed with `_` so that they can be detected more readily with something like `sed`.
+
+I'm undecided if we should have one `/_media` directory of if every subfolder should have a `_media` or if they should just be flat, my concern is exporting a single markdown file as markdown, that might be difficult.
+
+| Directory Name | Purpose |
+|--- | --- | 
+|`_attachments` | Documents, scripts etc. |
+| `_media` | gifs, images, videos etc. |
       
       
       
