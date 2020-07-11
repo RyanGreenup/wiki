@@ -2,7 +2,7 @@
 title: Standards for the Wiki
 description: The Markdown Style to adhere to for fortability sake
 published: true
-date: 2020-07-11T01:10:45.070Z
+date: 2020-07-11T01:21:28.196Z
 tags: markdown
 editor: markdown
 ---
@@ -95,9 +95,9 @@ Unlike `org-mode` `# Headings` **must** be surrounded by white space characters 
 
 1. Not all Makrdown Parsers respect [YAML] Fontmatter [^frontmatter-tools]
 2. This will make it easier to dump a bunch of notes into a signle document
-  * and take that document into LaTeX for a sort of [*Wiki Books*] style export.
+    * and take that document into LaTeX for a sort of [*Wiki Books*] style export.
   
-  
+ 
 
 [*Wiki Books*]: https://en.wikibooks.org/wiki/Main_Page
 [YAML]: https://github.com/jekyll/jekyll/wiki/yaml-front-matter
@@ -106,9 +106,17 @@ Unlike `org-mode` `# Headings` **must** be surrounded by white space characters 
 [Python-FrontMatter]: https://pypi.org/project/python-frontmatter/
 [^frontmatter-tools]: See also [Python-FrontMatter], [rmarkdown] and [js-yaml] for some tools to manage frontmatter
 
+## List Spacing
+
+Use four spaces in order to be compatible with [*MkDocs*] and consistent with [*Google's Python Style Guide*] and [*Julia's Style Guide]
+
+[*MkDocs*]: https://www.mkdocs.org/user-guide/writing-your-docs/#file-layout
+[*Google's Python Style Guide*]: https://juliapackages.com/p/style
+[*Julia's Style Guide]: https://juliapackages.com/p/style
+
 ## Tags
 
-Although WikiJS doesn't support `#tags`, feel free to use them because they are so widely supported in other editors such as [*iaWriter*], [*Obsidian*], [*Zettlr*] and [*VimWiki*].
+Although WikiJS doesn't support `#tags`, feel free to use them because they are very easy to parse out with `grep` and so widely supported in other editors such as [*iaWriter*], [*Obsidian*], [*Zettlr*] and ~~[*VimWiki*]~~ [^vwtg].
 
  <p style = "font-family:Courier New,Courier, monospace,serif;font-size:12px;font-style:italic; " align="right"  color=blue>
    <b>
@@ -121,7 +129,8 @@ Although WikiJS doesn't support `#tags`, feel free to use them because they are 
 [*Obsidian*]: https://obsidian.md/
 [*Zettlr*]: https://www.zettlr.com/
 [*VimWiki*]: https://github.com/vimwiki/vimwiki
-      
+[^vwtg]: No I forgot [*VimWiki*] uses [`org-mode`] style `:tags:`
+[`org-mode`]: https://orgmode.org/manual/
       
       
       
