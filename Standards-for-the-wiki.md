@@ -2,7 +2,7 @@
 title: Standards for the Wiki
 description: The Markdown Style to adhere to for fortability sake
 published: true
-date: 2020-07-11T01:21:28.196Z
+date: 2020-07-11T01:21:45.494Z
 tags: markdown
 editor: markdown
 ---
@@ -129,7 +129,7 @@ Although WikiJS doesn't support `#tags`, feel free to use them because they are 
 [*Obsidian*]: https://obsidian.md/
 [*Zettlr*]: https://www.zettlr.com/
 [*VimWiki*]: https://github.com/vimwiki/vimwiki
-[^vwtg]: No I forgot [*VimWiki*] uses [`org-mode`] style `:tags:`
+[^vwtg]: No I forgot [*VimWiki*] uses [`org-mode`] style `:tags:`, I was thinking of `[[wiki-links]]`.
 [`org-mode`]: https://orgmode.org/manual/
       
       
