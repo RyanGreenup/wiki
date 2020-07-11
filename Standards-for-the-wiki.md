@@ -2,7 +2,7 @@
 title: Standards for the Wiki
 description: The Markdown Style to adhere to for fortability sake
 published: true
-date: 2020-07-11T01:08:58.800Z
+date: 2020-07-11T01:10:45.070Z
 tags: markdown
 editor: markdown
 ---
@@ -91,16 +91,21 @@ u_{21} \cdot  v_{11} & u_{21}\cdot  v_{12}& u_{21}\cdot  v_{13}& \end{bmatrix}
 
 Unlike `org-mode` `# Headings` **must** be surrounded by white space characters to work everywhere.
 
-`# Heading1` Should be considered at the heading level, because not all Makrdown Parsers respect [YAML] Fontmatter [^frontmatter-tools]
+`# Heading1` Should be considered at the heading level, because:
 
+1. Not all Makrdown Parsers respect [YAML] Fontmatter [^frontmatter-tools]
+2. This will make it easier to dump a bunch of notes into a signle document
+  * and take that document into LaTeX for a sort of [*Wiki Books*] style export.
+  
+  
 
+[*Wiki Books*]: https://en.wikibooks.org/wiki/Main_Page
 [YAML]: https://github.com/jekyll/jekyll/wiki/yaml-front-matter
-
-[^frontmatter-tools]: See also [Python-FrontMatter], [rmarkdown] and [js-yaml] for some tools to manage frontmatter
-
 [rmarkdown]: https://cran.r-project.org/web/packages/rmarkdown/index.html
 [js-yaml]: https://github.com/nodeca/js-yaml
 [Python-FrontMatter]: https://pypi.org/project/python-frontmatter/
+[^frontmatter-tools]: See also [Python-FrontMatter], [rmarkdown] and [js-yaml] for some tools to manage frontmatter
+
 ## Tags
 
 Although WikiJS doesn't support `#tags`, feel free to use them because they are so widely supported in other editors such as [*iaWriter*], [*Obsidian*], [*Zettlr*] and [*VimWiki*].
