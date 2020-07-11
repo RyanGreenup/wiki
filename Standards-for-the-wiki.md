@@ -1,0 +1,130 @@
+---
+title: Standards for the Wiki
+description: The Markdown Style to adhere to for fortability sake
+published: true
+date: 2020-07-11T01:03:15.015Z
+tags: markdown
+editor: markdown
+---
+
+# Standards for Markdown
+
+* [Note Taking Requirements](./Note-Taking-Requirements.md)
+
+
+
+## Links
+
+Use `[normal linksj](./path.md)` prefixed with a `./` rather than `[[wiki-links]]` because they have greater cross compatability, unless you can figure out how to:
+
+* Have `wiki-links` work in *MkDocs* and/or *MarkServ*
+    * I need some way to export everything as a static site with the links preserved.
+* Have `wiki-links` work in VSCode Preview
+
+
+Wiki links have the advantage of *Peek Definition* in VSCode which I really like, as well as promoting interlinking.
+
+## Indenting
+
+Use 4-spaces not two because python-markdown (and hence mkdocs but also iaWriter) considers anything else a bug.
+
+## Math
+
+### Display Math
+
+If you use Display math be mindful that:
+
+
+* This is compatible with everything period
+    ```tex
+    $\begin{aligned}
+    4x
+    \end{aligned}%$
+    ```
+
+* This is compatible with everything $\neg$ *MarkText*
+    ```tex
+    $$\begin{aligned}
+    4x
+    \end{aligned}$$
+    ```
+* This is compatible with everything $\neg$ *iaWriter*
+    ```tex
+    $$
+    \begin{aligned}
+    4x
+    \end{aligned}
+    $$
+    ```
+
+### Left Aligned Inline Full Size Equation
+
+> This is hacky but highly compatible.
+
+If possible use inline math with the aligned environment, because this odd behaviour is supported in LaTeX, MathJax and KaTeX.
+
+It is necessary to have a trailing `%` like this:
+
+```tex
+$\begin{aligned}
+ax^2 + bx + c = 0
+\end{aligned}%$
+```
+which will produce math like this:
+
+$\begin{aligned}
+\ \\
+\vec{u}&= \begin{bmatrix} u_{11} \\ u_{21} \end{bmatrix} \\
+\vec{v}^\mathrm{T}&= \begin{bmatrix} v_{11} & v_{12} & v_{13} \end{bmatrix} \\
+\ \\
+\vec{u} \cdot  \vec{v}^\mathrm{T} &= \begin{bmatrix} u_{11} \\ u_{21} \end{bmatrix} \cdot  \begin{bmatrix} v_{11} & v_{12} & v_{13} \end{bmatrix} \\
+&= \begin{bmatrix} u_{11}\cdot  v_{11} & v_{12} & v_{13}\\
+u_{12} & \ldots & &\end{bmatrix} \\
+&= \begin{bmatrix} u_{11}\cdot  v_{11} & u_{11}\cdot  v_{12} & u_{11}\cdot  v_{13} \\
+u_{21} \cdot  v_{11} & u_{21}\cdot  v_{12}& u_{21}\cdot  v_{13}& \end{bmatrix}
+\ \\
+\end{aligned}%$
+
+
+
+## Headings
+
+Unlike `org-mode` `# Headings` **must** be surrounded by white space characters to work everywhere.
+
+
+## Tags
+
+Although WikiJS doesn't support `#tags`, feel free to use them because they are so widely supported in other editors such as [*iaWriter*], [*Obsidian*], [*Zettlr*] and [*VimWiki*].
+
+ <p style = "font-family:Courier New,Courier, monospace,serif;font-size:12px;font-style:italic; " align="right"  color=blue>
+   <b>
+      #Markdown<br>
+      #stardise<br>
+      </b>
+      </p>
+      
+[*iaWriter*]: https://ia.net/writer
+[*Obsidian*]: https://obsidian.md/
+[*Zettlr*]: https://www.zettlr.com/
+[*VimWiki*]: https://github.com/vimwiki/vimwiki
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
