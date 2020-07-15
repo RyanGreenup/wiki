@@ -2,7 +2,7 @@
 title: Ryans WikiJS
 description: 
 published: true
-date: 2020-07-10T14:04:21.533Z
+date: 2020-07-15T12:09:44.136Z
 tags: 
 editor: markdown
 ---
@@ -89,7 +89,7 @@ also whats the risk of http if im just going to use mobile data
 > This should really be in my to do list app, I mean, whats the point otherwise, Im paying for it I may as well use it.
 {.is-warning}
 
-* [Install Arch](linux/installArch)
+* [Installing Arch](linux/installArch)
     * Look at *XFCE* and `i3`
     * Test Recoll in Pop-Shell
     * Fix Snapper
