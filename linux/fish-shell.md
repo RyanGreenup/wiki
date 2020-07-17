@@ -2,7 +2,7 @@
 title: Fish Shell
 description: Tips and Tricks for using Fish Shell
 published: true
-date: 2020-07-17T09:08:39.321Z
+date: 2020-07-17T09:09:24.043Z
 tags: linux, fish
 editor: markdown
 ---
@@ -23,3 +23,5 @@ end
 " > $HOME/.config/fish/functions/f.fish; exec fish
 
 ```
+
+Then change directories with `f /` and you'll notice that it changes directories, prints a tree and prints the files.
