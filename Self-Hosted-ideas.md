@@ -3,7 +3,7 @@ title: Solf Hosted Applications / Ideas to implement
 description: 
 published: true
 date: 2020-06-21T11:35:17.671Z
-tags: 
+tags: private
 editor: markdown
 ---
 
