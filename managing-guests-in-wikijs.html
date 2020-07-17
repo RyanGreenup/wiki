@@ -2,7 +2,7 @@
 title: Managing Guests in Wiki Js
 description: 
 published: true
-date: 2020-07-17T03:35:38.891Z
+date: 2020-07-17T04:00:36.642Z
 tags: private
 editor: ckeditor
 -->
@@ -11,3 +11,15 @@ editor: ckeditor
 <p>Any user that visits without loging in is clased as the `guest ` user, this user belongs to the ` guests ` group, in order to allow access, you must add a rule specifically allowing this group to read pages, Ive used tags to help manage it, see for example:</p>
 <figure class="image"><img src="/1dc5ef87-7e24-471f-8369-73ee52975f43.jpeg"></figure>
 <p><br>How hard is it for users to make an account?</p>
+<p>&nbsp;</p>
+<h2>New Users</h2>
+<p>If you set up Auth0, exactly as described <a href="https://docs.requarks.io/en/auth/auth0">here</a>, new accounts can be made, local does not work.</p>
+<p>I put both http and https because as <i><strong>Allowed Callback URLs</strong></i><strong> &nbsp;</strong>because I haven't had time to enable <i>Lets Encrypt</i> through docker.</p>
+<p>&lt;code&gt;</p>
+<p>http://ryansnotes.org:81/login/auth0/callback,</p>
+<p>https://ryansnotes.org:81/login/auth0/callback<br>&lt;/code&gt;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>...</p>
