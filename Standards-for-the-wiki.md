@@ -2,9 +2,9 @@
 title: Standards for the Wiki
 description: The Markdown Style to adhere to for fortability sake
 published: true
-date: 2020-07-11T01:56:37.629Z
-tags: markdown
-editor: markdown
+date: 2020-07-17T03:02:29.793Z
+tags: 
+editor: undefined
 ---
 
 # Standards for Markdown

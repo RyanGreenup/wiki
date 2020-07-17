@@ -2,9 +2,9 @@
 title: Differential Equations
 description: An Export from Wikipedia
 published: true
-date: 2020-06-22T01:47:34.593Z
+date: 2020-07-17T03:03:05.657Z
 tags: 
-editor: markdown
+editor: undefined
 ---
 
 ```{=mediawiki}

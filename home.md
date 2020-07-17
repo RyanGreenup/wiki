@@ -2,9 +2,9 @@
 title: Ryans WikiJS
 description: 
 published: true
-date: 2020-07-15T12:09:44.136Z
+date: 2020-07-17T03:02:37.632Z
 tags: 
-editor: markdown
+editor: undefined
 ---
 
 # Math and Data Sci Wiki

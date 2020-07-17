@@ -2,9 +2,9 @@
 title: Load Packages in R
 description: Standard copy/paste stuff for a new R-Script
 published: true
-date: 2020-06-20T04:38:38.768Z
-tags: r
-editor: markdown
+date: 2020-07-17T03:03:28.587Z
+tags: 
+editor: undefined
 ---
 
 # Set Working Directory and Load Packages

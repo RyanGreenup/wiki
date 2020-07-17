@@ -2,9 +2,9 @@
 title: Relative Links 2
 description: Testing Relative Links
 published: true
-date: 2020-06-20T04:20:57.950Z
+date: 2020-07-17T03:03:27.142Z
 tags: 
-editor: markdown
+editor: undefined
 ---
 
 # Link Tests

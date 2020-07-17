@@ -2,11 +2,10 @@
 title: Series
 description: Series in complex analysis
 published: true
-date: 2020-06-20T13:24:10.883Z
+date: 2020-07-17T03:03:32.302Z
 tags: 
-editor: markdown
+editor: undefined
 ---
-
 
 Related Notes: [Deriving Normal Distribution](./DerivingNormalDist.md)
 

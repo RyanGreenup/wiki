@@ -2,7 +2,7 @@
 title: 05 PCA and MDS
 description: 
 published: true
-date: 2020-06-17T13:37:54.734Z
+date: 2020-07-17T03:03:36.512Z
 tags: 
 editor: undefined
 ---

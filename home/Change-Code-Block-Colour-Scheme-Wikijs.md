@@ -2,9 +2,9 @@
 title: Change Colour Scheme of Code Blocks WikiJS
 description: The CSS that was used to change the code blocks in WikiJS
 published: true
-date: 2020-06-20T09:01:54.802Z
-tags: wiki
-editor: markdown
+date: 2020-07-17T03:03:01.403Z
+tags: 
+editor: undefined
 ---
 
 # Change Code Block CSS

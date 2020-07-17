@@ -2,9 +2,9 @@
 title: Relative Links in WikiJS
 description: 
 published: true
-date: 2020-06-22T04:31:57.774Z
+date: 2020-07-17T03:03:19.926Z
 tags: 
-editor: markdown
+editor: undefined
 ---
 
 ## Relative Links

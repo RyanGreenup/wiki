@@ -2,9 +2,9 @@
 title: How to Write Macros in Emacs
 description: A walkthrough of the El Macro Package
 published: true
-date: 2020-06-20T07:30:22.996Z
+date: 2020-07-17T03:03:44.492Z
 tags: 
-editor: markdown
+editor: undefined
 ---
 
 The easiest way to do this would be a macro, more information can be found on the [emacswiki](https://www.emacswiki.org/emacs/KeyboardMacros), but essentially all you would do is:

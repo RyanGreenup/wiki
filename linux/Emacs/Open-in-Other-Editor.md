@@ -2,9 +2,9 @@
 title: Open Files in Other Editor From Emacs
 description: How to take a file in Emacs and open it in another Editor
 published: true
-date: 2020-06-19T06:51:31.280Z
-tags: emacs, vim
-editor: markdown
+date: 2020-07-17T03:03:45.938Z
+tags: 
+editor: undefined
 ---
 
 # Open Files in Other Editor
