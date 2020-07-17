@@ -2,14 +2,14 @@
 title: Ryans WikiJS
 description: 
 published: true
-date: 2020-07-17T03:56:32.728Z
+date: 2020-07-17T03:56:44.536Z
 tags: public
 editor: markdown
 ---
 
 # Math and Data Sci Wiki
 
-> New Accounts must be made using [*Auth0*](https://manage.auth0.com/)!
+> New Accounts must be made using *Auth0*!
 {.is-warning}
 
 * [Thinking About Data](./University/Thinking-About-Data.md)
