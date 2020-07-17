@@ -2,7 +2,7 @@
 title: Ryans WikiJS
 description: 
 published: true
-date: 2020-07-17T04:01:56.569Z
+date: 2020-07-17T09:03:47.420Z
 tags: public
 editor: markdown
 ---
@@ -35,6 +35,7 @@ editor: markdown
 
 ## Misc
 
+* [Fish Shell](./linux/fish-shell.md)
 * [Installing Arch](linux/installArch)
     * Look at *XFCE* and `i3`
     * Test Recoll in Pop-Shell
