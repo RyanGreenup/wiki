@@ -2,15 +2,16 @@
 title: Ryans WikiJS
 description: 
 published: true
-date: 2020-07-17T03:02:37.632Z
+date: 2020-07-17T03:05:55.296Z
 tags: 
-editor: undefined
+editor: markdown
 ---
 
 # Math and Data Sci Wiki
 
 * [Thinking About Data](./University/Thinking-About-Data.md)
 * [Randomness](./University/Thinking-About-Data/01Randomness.md)
+* [01Randomness](/University/Thinking-About-Data/01Randomness)
 * [Confidence Intervals](./University/Thinking-About-Data/Confidence-Intervals.md)
 
 ## Data Sci
