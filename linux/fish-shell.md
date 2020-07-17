@@ -2,7 +2,7 @@
 title: Fish Shell
 description: Tips and Tricks for using Fish Shell
 published: true
-date: 2020-07-17T09:09:24.043Z
+date: 2020-07-17T09:11:03.893Z
 tags: linux, fish
 editor: markdown
 ---
