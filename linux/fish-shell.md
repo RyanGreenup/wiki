@@ -2,7 +2,7 @@
 title: Fish Shell
 description: Tips and Tricks for using Fish Shell
 published: true
-date: 2020-07-18T01:32:09.961Z
+date: 2020-07-18T01:41:10.623Z
 tags: linux, fish
 editor: markdown
 ---
@@ -37,6 +37,25 @@ Then change directories with `f /` and you'll notice that it changes directories
 
 ```bash
 alias ls!='ls -ultrah'; funcsave ls!    
+```
+
+### Switch to NeoVim
+
+Use this relatively shell agnostic way to avoid having vim installed.
+
+```bash
+echo '
+#!/bin/bash
+nvim "${@}' >> '$HOME/bin/vim'
+
+if [[ ":$PATH:" != *":$HOME/bin:"* ]]; then
+    mkdir "$HOME/bin" &>/dev/null
+    echo '
+export PATH="$PATH:$HOME/google_appengine"
+' >> '$HOME/.profile
+fi  
+
+
 ```
 
 ### fuzzy interactive fast grep
