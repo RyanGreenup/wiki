@@ -2,7 +2,7 @@
 title: Introduction to Python
 description: The basics of python as adapted from week 2 of Applications of Big Data
 published: true
-date: 2020-07-18T04:56:03.483Z
+date: 2020-07-18T06:28:06.614Z
 tags: public, python
 editor: markdown
 ---
@@ -170,6 +170,8 @@ Observe in that above call:
 
 
 #### Returning Values
+
+> If you're used to working with ***R*** or `bash` be mindful that *Python* and *Julia* have a slightly different scope, See [variable scope of nested functions](./Variable-Scope-of-Nested-Functions.md) for more information {.is-warning}
 
 *Python* can return multiple values as a tuple like this:
 
