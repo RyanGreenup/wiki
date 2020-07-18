@@ -2,7 +2,7 @@
 title: Fish Shell
 description: Tips and Tricks for using Fish Shell
 published: true
-date: 2020-07-18T01:41:24.205Z
+date: 2020-07-18T01:41:31.006Z
 tags: linux, fish
 editor: markdown
 ---
@@ -55,8 +55,7 @@ if [[ ":$PATH:" != *":$HOME/bin:"* ]]; then
 export PATH="$PATH:$HOME/google_appengine"
 ' >> '$HOME/.profile
 fi  
-
-
+exec fish
 ```
 
 ### fuzzy interactive fast grep
