@@ -2,7 +2,7 @@
 title: Fish Shell
 description: Tips and Tricks for using Fish Shell
 published: true
-date: 2020-07-17T09:11:03.893Z
+date: 2020-07-18T00:42:49.946Z
 tags: linux, fish
 editor: markdown
 ---
@@ -11,7 +11,7 @@ editor: markdown
 
 ## Helpful Functions
 
-### CD with an ls
+### `cd` with an `ls`
 
 ```bash
 command -v exa >/dev/null 2>&1 || { echo >&2 "I require exa but it's not installed, install with cargo install exa.  Aborting."; exit 1; }
@@ -25,3 +25,9 @@ end
 ```
 
 Then change directories with `f /` and you'll notice that it changes directories, prints a tree and prints the files.
+
+### `ls` everything
+
+```bash
+alias ls!='ls -ultrah'; funcsave ls!    
+```
