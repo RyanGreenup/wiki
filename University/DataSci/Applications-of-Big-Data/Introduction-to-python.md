@@ -2,7 +2,7 @@
 title: Introduction to Python
 description: The basics of python as adapted from week 2 of Applications of Big Data
 published: true
-date: 2020-07-18T04:51:35.562Z
+date: 2020-07-18T04:56:03.483Z
 tags: public, python
 editor: markdown
 ---
@@ -168,27 +168,6 @@ Observe in that above call:
 3. ***capitalisation***; the variable `VALUE` is capitalised, this is a convention in many languages to indicate that the value of the variable should be *constant* for the duration of the function.
     
 
-```python
-def outer():
-    inner()
-    print(varin)
-
-def inner():
-    nonlocal varin
-    varin = 9
-    return varin
-
-outer()
-# print(varin)
-```
-
-So by default variables that have an assignment made to them inside a function,
-are strictly local to that function, this can be quite surprising if you've been
-using ***R***, `bash`, *Java* (???) or *Julia*, bear in mind, if you want to
-access a variable, say `x`, from an above function it will be necessary to use
-`nonlocal x`, somewhere inside the lower function.
-
-
 
 #### Returning Values
 
@@ -221,9 +200,7 @@ type(outer())
 It could also be possible to return it as a list, but generally you would want
 this output to be read only.
 
-- ⚠️ WARNING
-  - In *Julia* tupples can only contain numeric values, in python a tupple is
-    essentially an immutable list.
+> In *Julia* tupples can only contain numeric values, in *Python* a tupple is essentially an immutable list. {.is-warning}
 
 
 #### Using an `if` test
@@ -289,12 +266,12 @@ There are generally two types of loops you'd be concerned with:
 
 - `for`
     - These are used when the number of iterations is known in advance
-    > *for each item in my shopping list*,<br>
-    >            *go purchase each item*
+        > *for each item in my shopping list*,<br>
+        >            *go purchase each item*
 - `while`
     - These are used when we don't know how many iterations are required:
-    > while $x < 9$, do<br>
-    >                        $x = \sqrt{x}/\pi$
+        > while $x < 9$, do<br>
+        >                        $x = \sqrt{x}/\pi$
     
 In this case we may want our function to run `while` the unser hasn't guessed the value:
 
@@ -342,7 +319,7 @@ main()
 These can be used to modify the behaviour of our script, for example we may want
 to try and emulate a `do while` loop:
 
-  <!-- Sometimes you need a dot, <br> ruins the spacing Important --><details  open markdown="1"><summary><p>
+  <!-- Sometimes you need a dot, <br> ruins the spacing Important --><details  closed markdown="1"><summary><p>
 
 SHOW/HIDE CODE; CLICK ME!
 </p></summary><p>
