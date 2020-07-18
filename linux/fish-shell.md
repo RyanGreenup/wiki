@@ -2,7 +2,7 @@
 title: Fish Shell
 description: Tips and Tricks for using Fish Shell
 published: true
-date: 2020-07-18T01:41:31.006Z
+date: 2020-07-18T01:41:57.871Z
 tags: linux, fish
 editor: markdown
 ---
@@ -42,6 +42,9 @@ alias ls!='ls -ultrah'; funcsave ls!
 ### Switch to NeoVim
 
 Use this relatively shell agnostic way to avoid having vim installed.
+
+> this will require a log out to take affect
+{.is-info}
 
 ```bash
 exec bash
