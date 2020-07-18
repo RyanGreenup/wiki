@@ -2,7 +2,7 @@
 title: Fish Shell
 description: Tips and Tricks for using Fish Shell
 published: true
-date: 2020-07-18T01:23:02.892Z
+date: 2020-07-18T01:32:09.961Z
 tags: linux, fish
 editor: markdown
 ---
@@ -10,6 +10,13 @@ editor: markdown
 # Fish Shell
 
 ## Helpful Functions
+
+> *FISH* doesn't have `alias` only functions, however alias is itself a function to create functions using a similar syntax as `bash`, you just have to remember, that after using to then call `funcsave name` to save it, for example:
+> ```bash
+> alias x='xclip -selection clipboard'
+> funcsave x
+> ```
+> {.is-info}
 
 ### `cd` with an `ls`
 
@@ -186,7 +193,12 @@ main "${@}"
 ```
 
 
-## Helpful Aliases
+## Ryan's *FISH* RC
+
+> *FISH* doesn't have a `~/.fishrc`, instead it has a `~/.config/fish/config.fish`, this is in line with new standards ==SOURCE???==, for example `emacs 28.0` makes this change.
+{.is-info}
+
+This is what I have in my *FISH* startup, [you can see it on *GitHub*](https://github.com/RyanGreenup/DotFiles/tree/master/Shells).
 
 ```bash
 set PATH /home/ryan/.local/bin $PATH
