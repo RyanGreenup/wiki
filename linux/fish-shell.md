@@ -2,7 +2,7 @@
 title: Fish Shell
 description: Tips and Tricks for using Fish Shell
 published: true
-date: 2020-07-18T01:41:57.871Z
+date: 2020-07-19T09:02:35.764Z
 tags: linux, fish
 editor: markdown
 ---
@@ -217,7 +217,7 @@ main "${@}"
 
 ## Ryan's *FISH* RC
 
-> *FISH* doesn't have a `~/.fishrc`, instead it has a `~/.config/fish/config.fish`, this is in line with new standards ==SOURCE???==, for example `emacs 28.0` makes this change.
+> *FISH* doesn't have a `~/.fishrc`, instead it has a `~/.config/fish/config.fish`, this is consistent with the [`man` page for `file-heirarchy`](https://www.freedesktop.org/software/systemd/man/file-hierarchy.html), many other applications such as *NeoVim* and *Emacs 28* are implementing this change as well
 {.is-info}
 
 This is what I have in my *FISH* startup, [you can see it on *GitHub*](https://github.com/RyanGreenup/DotFiles/tree/master/Shells).
