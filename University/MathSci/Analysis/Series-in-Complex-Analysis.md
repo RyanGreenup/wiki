@@ -2,25 +2,15 @@
 title: Complex Series
 description: Series in Complex Analysis
 published: true
-date: 2020-08-22T13:49:26.880Z
+date: 2020-08-22T13:50:18.827Z
 tags: analysis, series
 editor: markdown
 ---
 
----
-title: Deriving the Normal Distribution
-tags: [Notebooks/University/Analysis]
-created: '2020-06-15T00:23:19.168Z'
-modified: '2020-06-15T00:23:19.168Z'
----
-
-Related Notes: [Deriving Normal Distribution](./DerivingNormalDist.md)
-
 # Power Series and Uniform Continuity
 
-[TOC]
-
-[[index]]
+> Related Notes: [Deriving Normal Distribution](./DerivingNormalDist.md)
+{.is-info}
 
 
 ## Power Series
