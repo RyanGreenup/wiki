@@ -2,7 +2,7 @@
 title: Differential Equations
 description: An Export from Wikipedia
 published: true
-date: 2020-07-17T03:03:05.657Z
+date: 2020-07-17T03:05:36.877Z
 tags: 
 editor: undefined
 ---

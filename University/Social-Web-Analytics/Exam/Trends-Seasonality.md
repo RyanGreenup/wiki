@@ -1,7 +1,10 @@
 ---
 title: Trends-Seasonality
-created: '2020-06-15T00:23:19.132Z'
-modified: '2020-06-15T00:23:19.136Z'
+description: 
+published: true
+date: 2020-08-30T11:47:48.577Z
+tags: 
+editor: undefined
 ---
 
 # Trends-Seasonality

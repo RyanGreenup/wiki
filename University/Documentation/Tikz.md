@@ -2,7 +2,7 @@
 title: Tikz
 description: 
 published: true
-date: 2020-07-17T03:03:33.732Z
+date: 2020-07-17T03:06:04.435Z
 tags: 
 editor: undefined
 ---

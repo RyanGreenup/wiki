@@ -1,7 +1,10 @@
 ---
 title: Multi-Dimensional-Scaling
-created: '2020-06-15T00:23:19.176Z'
-modified: '2020-06-15T00:23:19.180Z'
+description: 
+published: true
+date: 2020-08-30T11:47:53.096Z
+tags: 
+editor: undefined
 ---
 
 # Multi-Dimensional Scaling

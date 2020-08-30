@@ -2,9 +2,9 @@
 title: Complex Series
 description: Series in Complex Analysis
 published: true
-date: 2020-08-22T13:50:18.827Z
-tags: analysis, series
-editor: markdown
+date: 2020-08-22T13:50:22.143Z
+tags: 
+editor: undefined
 ---
 
 # Power Series and Uniform Continuity

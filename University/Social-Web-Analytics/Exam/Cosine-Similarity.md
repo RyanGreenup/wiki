@@ -1,7 +1,10 @@
 ---
 title: Cosine-Similarity
-created: '2020-06-15T00:23:19.192Z'
-modified: '2020-06-15T00:23:19.192Z'
+description: 
+published: true
+date: 2020-08-30T11:47:39.861Z
+tags: 
+editor: undefined
 ---
 
 # Cosine-Similarity

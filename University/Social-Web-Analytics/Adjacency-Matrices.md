@@ -1,7 +1,10 @@
 ---
 title: Adjacency-Matrices
-created: '2020-06-15T00:23:19.152Z'
-modified: '2020-06-15T00:23:19.156Z'
+description: 
+published: true
+date: 2020-08-30T11:47:33.055Z
+tags: 
+editor: undefined
 ---
 
 # Adjacency-Matrices

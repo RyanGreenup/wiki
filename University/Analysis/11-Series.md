@@ -2,7 +2,7 @@
 title: Series
 description: Series in complex analysis
 published: true
-date: 2020-07-17T03:03:32.302Z
+date: 2020-07-17T03:06:02.967Z
 tags: 
 editor: undefined
 ---

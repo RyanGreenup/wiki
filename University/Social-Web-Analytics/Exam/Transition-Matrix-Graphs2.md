@@ -1,7 +1,10 @@
 ---
 title: Transition-Matrix-Graphs2
-created: '2020-06-15T00:23:19.188Z'
-modified: '2020-06-15T00:23:19.188Z'
+description: 
+published: true
+date: 2020-08-30T11:47:46.296Z
+tags: 
+editor: undefined
 ---
 
 # Transition-Matrix-Graphs2

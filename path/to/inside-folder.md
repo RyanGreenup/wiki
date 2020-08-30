@@ -2,7 +2,7 @@
 title: Inside Folder Link
 description: 
 published: true
-date: 2020-07-17T03:03:48.858Z
+date: 2020-07-17T03:06:21.487Z
 tags: 
 editor: undefined
 ---

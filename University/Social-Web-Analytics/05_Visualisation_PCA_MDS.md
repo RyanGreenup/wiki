@@ -1,7 +1,10 @@
 ---
 title: 05_Visualisation_PCA_MDS
-created: '2020-06-15T00:23:19.172Z'
-modified: '2020-06-15T00:23:19.172Z'
+description: 
+published: true
+date: 2020-08-30T11:47:30.422Z
+tags: 
+editor: undefined
 ---
 
 # Visualisation and MDS

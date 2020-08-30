@@ -2,7 +2,7 @@
 title: How to Write Macros in Emacs
 description: A walkthrough of the El Macro Package
 published: true
-date: 2020-07-17T03:03:44.492Z
+date: 2020-07-17T03:06:16.808Z
 tags: 
 editor: undefined
 ---

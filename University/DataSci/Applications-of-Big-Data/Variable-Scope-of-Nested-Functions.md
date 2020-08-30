@@ -2,9 +2,9 @@
 title: Variable Scope of Nested Functions
 description: Different Programming Languages Scope Variables differently with Nested Functions
 published: true
-date: 2020-07-18T06:29:08.053Z
-tags: public, r, python, bash
-editor: markdown
+date: 2020-07-18T06:29:09.587Z
+tags: 
+editor: undefined
 ---
 
 # Variable Scope of Nested Functions

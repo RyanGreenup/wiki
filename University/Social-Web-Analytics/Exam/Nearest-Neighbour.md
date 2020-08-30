@@ -1,7 +1,10 @@
 ---
 title: Nearest-Neighbour
-created: '2020-06-15T00:23:19.124Z'
-modified: '2020-06-15T00:23:19.128Z'
+description: 
+published: true
+date: 2020-08-30T11:47:42.045Z
+tags: 
+editor: undefined
 ---
 
 # Nearest-Neighbour

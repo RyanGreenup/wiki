@@ -2,9 +2,9 @@
 title: Reimann Sphere
 description: Wikipedia Export of Reimann Sphere
 published: true
-date: 2020-08-22T13:18:25.058Z
+date: 2020-08-22T13:18:26.810Z
 tags: 
-editor: markdown
+editor: undefined
 ---
 
 ![The Riemann sphere can be visualized as the complex number plane

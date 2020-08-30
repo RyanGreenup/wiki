@@ -2,9 +2,9 @@
 title: Analysis
 description: Mathematical Analysis
 published: true
-date: 2020-08-22T13:48:40.201Z
+date: 2020-08-22T13:48:41.353Z
 tags: 
-editor: markdown
+editor: undefined
 ---
 
 # Analysis

@@ -2,9 +2,9 @@
 title: Introduction to Python
 description: The basics of python as adapted from week 2 of Applications of Big Data
 published: true
-date: 2020-07-18T06:28:06.614Z
-tags: public, python
-editor: markdown
+date: 2020-07-18T06:28:08.364Z
+tags: 
+editor: undefined
 ---
 
 # Basics of Python Programming

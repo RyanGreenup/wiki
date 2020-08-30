@@ -2,9 +2,9 @@
 title: Applications of Big Data
 description: Home Page for Applications of Big Data
 published: true
-date: 2020-07-18T04:50:38.335Z
-tags: public
-editor: markdown
+date: 2020-07-18T04:50:39.511Z
+tags: 
+editor: undefined
 ---
 
 # Applications of Big Data
