@@ -2,7 +2,7 @@
 title: Fish Shell
 description: Tips and Tricks for using Fish Shell
 published: true
-date: 2020-07-19T09:02:38.563Z
+date: 2020-08-30T23:21:25.090Z
 tags: 
 editor: undefined
 ---

@@ -2,7 +2,7 @@
 title: Load Packages in R
 description: Standard copy/paste stuff for a new R-Script
 published: true
-date: 2020-07-17T03:05:59.393Z
+date: 2020-08-30T23:21:36.647Z
 tags: 
 editor: undefined
 ---

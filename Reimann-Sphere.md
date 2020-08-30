@@ -2,12 +2,10 @@
 title: Reimann Sphere
 description: Wikipedia Export of Reimann Sphere
 published: true
-date: 2020-08-30T23:15:58.752Z
+date: 2020-08-30T23:20:21.158Z
 tags: 
-editor: markdown
+editor: undefined
 ---
-
-
 
 ![reimann-sphere.svg](/reimann-sphere.svg)
 

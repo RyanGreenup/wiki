@@ -2,7 +2,7 @@
 title: Exporting this wiki
 description: How to manage flat markdown files
 published: true
-date: 2020-07-17T03:04:59.993Z
+date: 2020-08-30T23:20:35.652Z
 tags: 
 editor: undefined
 ---
