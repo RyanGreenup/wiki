@@ -1,0 +1,124 @@
+{
+    "created_time": "2020-06-21T04:27:53Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2020-06-21T04:27:53Z",
+            "modified_time": "2020-06-21T04:27:53Z",
+            "name": "01-R-Basics.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2020-06-21T04:27:53Z",
+            "modified_time": "2020-06-21T04:27:53Z",
+            "name": "02_Introduction_to_R.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2020-06-21T04:27:53Z",
+            "modified_time": "2020-06-21T04:27:53Z",
+            "name": "03_Simple_Exposure_Analysis.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2020-06-21T04:27:53Z",
+            "modified_time": "2020-06-21T04:27:53Z",
+            "name": "04_TM_Index_Querying_TF-IDF.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2020-06-21T04:27:53Z",
+            "modified_time": "2020-06-21T04:27:53Z",
+            "name": "05_Visualisation_PCA_MDS.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2020-06-21T04:27:53Z",
+            "modified_time": "2020-06-21T04:27:53Z",
+            "name": "08_Practical_Graphs-2.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2020-06-21T04:27:53Z",
+            "modified_time": "2020-06-21T04:27:53Z",
+            "name": "09_Trends.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2020-06-21T04:27:53Z",
+            "modified_time": "2020-06-21T04:27:53Z",
+            "name": "Adjacency-Matrices.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2020-06-21T04:27:53Z",
+            "modified_time": "2020-06-21T04:27:53Z",
+            "name": "Binary-Distance.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2020-06-21T04:27:53Z",
+            "modified_time": "2020-06-21T04:27:53Z",
+            "name": "Graphs-Betweenness-Centrality.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2020-06-21T04:27:53Z",
+            "modified_time": "2020-06-21T04:27:53Z",
+            "name": "Multi-Dimensional-Scaling.md",
+            "tags": [
+            ]
+        }
+    ],
+    "sub_directories": [
+        {
+            "name": "Data_Camp"
+        },
+        {
+            "name": "Exam"
+        }
+    ],
+    "version": "1"
+}

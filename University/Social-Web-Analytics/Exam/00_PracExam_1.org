@@ -1,0 +1,765 @@
+#+TITLE: Practice Exam
+# #+STARTUP: latexpreview
+# #+PLOT: title:"Citas" ind:1 deps:(3) type:2d with:histograms set:"yrange [0:]"
+# #+HTML_HEAD_EXTRA: <link rel="alternate stylesheet" type="text/css"href="style2.css" />
+#+INFOJS_OPT: view:showall toc:3
+#+OPTIONS: tex:t
+#+CSL_STYLE: /home/ryan/Templates/CSL/nature.csl
+#+CATEGORY: Exemplar
+#+LATEX_HEADER: \usepackage{/home/ryan/Dropbox/profiles/Templates/LaTeX/ScreenStyle}
+#+PROPERTY: header-args:R :session Final :dir ./ :cache yes :eval never-export :exports both :results output
+
+#+TITLE: 05 PCA and MDS Visualisation
+
+# #+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="style.css">
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="/home/ryan/Templates/CSS/Org-CSS/bigblow.css">
+
+* 2015 Q2 Cosine Similarity
+
+Given the Following Document Term Matrix:
+
+|    | T1 | T2 | T3 |
+|----+----+----+----|
+| D1 |  1 |  1 |  2 |
+| D2 |  0 |  2 |  1 |
+| D3 |  3 |  1 |  0 |
+
+
+** What are Reasons for and against the removal of Stop words
+Removing stop words can make the search more efficient, noise that doesn't add
+information will be removed. However, care needs to be taken to ensure that the
+amount of available information is not reduced, or at least reduced
+signific.ntly relative to the amount of clarity provided by stop word removal.
+
+** Compute the Cosine Similarity
+#+begin_quote
+Compute the cosine similarity score of each document to the query ~T1 T3~ by using term frequencies
+#+end_quote
+
+*** What is the Cosine
+The cosine similarity is the cosine of the angle between two vectors, this can be expressed as:
+
+
+$$\begin{aligned}
+      \cos\left( \theta \right)&= \cos\left( \vec{u}\cdot  \vec{v} \right)\\
+      &= \frac{\vec{u}\cdot  \vec{v}}{\left| \left| \vec{u} \right|
+      \right|\cdot  \left| \left| \vec{v} \right| \right|}
+\end{aligned}$$
+
+#+begin_quote
+The Cosine Similarity is the equivalent to the dot product of the unit vecots
+#+end_quote
+
+*** What is the vector value of the query.
+If the query is ~T1 T3~ then it only contains:
+
++ =T1= once
++ =T2= once
+
+And hence can be represented by the frequency vector $q$:
+
+#+begin_src R
+q <- c(1, 0, 1)
+#+end_src
+
+The Cosine Distance is $1- \cos\left( \theta \right)$ so that the a smaller
+value indicates a smaller distance.
+
+#+begin_src R
+d1 <- c(1, 1, 2)
+d2 <- c(0, 2, 1)
+d3 <- c(3, 1, 0)
+#+end_src
+
+
+First scale the documents to size 1, this can be acheived by dividing through by the euclidean distance:
+
+#+begin_src R :exports output :results output
+(d1_u <- c(1, 1, 2) *1/sqrt(1^2 + 1^2 + 2^2))
+(d2_u <- c(0, 2, 1)* 1/sqrt(0^2 + 2^2 + 1^2))
+(d3_u <- c(3, 1, 0)* 1/sqrt(3^2 + 1^2 + 0^2))
+(q_u  <- c(1, 0, 1)* 1/sqrt(1^2 + 0^2 + 1^2))
+#+end_src
+
+#+RESULTS[5f99a3aa0280df1875c98ec7be88979f1612b171]:
+: [1] 0.4082483 0.4082483 0.8164966
+:
+: [1] 0.0000000 0.8944272 0.4472136
+:
+: [1] 0.9486833 0.3162278 0.0000000
+:
+: [1] 0.7071068 0.0000000 0.7071068
+
+and then taking the dot products, obviously I won't use the built in function, but I'll write my own to save repetition:
+
+#+begin_quote
+The dot product of two vectors is the sum of the multiple of each corresponding term of two vectors.
+#+end_quote
+
+#+begin_src R :results output
+## By default R multiplies the terms pairwise.
+
+print(sum(d1_u * q_u))
+print(sum(d2_u * q_u))
+print(sum(d3_u * q_u))
+#+end_src
+
+#+RESULTS[8be3547f417b4a17971ba192979a5c9623de06e8]:
+:
+: [1] 0.8660254
+:
+: [1] 0.3162278
+:
+: [1] 0.6708204
+
+
+Hence:
+
++ The distance from D1 to the qury is 0.87
++ The distance from D2 to the qury is 0.32
++ The distance from D3 to the qury is 0.67
+
+** (c) Which tweet is more similar to the Query
+The first tweet is the most similar to the query because the large cosine value indicates a smaller angle between the two vectors and implies that the two vectors are more similar.
+** (d) Multiple Terms
+Including multiple repetitions of the terms wouldn't matter if they were included in the same proportions because the cosine similarity is a function of the angle between the two vectors not the magnitude of either vector.
+
+As a matter of fact, presuming that the proportions were preserved the cosine similarity would remain consistent.
+
+#+begin_quote
+granted however, if the proportions were changed, then the cosine similarity would also change, for better or for worse.
+#+end_quote
+* 2014 Q1 Graphs
+
+
+#+begin_example
+
+                  `````
+                 ` C
+                 `    ```````      `` ``
+                ``   `           `.  A  `
+              ``                  `  `  `
+            ``                        `
+       `` ``                           `
+     ` F  `                            `
+    `` `  `                             `
+     `````                              `
+         `                               `
+         `                             `` ` ``
+          `                            `  B  `
+          ``                           ``   `
+           `                         ``
+          `` ```                   ``
+         `  E  `                 ``
+          ``  `` ````       `````
+                         ``` `D  `
+                           `    `
+
+#+end_example
+
+
+
+** (a) Construct the adjacency Matrix
+
+#+begin_quote
+the adjacency matrix tells you where a row can travel to.
+
+From row to column.
+
+So for example A ->
+#+end_quote
+
+** (a) Construct Adgacency Matrix
+1. Write the nodes down vertically as observations
+2. Fill the rows out left to write describing Destinations
+
+   |   | A | B | C | D | E | F |
+   | A | 0 | 1 | 1 | 0 | 0 | 0 |
+   | B | 1 | 0 | 0 | 1 | 0 | 0 |
+   | C | 1 | 0 | 0 | 0 | 0 | 1 |
+   | D | 0 | 1 | 0 | 0 | 1 | 0 |
+   | E | 0 | 0 | 0 | 1 | 0 | 1 |
+   | F | 0 | 0 | 1 | 0 | 1 | 0 |
+
+** (b) Tabluate the Degree Distribution
+*** Degrees
+The degree of a vertex is measured as the number of edges that connect to the vertex.
+
+*** Degree Distribution
+The Degree distribution is a tabulation of the frequency at which a given degree occurs.
+
+In this case all 6 vertices are degree 2 and so:
+
+| Degree    | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
+| Frequency | 0 | 0 | 6 | 0 | 0 | 0 | 0 |
+
+** (c) Calculate the graph density
+
+Graph Density is:
+
+#+begin_src R
+g-dens = num_edges / possible_edges
+       = 2*abs(e) / (abs(v) * (abs(v) - 1) )
+#+end_src
+
+
+So to calculate the graph density:
+
+#+begin_src R
+g_dens <- function(e,v) {
+    2*abs(e) / (abs(v) * (abs(v) - 1))
+}
+g_dens(6, 6)
+#+end_src
+
+#+RESULTS[63a9545ef8a75e3d57c4d9788446ea32dbe0594a]:
+:
+: [1] 0.4
+
+So in this case the graph density is 0.4
+
+** (d) Calculate the betweenness centrality for each vertex
+#+begin_quote
+To calculate betweenness centrality, you take every pair of the network and count how many times a node can interrupt the shortest paths
+#+end_quote
+
+The betweenness centrality is the sum of the ratios between:
+
+1. the number of shortest paths between two vertices
+2. the number of shortest paths between two vertices that passes through the vertex of interest
+
+So first you have to list every possible combination of pairs:
+
+
+|   | A | B | C | D | E | F |
+| A | x | x | x | x | x | x |
+| B |   | x | x | x | x | x |
+| C |   |   | x | x | x | x |
+| D |   |   |   | x | x | x |
+| E |   |   |   |   | x | x |
+| F |   |   |   |   |   | x |
+
+Which can be translated as:
+
+#+begin_src
+AA, AB, AC, AD, AE, AF
+        BC, BD, BE, BF
+            CD, CE, CF
+                DE, DF
+                    EF
+#+end_src
+
+So first write down each pairing as an observation, the features will be the /interupting node/, we write the number of times the shortest path could be interupted by this node.
+
+So for instance with regard to A
+
++ AB, AC, ... AF :: are omitted because they will always contain A and don't contribute to centrality
++ ~BC~ :: is interrupted by ~A~ so 1/1:
+  + 1 shortest path (denominator)
+  + 1 time A is involved in the shortest path (numerator)
++ ~BD~ :: is not interrupted by ~A~ so 0:
+  + 1 shortest path (denominator)
+  + 0 times A is involved (numerator)
++ ~BE~ :: is not interrupted by ~A~ so 0:
+  + 1 shortest path (denominator)
+  + 0 times A is involved (numerator)
++ ~BF~ :: is interrupted ~A~ 1/2 times:
+  + 2 shortest paths (denominator)
+  + 1 of which is interupted by ~A~ (denominator)
+
+
+Our betweenness centrality score is the sum of the columns.
+
+|    | A   | B | C | D | E | F |
+| AB | x   | x |   |   |   |   |
+| AC | x   |   | x |   |   |   |
+| AD | x   |   |   | x |   |   |
+| AE | x   |   |   |   | x |   |
+| AF | x   |   |   |   |   | x |
+| BC | 1/1 | x | x |   |   |   |
+| BD | 0/1 |   |   | x |   |   |
+| BE | 0/1 |   |   |   | x |   |
+| BF | 1/2 |   |   |   |   | x |
+| CD | 1/2 |   | x | x |   |   |
+| CE | 0/1 |   | x |   | x |   |
+| CF | 0/1 |   | x |   |   | x |
+| DE | 0/1 |   |   | x | x |   |
+| DF | 0/1 |   |   | x | x | x |
+| EF | 0/1 |   |   |   |   | x |
+
+
+No you'll notice I haven't bothered to fill out the whole table, that's because
+the centrality of any node in the graph does not change regardless of how the
+labels are bijected among the vertices.
+
+So for all Vertices, the between centrality score is 2.
+
+
+
+* PCA 2013, Q3
+In conducting a principal component analysis */R/* produces the following summary output:
+
+|                    |   PC1 |   PC2 |   PC3 |   PC4 |   PC5 |   PC6 |   PC7 |
+| Standard Deviation | 3.923 | 3.069 | 2.867 | 2.579 | 2.038 | 1.887 | 1.125 |
+| Prop of Var        | 0.316 | 0.194 | 0.169 | 0.137 | 0.085 | 0.073 | 0.026 |
+| Cumulative Prop    |    ** | 0.510 | 0.679 |    ** | 0.901 | 0.974 |     1 |
+
+** (a) Compute the Missing entries
+The Cummulative Proportion of Variance is the running total for the amount of variation explained by the principal components.
+
+|                  | PC1 |
+| Cumulative Prop. |     |
+|                  |     |
+|                  |     |
+
++ Cumulative Proprtion
+  + PC1 :: 0.316 + PC4
+  + PC4 :: 0.679 + 0.137 = 0.816
+
+** Compute the Binary Metric between the following tweets
+#+begin_quote
++ tweet 1 :: assault assistance disadvantaged university students begins
++ tweet 2 :: believe more students doing university better
+
+#+end_quote
+
+The unique words are:
+
+| Word          | Tweet 1 | tweet 2 | Total |
+| assault       |       1 |       0 |     1 |
+| assistance    |       1 |       0 |     1 |
+| disadvantaged |       1 |       0 |     1 |
+| university    |       1 |       1 |     2 |
+| students      |       1 |       1 |     2 |
+| begins        |       1 |       0 |     1 |
+| believe       |       0 |       1 |     1 |
+| more          |       0 |       1 |     1 |
+| doing         |       0 |       1 |     1 |
+| better        |       0 |       1 |     1 |
+
+The words that are shared in common are:
+
+| Word          | Tweet 1 | tweet 2 | Total |
+| university    |       1 |       1 |     2 |
+| students      |       1 |       1 |     2 |
+
+
+So there are 10 unique words of which 2 are shared in common and so the binary distance is 1 - 2/10 = 0.80
+
+* Graphs Transition Matrix 2013, Q5
+Consider the following graph:
+
+#+begin_example
+    +-----+            +------+
+    | C   +--------->>>+  B   |
+    +-+---+            +---+--+
+      |                    ^
+      |                    ^
+      |                    |
+      |                    |
+      V                    V
+      V                    V
+      +--->>+-------+<<----+
+            |   A   |
+            +---+---+
+                ^
+                ^
+                |
+                |
+      +---------+------------+
+      |                      |
+      |                      |
+      |                  +---+----+
+  +---+--+               |        |
+  |  D   +<<----------->>+   E    |
+  +------+               +--------+
+
+#+end_example
+
+#+begin_src
+#+end_src
+
+
+** (a) Construct Prob Trans Mat
+The probability transition matrix is /the transpose of the adjacency matrix/ with all columns scaled to one.
+
+It represents the probability having left a given vertex during a random walk.
+
+*** Adjacency Matrix
+
+|   | A | B | C | D | E |
+| A | 0 | 0 | 0 | 0 | 0 |
+| B | 1 | 0 | 0 | 0 | 0 |
+| C | 1 | 1 | 0 | 0 | 0 |
+| D | 1 | 0 | 0 | 0 | 1 |
+| E | 1 | 0 | 0 | 1 | 0 |
+
+*** Transpose to get the state distribution
+use =M-x org-transpose-table-at-point=
+
+|   | A | B | C | D | E |
+| A | 0 | 1 | 1 | 1 | 1 |
+| B | 0 | 0 | 1 | 0 | 0 |
+| C | 0 | 0 | 0 | 0 | 0 |
+| D | 0 | 0 | 0 | 0 | 1 |
+| E | 0 | 0 | 0 | 1 | 0 |
+
+
+*** Scale Columns to 1 - Probability Transition Matrix
+The Probability transition matrix is such that each column of the transposed adjacency matrix is scaled to 1 in order to represent the probability during a random walk:
+
+|   | A | B |   C |   D |   E |
+| A | 0 | 1 | 1/2 | 1/2 | 1/2 |
+| B | 0 | 0 | 1/2 |   0 |   0 |
+| C | 0 | 0 |   0 |   0 |   0 |
+| D | 0 | 0 |   0 |   0 | 1/2 |
+| E | 0 | 0 |   0 | 1/2 |   0 |
+
+
+
+** (b) State if it's ergodic
+A graph is ergodic if we can find a finite path between all pairs of vertices.
+
+Essentially, a graph is ergodic if any row of the probability transition matrix is 0.
+** (c) Construct random surfer Prob Mat
+*** Theory
+The Random Surfer Probability Transition Matrix is given by:
+
+λT + (1-λ)B
+
+Where B is defined as:
+
+| 1/N | 1/N |   1/N |   1/N |   1/N |
+| 1/N | 1/N |   1/N |   1/N |   1/N |
+| 1/N | 1/N |   1/N |   1/N |   1/N |
+| 1/N | 1/N |   1/N |   1/N |   1/N |
+| 1/N | 1/N |   1/N |   1/N |   1/N |
+
+
+Where:
+
+ + N=||V|| :: is the number of vertices
+
+*** Working
+
+At this point this will be easier to do in */R/*:
+
+#+begin_src R
+T <- rbind(
+    c(0, 1, 1/2, 1/2, 1/2),
+    c(0, 0, 1/2, 0, 0),
+    c(0, 0, 0, 0, 0),
+    c(0, 0, 0, 0, 1/2),
+    c(0, 0, 0, 1/2, 0)
+)
+
+B  <- matrix(data = 1, ncol = 5, nrow = 5)/5
+
+λ <-  0.8
+
+λ*T + (1-λ)*B
+#+end_src
+
+#+RESULTS[57c6e25c960653d827c70d10a4187f52100998c1]:
+:
+:      [,1] [,2] [,3] [,4] [,5]
+: [1,] 0.04 0.84 0.44 0.44 0.44
+: [2,] 0.04 0.04 0.44 0.04 0.04
+: [3,] 0.04 0.04 0.04 0.04 0.04
+: [4,] 0.04 0.04 0.04 0.04 0.44
+: [5,] 0.04 0.04 0.04 0.44 0.04
+
+** (d) Is it stationary
+
+If the distribution is stationary then the recurrence relation will not change, so for example:
+
+
+#+begin_src R
+(S <- λ*T + (1-λ)*B)
+(p <- c(0.49, 0.34, 0.10, 0.04, 0.03)) %>% as.matrix()
+S %*% p
+#+end_src
+
+#+RESULTS[123c76de3b059cb64e82313c8864828739123669]:
+#+begin_example
+     [,1] [,2] [,3] [,4] [,5]
+[1,] 0.04 0.84 0.44 0.44 0.44
+[2,] 0.04 0.04 0.44 0.04 0.04
+[3,] 0.04 0.04 0.04 0.04 0.04
+[4,] 0.04 0.04 0.04 0.04 0.44
+[5,] 0.04 0.04 0.04 0.44 0.04
+
+     [,1]
+[1,] 0.49
+[2,] 0.34
+[3,] 0.10
+[4,] 0.04
+[5,] 0.03
+
+      [,1]
+[1,] 0.380
+[2,] 0.080
+[3,] 0.040
+[4,] 0.052
+[5,] 0.056
+#+end_example
+
+In this case the probability transition matrix changed after an iteration of the recurrence relation and so this is not a stationary point.
+
+
+* Trends 2014 Q8
+
+Take the Following Data:
+
+|       | Period 1 | Period 2 | Period 3 |
+| Day 1 |       66 |       97 |       69 |
+| Day 2 |       68 |      111 |       87 |
+| Day 3 |      103 |      112 |       87 |
+
+In order to examine the fluctuation for each day, break the data into its trend and periodic components, after a square root transformation:
+
+#+begin_src R
+data <- rbind(
+  c(66,  97,  69),
+  c(68,  111, 87),
+  c(103, 112, 87)
+)
+sqrt(data)
+#+end_src
+
+#+RESULTS[90f71a1e70f17ef7047890f4c817fcb4ea2ac581]:
+:
+:           [,1]      [,2]     [,3]
+: [1,]  8.124038  9.848858 8.306624
+: [2,]  8.246211 10.535654 9.327379
+: [3,] 10.148892 10.583005 9.327379
+
+
+In this case the period is a time of day, so for example Morning, Lunch, Evening, so a seasonal trend would be expected.
+
+Taking a moving average over the period of that trend however will remove the influence of that seasonality:
+
+$$\begin{aligned}
+Y  = T + S + Ɛ               \\
+  &= T + 0 + 0               \\
+  &= T
+\end{aligned}$$
+
+** (a) Calculate the Trend
+Remember that the moving average the window expands evenly in both directions, so for example day2, period2 would be calculated as:
+
+#+begin_src R
+library(tidyverse)
+c(68, 11, 87)  %>%
+  sqrt()  %>%
+  sum() / 3
+#+end_src
+
+#+RESULTS[96701c2c0018fede0e43d04a94b1eeaa7b1902b8]:
+:
+: [1] 6.963405
+
+** (b) Calculate the Periodic Component
+The periodic component is S and can be calculated:
+
+
+$$\begin{aligned}
+Y  = T + S + Ɛ               \\
+S = Y -T -Ɛ
+\end{aligned}$$
+
+but this doesn't sum to zero so instead:
+
+
+$$\begin{aligned}
+S = S' -1/m Σ S'
+\end{aligned}$$
+
+So the seasonal trend would be:
+
+#+begin_src R
+library(zoo)
+Y <- data
+
+T <- rollmean(sqrt(as.vector(data)), k = 3)
+Y_trim <- sqrt(head(as.vector(data), -1)[-1])
+Sp <- Y_trim - T
+S <- Sp - mean(Sp)
+
+matrix(c("X", S, "X"), nrow = 3)
+#+end_src
+
+#+RESULTS[ee0fa4ae8012c5776cf92b3031e2cb1b10334fb8]:
+:
+:      [,1]                 [,2]                 [,3]
+: [1,] "X"                  "-0.334760992717553" "-1.10486327843698"
+: [2,] "-0.599320243685816" "0.207330398617034"  "0.334433975456945"
+: [3,] "0.728420271117701"  "0.768759869648668"  "X"
+
+*** Trend
+
+|       | Period 1 | Period 2 | Period 3 |
+| Day 1 |       NA |     8.76 |      8.8 |
+| Day 2 |     9.03 |     6.96 |       10 |
+| Day 3 |    10.02 |    10.02 |       NA |
+
+
+*** Periodic
+
+Subtact the Trend from the observations:
+
+
+
+S = Y - T
+
+
+|       | Period 1          | Period 2          | Period 3      |
+| Day 1 | NA                | 8.76-sqrt(97)     | 8.8-sqrt(69)  |
+| Day 2 | sqrt(68) - 9.03   | sqrt(111) - 6.96  | sqrt(87) - 10 |
+| Day 3 | sqrt(103) - 10.02 | sqrt(112) - 10.02 | NA            |
+
+
+Now take the column averages
+
+#+begin_src R
+sp <-
+c(
+
+mean(c(sqrt(68) - 9.03, sqrt(103) - 10.02)),
+
+mean(c(sqrt(97) - 8.76,
+ sqrt(111) - 6.96,
+ sqrt(112) - 10.02)),
+
+
+mean(c(sqrt(69) - 8.8,
+  sqrt(87) - 10 ))
+
+)
+sp
+#+end_src
+
+#+RESULTS[1661e353b3a7103a4ba8d1878fdcd9674f6c2fda]:
+:
+: [1] -0.3274486  1.7425056 -0.5829985
+
+Unfourtunately this does not sum to zero so we fix that:
+
+#+begin_src R
+(S <- sp - mean(sp))
+#+end_src
+
+#+RESULTS[6d7a212b30399b9edad14d83304680812c9ac253]:
+: [1] -0.6048014  1.4651528 -0.8603514
+
+This does not match the sheet but I don't understand why?
+
+*** In practice
+In practice we would just conclude that the values must sum to zero:
+
+#+begin_src R
+p1 <- - 0.336
+p3 <- - 0.594
+# 0 = p1 + p2 + p3
+(p2 = -p1 - p3)
+#+end_src
+
+#+RESULTS[cc16f9110fc07a091f9ee8bc034f7b7ec7df3768]:
+:
+: [1] 0.93
+
+Thus the missing componente is 0.93
+
+* Sentiment Analysis
+#+begin_quote
+Given the set of positive sentiment tweets:
+Having a fun time.
+
+ + Lost track of time, excited half of the day.
+ + Cats are enjoying themselves.
+
+and the set of negative sentiment tweets:
+
+ + Lost the game. Sad day for cats.
+ + We lost at about half time.
+ + The half time whistle scared my cats.
+
+Compute the probability of the terms “half”, “time”, “lost”, “day”, cats” given
+positive sentiment (P ( term | sentiment = Pos ) ), and the probability of a
+positive tweet (P ( sentiment = Pos ) ).
+#+end_quote
+
++ Terms
+  + P(term = half | sentiment = pos) =  1/3 :: This is the number of tweets it occured in.
+  + P(term = time | sentiment = pos) =  1/2 :: This is the number of tweets it occured in.
+  + P(term = lost | sentiment = pos) =  1/3 :: This is the number of tweets it occured in.
+  + P(term = day  | sentiment = pos) =  1/3 :: This is the number of tweets it occured in.
+  + P(term = cats | sentiment = pos) =  1/3 :: This is the number of tweets it occured in.
++ Tweets
+  + P(tweet = pos) = 3/6 :: This is the number of tweets that were positive
+* K Nearest Neighbours, 2015, Q8
+** (a)
+The smallest distance for 5 is:
+
+  + 5-2 with a distance of:
+      + 0.1168
+
+This means the nearest neighbour is positive and so 5 is classified as positive
+
++ \#6
+  + Is closest to 4 which is Negative
+    + Concluse 6 is negative
++ \#7
+  + Is closest to 3 which is positive
+    + Conclude 6 is positive
++ \#8
+  + Is closest to 1 which is positive
+    + Conclude 6 is positive
+** (b) use k = 3
+
+
++ \#5
+  + Is closest to 1,2,3 which is  PPP
+    + Concluse 6 is Positive
++ \#6
+  + Is closest to 4,3,1 which is NPP
+    + Concluse 6 is Positive
++ \#7
+  + Is closest to 3,2,1 which is PPP
+    + Conclude 6 is positive
++ \#8
+  + Is closest to 1,2,3 which is PPP
+    + Conclude 6 is positive
+
+
+** (c) ROC Curve
+
+The ROC Curve is the plot of the TPR ~ FPR (i.e. the sensitivity  on the y-axis and the fall out (which 1-tpr)).
+
+
+so our performance was:
+
+|     | k=1 | k=3 |
+| #\5 | FP  | FP  |
+| #\6 | TN  | FP  |
+| #\7 | TP  | TP  |
+| #\8 | FP  | FP  |
+
+
+So the FPR is FP/N which is:
+
++ k=1
+  + TPR = TP/P = 1/1
+  + FPR = FP/N = 2/3
+    + Remember that a FP is really an N
++ k = 2
+  + TPR = TP/P = 1/1
+  + FPR = FP/N = 3/3
+
+So we would plot:
+
++ k = 1 :: (2/3, 1)
++ k = 3 :: (3/3, 1) = (1,1)
+
+** (d) ROC
+k = 1 is higher on a ROC curve so that is better, k = 3 is on the line so as good as chance

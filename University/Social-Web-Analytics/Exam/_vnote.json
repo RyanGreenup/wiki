@@ -1,0 +1,78 @@
+{
+    "created_time": "2020-06-21T04:27:53Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2020-06-21T04:27:53Z",
+            "modified_time": "2020-06-21T04:27:53Z",
+            "name": "00_PracExam_1.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2020-06-21T04:27:53Z",
+            "modified_time": "2020-06-21T04:27:53Z",
+            "name": "Chi-Distribution.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2020-06-21T04:27:53Z",
+            "modified_time": "2020-06-21T04:27:53Z",
+            "name": "Cosine-Similarity.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2020-06-21T04:27:53Z",
+            "modified_time": "2020-06-21T04:27:53Z",
+            "name": "Nearest-Neighbour.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2020-06-21T04:27:53Z",
+            "modified_time": "2020-06-21T04:27:53Z",
+            "name": "Template.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2020-06-21T04:27:53Z",
+            "modified_time": "2020-06-21T04:27:53Z",
+            "name": "Transition-Matrix-Graphs2.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2020-06-21T04:27:53Z",
+            "modified_time": "2020-06-21T04:27:53Z",
+            "name": "Trends-Seasonality.md",
+            "tags": [
+            ]
+        }
+    ],
+    "sub_directories": [
+    ],
+    "version": "1"
+}
