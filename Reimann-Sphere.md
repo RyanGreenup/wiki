@@ -2,10 +2,14 @@
 title: Reimann Sphere
 description: Wikipedia Export of Reimann Sphere
 published: true
-date: 2020-08-30T23:12:40.707Z
+date: 2020-08-30T23:15:58.752Z
 tags: 
 editor: markdown
 ---
+
+
+
+![reimann-sphere.svg](/reimann-sphere.svg)
 
 ![The Riemann sphere can be visualized as the complex number plane
 wrapped around a sphere (by some form of [stereographic
