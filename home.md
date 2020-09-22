@@ -1,8 +1,8 @@
 ---
-title: Ryans WikiJS
+title: Math and Data Sci Wiki
 description: 
 published: true
-date: 2020-09-22T06:28:14.196Z
+date: 2020-09-22T06:35:32.256Z
 tags: public
 editor: markdown
 ---
