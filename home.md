@@ -2,9 +2,9 @@
 title: Math and Data Sci Wiki
 description: 
 published: true
-date: 2020-09-22T06:35:32.256Z
-tags: public
-editor: markdown
+date: 2020-09-22T06:35:33.895Z
+tags: 
+editor: undefined
 ---
 
 # Math and Data Sci Wiki

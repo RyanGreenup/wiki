@@ -2,9 +2,9 @@
 title: Graphs Problem Question Example
 description: An example of a problem involving graphs from Social Web Analytics
 published: true
-date: 2020-08-30T23:25:55.467Z
-tags: r, datasci, socialweb
-editor: markdown
+date: 2020-08-30T23:25:57.257Z
+tags: 
+editor: undefined
 ---
 
 

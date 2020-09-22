@@ -2,12 +2,12 @@
 title: Plotting Complex Functions with GNU Plot
 description: Example of GNU Plot to create a mandelbrot set
 published: true
-date: 2020-09-10T01:07:26.483Z
+date: 2020-09-10T01:05:33.733Z
 tags: 
-editor: markdown
+editor: undefined
 ---
 
-# Visualising a julia set as a 3D surface
+# ![one.svg](/one.svg){.align-right}Visualising the Mandelbrot set as a 3D surface
 Plot
 
 ``` gnuplot
@@ -26,4 +26,4 @@ splot mandel(x,y,{0,0},0) notitle
 
 </div>
 
-![one.svg](/one.svg){.align-right}
+![](one.svg)

@@ -2,9 +2,9 @@
 title: Quantitative Project
 description: 
 published: true
-date: 2020-09-10T01:04:11.050Z
+date: 2020-09-10T01:04:12.587Z
 tags: 
-editor: markdown
+editor: undefined
 ---
 
 # Quantitative Project

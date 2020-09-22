@@ -1,3 +1,12 @@
+---
+title: ARIMA_Models
+description: 
+published: true
+date: 2020-09-16T23:33:23.615Z
+tags: 
+editor: undefined
+---
+
 # Introduction
 
 These models are for stationary time series, the ARIMA Model however is
