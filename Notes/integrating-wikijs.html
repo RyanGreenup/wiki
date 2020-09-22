@@ -2,34 +2,34 @@
 title: Integrating With Notable
 description: 
 published: true
-date: 2020-08-30T23:20:56.795Z
+date: 2020-09-22T06:23:09.024Z
 tags: 
-editor: undefined
+editor: ckeditor
 -->
 
 <h1>Integrating With Note Taking Generally</h1>
-<p>The best solution here is to extract the yaml tags by hand and then pass them to TMSU</p>
 <p>&nbsp;</p>
-<blockquote>
-  <p><i>I should also write a script to symlink myself without TMSU, that way I wouldn't be locked in</i></p>
-</blockquote>
 <p>&nbsp;</p>
-<p>This would be a solution in the sense that I wouldn't need to use any app to browse the tags, the issue would only be searching, but, recoll works fine for searching and I can just switch the default editor to <i>VSCode</i> and I'm set.</p>
+<p>An easy way to mirror or fork this wiki is by cloning <a href="https://github.com/ryangreenup/wiki">this <i>GitHub </i>repository </a>and then using <a href="https://github.com/ryangreenup/cadmus">these shell scripts</a> to search/find/tag/link/preview all the files and directories, this works very well with a combination of <a href="https://github.com/Guake/guake">guake</a> and Vim/Emacs/VSCode/<a href="https://github.com/marktext/marktext">Marktext/</a><a href="https://github.com/Zettlr/Zettlr">Zettlr</a> .</p>
 <p>&nbsp;</p>
-<ol>
-  <li>Write a script to extract yaml tags with `ripgrep` and `cut`</li>
-  <li>Write Write a script to interface that with TMSU<ol>
-      <li>This is the real trick, I just need to write a plan on how to implement this<ol>
-          <li>Once Tags are represented through the file system searching through notes and tags will be really eazy with fzf (e.g. `<span style="font-family:'Courier New', Courier, monospace;">ls | fzf | xargs cd ` </span>and just using recoll</li>
-        </ol>
-      </li>
-    </ol>
+<p>Another option is cloning the repository and using:</p>
+<ul>
+  <li>VNote<ul>
+      <li>Litters the Directory with json but otherwise really good.</li>
+    </ul>
   </li>
-  <li>Find a nice way to browse through the tmsu mounted tags with vscode</li>
-</ol>
-<p>&nbsp;</p>
-<p>this is only a little bit necessary though to be honest, although a wysiwyg editor for markdown would be really nice</p>
-<p>&nbsp;</p>
-<p>TODO Instructions on how to fork to Pepperminty</p>
-<p>&nbsp;</p>
+  <li>Joplin<ul>
+      <li>uses a SQLite DB</li>
+    </ul>
+  </li>
+  <li>Notable<ul>
+      <li>Electron App, closed source though.<ul>
+          <li>but, dev contributes free libraries and the structure of the app is zero lock in</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+<h2>Other Wikis</h2>
+<p><a href="https://github.com/splitbrain/dokuwiki">Dokuwiki</a> and <a href="https://github.com/sbrl/Pepperminty-Wiki">Pepperminty</a> are great choices. If you want to import these markdown files into Dokuwiki see <a href="https://github.com/RyanGreenup/DotFiles/blob/master/Scripts/bin/ImportHtml2Dokuwiki.sh">this script</a>.</p>
 <p>&nbsp;</p>
