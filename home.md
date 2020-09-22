@@ -2,9 +2,9 @@
 title: Ryans WikiJS
 description: 
 published: true
-date: 2020-08-30T23:20:40.199Z
-tags: 
-editor: undefined
+date: 2020-09-22T06:28:14.196Z
+tags: public
+editor: markdown
 ---
 
 # Math and Data Sci Wiki
@@ -109,7 +109,7 @@ See [exporting this wiki](./exporting-this-wiki.md)
 
 Pictures are also supported:
 
-![8bf032d2-a742-4d46-bc48-040d78ea137e.jpeg](/8bf032d2-a742-4d46-bc48-040d78ea137e.jpeg)
+![8bf032d2-a742-4d46-bc48-040d78ea137e.jpeg](/8bf032d2-a742-4d46-bc48-040d78ea137e.jpeg =100x)
 
 > * Tag export for git sync still omits square brackets [See this *GitHub* issue](https://github.com/Requarks/wiki/issues/1997)
 >   * Still though I could just use `rg` and some thinking to pass these tags to *TMSU* anyway so this might not be as big an issue as I made it out to be.
