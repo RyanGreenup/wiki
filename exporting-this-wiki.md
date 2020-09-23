@@ -2,7 +2,7 @@
 title: Exporting this wiki
 description: How to manage flat markdown files
 published: true
-date: 2020-09-22T06:50:00.444Z
+date: 2020-09-23T06:10:29.472Z
 tags: 
 editor: markdown
 ---
@@ -85,6 +85,7 @@ don't bothers with mdwiki  it crashed,  same fir pervane
 ###  markdown
 
 * Joplin
+* Obsidian
 * Vnote
 
 ### wikis
