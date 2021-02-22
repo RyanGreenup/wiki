@@ -2,17 +2,10 @@
 title: Abstract Algebra
 description: 
 published: 1
-date: 2021-02-22T14:15:03.810Z
+date: 2021-02-22T14:15:35.003Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-22T12:16:49.272Z
----
-
----
-title: Abstract Algebra Topic Summary
-tags: [Notebooks/Mathematics/Abstract Algebra]
-created: '2019-11-01T05:43:10.730Z'
-modified: '2019-11-01T05:44:12.232Z'
 ---
 
 # Abstract Algebra Topic Summary
