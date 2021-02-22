@@ -2,7 +2,7 @@
 title: Installing Wiki JS for Local Use
 description: How to install WikiJS for use as a Personal Wiki
 published: 1
-date: 2021-02-22T13:45:06.891Z
+date: 2021-02-22T13:53:12.911Z
 tags: notetaking
 editor: markdown
 dateCreated: 2021-02-22T13:26:09.837Z
@@ -18,7 +18,7 @@ dateCreated: 2021-02-22T13:26:09.837Z
 
 3. unpack the tarball and set up as [described in the documentation](https://docs.requarks.io/install/linux)
    
-   - Modify the `yml` so it looks like this:
+   - Modify the `yml` so it looks like this: [^2]
 
     ```yml
     db:
@@ -47,3 +47,5 @@ dateCreated: 2021-02-22T13:26:09.837Z
        </details>
 
 [^1]: [the default](https://wiki.archlinux.org/index.php/Elasticsearch#Configuration) is `9200`
+
+[^2]: In future versions (3 >) SQLite will not be supported, meaning it will be necessary to set up PostGreSQL and find a way to sync the files, I'm not sure if the files would be owned by psgsql meaning it would be a headache to use Syncthing with (I'd have to have a second account which is undesirable).
