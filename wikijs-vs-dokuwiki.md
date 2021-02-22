@@ -2,13 +2,16 @@
 title: WikiJS vs Dokuwiki
 description: Differences between WikiJS and why/when to choose one over the other
 published: 1
-date: 2021-02-22T13:22:58.136Z
+date: 2021-02-22T13:25:17.935Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-22T13:06:04.284Z
 ---
 
 # WikiJS vs Dokuwiki
+
+> see also:
+>  - [Installing WikiJS for Local Use](./installing-wikijs-for-local-use.md)
 
 ## KaTeX is only a minor disadvantage
 
@@ -70,9 +73,10 @@ This means that:
     
     - See [above](#why-katex)
   
-  ### Thoughts
+### Thoughts
   
   Can be used portably with a Sqlite Database and cross integrated with other tools by using a `git` repo with `basic` `http` authentication.
+  
   
 
 ## Next Steps
