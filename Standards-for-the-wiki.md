@@ -1,15 +1,19 @@
 ---
 title: Standards for the Wiki
 description: The Markdown Style to adhere to for fortability sake
-published: true
-date: 2020-08-30T23:20:24.652Z
+published: 1
+date: 2021-02-22T12:45:49.873Z
 tags: 
-editor: undefined
+editor: markdown
+dateCreated: 2021-02-22T12:16:29.226Z
 ---
 
 # Standards for Markdown
 
+## See Also
 * [Note Taking Requirements](./Note-Taking-Requirements.md)
+* [wikijs vs dokuwiki](./wikijs-vs-dokuwiki)
+
 
 
 
