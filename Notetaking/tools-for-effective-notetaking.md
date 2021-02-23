@@ -2,13 +2,13 @@
 title: Tools for Effective Notetaking
 description: Tools that are useful for effective notetaking
 published: true
-date: 2021-02-23T22:44:28.373Z
+date: 2021-02-23T23:41:13.299Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-23T22:41:43.587Z
 ---
 
-## Note taking Tools for New Students
+## Note taking Tools
 
 ### The Simplest Approach
 
