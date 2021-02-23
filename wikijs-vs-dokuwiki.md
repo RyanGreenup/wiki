@@ -2,7 +2,7 @@
 title: WikiJS vs Dokuwiki
 description: Differences between WikiJS and why/when to choose one over the other
 published: true
-date: 2021-02-23T23:27:08.248Z
+date: 2021-02-23T23:30:01.431Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-23T12:48:07.848Z
@@ -64,6 +64,10 @@ It's good, but, a little slow and fiddly but this could be an option
 ### WikiDocs
 
 I don't know much about [WikiDocs](https://www.wikidocs.it/demo), it does however look promising, very much a `#TODO`.
+
+#### Mathematics
+
+Mathematics still hasn't bee implemented [see this issue](https://github.com/Zavy86/WikiDocs/issues/16)
 
 ## KaTeX is only a minor disadvantage
 
