@@ -2,11 +2,12 @@
 title: Notetaking Tools and Wikis
 description: A list of notetaking tools and wikis (open source generally)
 published: true
-date: 2021-02-23T22:28:37.341Z
+date: 2021-02-23T22:29:24.897Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-23T22:28:37.340Z
 ---
+
 
 # Note taking Tools and wikis
 
@@ -85,7 +86,7 @@ Then start the server:
 tiddlywiki mywiki --listen port=9267 host=0.0.0.0
 ```
 
-> This still gave me errors, TiddlyWiki is just too fucking complicated, yeah sure, *MediaWiki* requires you to deal with the folder of files and a database (as opposed to a single file), but, it's also frictionless to host with *Apache* and frictionless to access from multiple devices.
+> This still gave me errors, TiddlyWiki is just too complicated, yeah sure, *MediaWiki* requires you to deal with the folder of files and a database (as opposed to a single file), but, it's also frictionless to host with *Apache* and frictionless to access from multiple devices.
 
 There's actually a really good list [on the *Arch-Wiki*
 here](https://wiki.archlinux.org/index.php/List_of_applications/Documents#Readers_and_viewers).
@@ -358,7 +359,7 @@ needed is something to view the markdown:
   like `markserv` but because it's in *Julia* it's gotta be fast, it's a good
   opportunity to learn julia and it may work better than `markserv` anyway.~~
   
-  * Obviously I could do the same thing with `mkdocs` but it's really fucking
+  * Obviously I could do the same thing with `mkdocs` but it's really 
     slow so I gave up.
     * Also the live reload only really works with a dirty reload and that brakes
       the search anyway.
@@ -450,7 +451,7 @@ to use.
 
 ## VNote
 
-VNote is an amazing program, I initially dispensed with it because I had an enormous amount of trouble dealing with the bloody `.json` files fucking everywhere, particularly when making new files in other apps.
+VNote is an amazing program, I initially dispensed with it because I had an enormous amount of trouble dealing with the bloody `.json` files everywhere, particularly when making new files in other apps.
 
 This issue can be avoided by making new files in only `vnote`, but that's a bit of a pain because Vnote won't make a new file from a `[link](./to-file.md)` and will not watch the directory for moved files and stuff.
 
