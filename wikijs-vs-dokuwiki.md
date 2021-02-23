@@ -2,7 +2,7 @@
 title: WikiJS vs Dokuwiki
 description: Differences between WikiJS and why/when to choose one over the other
 published: true
-date: 2021-02-23T23:38:46.072Z
+date: 2021-02-23T23:40:28.204Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-23T12:48:07.848Z
@@ -34,6 +34,9 @@ It's also really nice how any pre-existing markdown-tool like [zettlr](https://g
 #### Disadvantages
 
 Unfourtunately it's slower, clunkier, does not support per-section editing and linking to files isn't implemented very well.
+
+Also the `{.is-info}` and `{.tabset}` extensions aren't going to render very well in other MD editors.
+
 
 ### Dokuwiki
 
