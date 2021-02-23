@@ -2,7 +2,7 @@
 title: WikiJS vs Dokuwiki
 description: Differences between WikiJS and why/when to choose one over the other
 published: 1
-date: 2021-02-23T06:29:05.162Z
+date: 2021-02-23T06:42:20.957Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-22T13:06:04.284Z
@@ -20,7 +20,7 @@ Basically use `aligned` but:
 
 1. Always put the `tag{}` outside
   
-2. Only one `tag{}` per set of `$$`, it's not ideal but it's usable.
+2. Only one `tag{}` per set of `$$`, it's not ideal but it's usable.m
   
 $$
   \begin{aligned}
