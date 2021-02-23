@@ -2,7 +2,7 @@
 title: Notetaking Tools and Wikis
 description: A list of notetaking tools and wikis (open source generally)
 published: true
-date: 2021-02-23T22:29:24.897Z
+date: 2021-02-23T22:31:43.022Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-23T22:28:37.340Z
@@ -379,14 +379,14 @@ needed is something to view the markdown:
 
 ## Using VS Code for Browsing Notes
 
-with the [~/bin/ns.sh](ns.sh) script I wrote, vscode is actually fairly well
-equipped to browse notes now:
-
-![Gif Exemplar](../_media/Working-Note-Search.gif)
+with the [NoteSearch](https://github.com/ryangreenup/cadmus) script I wrote, vscode is actually fairly well
+equipped to browse notes:
 
 * Vscode
   * foam
   * dendrom
+  * markdown-notes
+  * markdown-memo
 * Neuron
 
 ## The Solution
