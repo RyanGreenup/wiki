@@ -1,11 +1,11 @@
 ---
 title: Standards for the Wiki
 description: The Markdown Style to adhere to for fortability sake
-published: 1
-date: 2021-02-22T12:45:49.873Z
+published: true
+date: 2021-02-23T00:02:43.108Z
 tags: 
 editor: markdown
-dateCreated: 2021-02-22T12:16:29.226Z
+dateCreated: 2021-02-22T23:07:32.849Z
 ---
 
 # Standards for Markdown
@@ -33,6 +33,8 @@ Wiki links have the advantage of *Peek Definition* in VSCode which I really like
 Use 4-spaces not two because python-markdown (and hence mkdocs but also iaWriter) considers anything else a bug.
 
 ## Math
+
+See also [Mathematics Across Different Markup Languages](./katex-mathjax-and-latex-math.md)
 
 ### Display Math
 
