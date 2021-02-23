@@ -2,7 +2,7 @@
 title: WikiJS vs Dokuwiki
 description: Differences between WikiJS and why/when to choose one over the other
 published: true
-date: 2021-02-23T23:52:33.148Z
+date: 2021-02-23T23:55:45.057Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-23T12:48:07.848Z
@@ -86,7 +86,14 @@ Mathematics still hasn't bee implemented [see this issue](https://github.com/Zav
 
 I don't know much about [torchpad](http://torchpad.com/), maybe somebody could look into that?
 
-### MDBook
+### Static Sites
+
+#### Docsify
+[Docsify](https://docsify.js.org/#/) is kind of cool
+
+#### MkDocs
+[mkdocs](https://www.mkdocs.org/) is pretty cool.
+#### MDBook
 
 [mdbook](https://rust-lang.github.io/mdBook/index.html) Does not support the use of latex with ordinary delimiters, (only  `\\[`
 
