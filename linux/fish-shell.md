@@ -2,9 +2,10 @@
 title: Fish Shell
 description: Tips and Tricks for using Fish Shell
 published: true
-date: 2020-08-30T23:21:25.090Z
+date: 2021-02-23T12:59:21.942Z
 tags: 
-editor: undefined
+editor: markdown
+dateCreated: 2021-02-23T12:51:28.917Z
 ---
 
 # Fish Shell
@@ -16,7 +17,7 @@ editor: undefined
 > alias x='xclip -selection clipboard'
 > funcsave x
 > ```
-> {.is-info}
+<!-- > {.is-warning} -->
 
 ### `cd` with an `ls`
 
