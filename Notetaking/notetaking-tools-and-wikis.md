@@ -2,7 +2,7 @@
 title: Notetaking Tools and Wikis
 description: A list of notetaking tools and wikis (open source generally)
 published: true
-date: 2021-02-23T22:31:43.022Z
+date: 2021-02-23T23:18:14.297Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-23T22:28:37.340Z
@@ -226,7 +226,7 @@ An advantage to wiki software is you avoid link rot, but I'm not sure that's a r
 
 ### No Database
 
-> DB has the advantage of fast search, but, using an index can make performance pretty good and read/edit is much faster.
+> DB has the advantage of scaling well but, flat files using a search index (think elasticsearch) can make performance pretty good and read/edit is much faster.
 
 #### Wikis
 
