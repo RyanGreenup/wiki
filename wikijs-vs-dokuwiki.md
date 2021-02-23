@@ -2,7 +2,7 @@
 title: WikiJS vs Dokuwiki
 description: Differences between WikiJS and why/when to choose one over the other
 published: true
-date: 2021-02-23T22:11:12.596Z
+date: 2021-02-23T22:12:07.459Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-23T12:48:07.848Z
@@ -30,10 +30,10 @@ Unfourtunately it's slower, clunkier, does not support per-section editing and l
 
 ### Dokuwiki
 
-### Advantages
+#### Advantages
 Dokuwiki works out of the box, batteries included, does not have a database, is dead easy to set up, looks great and works very well with math.
 
-### Disadvantages
+#### Disadvantages
 
 Dokuwiki does not [^1] really display the flat file structure, but more importantly, there isn't a non-trivial way to convert the corpus of text files into markdown/org, easily, the complexities being (when using [pandoc](https://github.com/jgm/pandoc):
 
