@@ -2,7 +2,7 @@
 title: WikiJS vs Dokuwiki
 description: Differences between WikiJS and why/when to choose one over the other
 published: true
-date: 2021-02-23T23:30:01.431Z
+date: 2021-02-23T23:38:46.072Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-23T12:48:07.848Z
@@ -25,6 +25,12 @@ Wikijs lays pages out in a way that is consistent with how people would take not
 
 It's also really nice how any pre-existing markdown-tool like [zettlr](https://github.com/Zettlr/Zettlr), [marktext](https://github.com/marktext/marktext) or pandoc can easily be used to work with pages.
 
+- Modern Aesthetic
+  - Although the Dokuwiki Bootstrap template is fine
+- Import Export a directory of Markdown Files
+- Can be rendered as a static site
+- Resembles a standard layout of notes
+
 #### Disadvantages
 
 Unfourtunately it's slower, clunkier, does not support per-section editing and linking to files isn't implemented very well.
@@ -33,6 +39,10 @@ Unfourtunately it's slower, clunkier, does not support per-section editing and l
 
 #### Advantages
 Dokuwiki works out of the box, batteries included, does not have a database, is dead easy to set up, looks great and works very well with math.
+
+- Backlinks
+- Edit per section
+- MathJax
 
 #### Disadvantages
 
@@ -103,14 +113,8 @@ Atleast with respect to markdown, it works on:
 
 So we've just kinda gotta accept it.
 
-| DokuWiki | WikiJS |
-| --- | --- |
-| Backlinks |     |
-| Edit per Section |     |
-| MathJax |     |
-|     | Modern Aesthetic |
-|     | Import Export a directory of Markdown Files |
-|     | Compatible with Markdown Formatting [see points](#compatible) |
+## Comparison {.tabset}
+
 
 ### Compatible with Markdown Formatting... Who cares
 
