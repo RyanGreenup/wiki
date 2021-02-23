@@ -2,7 +2,7 @@
 title: Tools for Effective Notetaking
 description: Tools that are useful for effective notetaking
 published: true
-date: 2021-02-23T22:41:43.587Z
+date: 2021-02-23T22:44:28.373Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-23T22:41:43.587Z
@@ -17,6 +17,7 @@ dateCreated: 2021-02-23T22:41:43.587Z
 - Use MD Files
 
 - Consider using [Dokuwiki](https://github.com/splitbrain/dokuwiki) and using [Syncthing](https://github.com/syncthing/syncthing) to keep everything in sync, this will scale well.
+   - See also: [WikiJS Vs Dokuwiki](/wikijs-vs-dokuwiki)
 
 ## Just Files
 
