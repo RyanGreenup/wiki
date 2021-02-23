@@ -1,11 +1,11 @@
 ---
 title: WikiJS vs Dokuwiki
 description: Differences between WikiJS and why/when to choose one over the other
-published: 1
-date: 2021-02-23T06:42:20.957Z
+published: true
+date: 2021-02-23T22:11:12.596Z
 tags: 
 editor: markdown
-dateCreated: 2021-02-22T13:06:04.284Z
+dateCreated: 2021-02-23T12:48:07.848Z
 ---
 
 # WikiJS vs Dokuwiki
@@ -13,6 +13,49 @@ dateCreated: 2021-02-22T13:06:04.284Z
 > see also:
 >  [Installing WikiJS for Local Use](./installing-wikijs-for-local-use.md)
 {.is-info}
+
+## General thoughts {.tabset}
+
+### WikiJS
+
+#### Advantages
+
+Wikijs lays pages out in a way that is consistent with how people would take notes on a topic generally, i.e. structured directories and text files.
+
+It's also really nice how any pre-existing markdown-tool like [zettlr](https://github.com/Zettlr/Zettlr), [marktext](https://github.com/marktext/marktext) or pandoc can easily be used to work with pages.
+
+#### Disadvantages
+
+Unfourtunately it's slower, clunkier, does not support per-section editing and linking to files isn't implemented very well.
+
+### Dokuwiki
+
+### Advantages
+Dokuwiki works out of the box, batteries included, does not have a database, is dead easy to set up, looks great and works very well with math.
+
+### Disadvantages
+
+Dokuwiki does not [^1] really display the flat file structure, but more importantly, there isn't a non-trivial way to convert the corpus of text files into markdown/org, easily, the complexities being (when using [pandoc](https://github.com/jgm/pandoc):
+
+- Mathjax becomes KaTeX which often breaks
+- Pandoc doesn't convert the images
+- Pandoc does not support Math when converting dokuwiki files [^2]
+  - Although using `dokuwiki/bin/render.php < file.txt > file.html` does work if the mathjax plugin is installed
+    - However this does not change images into HTML, the `{{:image:path.png}}` **does not** become `<img src="./image/path.png">` which is really a problem for things like plots.
+
+
+#### Plugins
+Dokuwiki also relies on a lot of plugins, which is good in terms of feature accessibility and community contribution, but a lot of features that should be really core features are handed off to plugins, which is not particularly idea.
+
+#### Markdown
+If anybody knows of an easy and effective way to switch dokuwiki to use markdown, I'm all ears.
+
+[^2]: [Dokuwiki math support [enhancement] Â· Issue #5319 Â· jgm/pandoc Â· GitHub](https://github.com/jgm/pandoc/issues/5319)
+
+
+
+[^1]: Without some admittedly good plugins)
+
 
 ## KaTeX is only a minor disadvantage
 
