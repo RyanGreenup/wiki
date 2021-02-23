@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2021-02-23T21:53:26.606Z
+date: 2021-02-23T21:55:15.010Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-23T12:43:26.784Z
@@ -15,7 +15,7 @@ this will be to everybody so please, make some input.
 
 > As an aside I was sort of torn between this wiki and [this dokuwiki
 > instance](http://ryansnotes.org:82/dokuwiki/doku.php), maybe others could provide some input on this? some of
-> the advantages and disadvantages are discussed in [this page](./dokuwiki-vs-wikijs.md)
+> the advantages and disadvantages are discussed in [this page](./wikijs-vs-dokuwiki.md)
 {.is-info}
 
 
