@@ -2,7 +2,7 @@
 title: WikiJS vs Dokuwiki
 description: Differences between WikiJS and why/when to choose one over the other
 published: true
-date: 2021-02-23T22:12:07.459Z
+date: 2021-02-23T22:14:29.375Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-23T12:48:07.848Z
@@ -15,6 +15,7 @@ dateCreated: 2021-02-23T12:48:07.848Z
 {.is-info}
 
 ## General thoughts {.tabset}
+
 
 ### WikiJS
 
@@ -48,7 +49,7 @@ Dokuwiki does not [^1] really display the flat file structure, but more importan
 Dokuwiki also relies on a lot of plugins, which is good in terms of feature accessibility and community contribution, but a lot of features that should be really core features are handed off to plugins, which is not particularly idea.
 
 #### Markdown
-If anybody knows of an easy and effective way to switch dokuwiki to use markdown, I'm all ears.
+I'm going to experiment with the [mdpage](https://www.dokuwiki.org/plugin:mdpage) plugin, if that works and all the features work then that's probably a good compromise, for the moment I'll leave a dokuwiki and wikiJS up until we can settle on something.
 
 [^2]: [Dokuwiki math support [enhancement] Â· Issue #5319 Â· jgm/pandoc Â· GitHub](https://github.com/jgm/pandoc/issues/5319)
 
