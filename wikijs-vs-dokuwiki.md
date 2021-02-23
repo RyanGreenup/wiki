@@ -2,7 +2,7 @@
 title: WikiJS vs Dokuwiki
 description: Differences between WikiJS and why/when to choose one over the other
 published: true
-date: 2021-02-23T23:40:28.204Z
+date: 2021-02-23T23:52:33.148Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-23T12:48:07.848Z
@@ -81,6 +81,14 @@ I don't know much about [WikiDocs](https://www.wikidocs.it/demo), it does howeve
 #### Mathematics
 
 Mathematics still hasn't bee implemented [see this issue](https://github.com/Zavy86/WikiDocs/issues/16)
+
+### Torchpad
+
+I don't know much about [torchpad](http://torchpad.com/), maybe somebody could look into that?
+
+### MDBook
+
+[mdbook](https://rust-lang.github.io/mdBook/index.html) Does not support the use of latex with ordinary delimiters, (only  `\\[`
 
 ## KaTeX is only a minor disadvantage
 
