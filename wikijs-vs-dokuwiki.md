@@ -2,7 +2,7 @@
 title: WikiJS vs Dokuwiki
 description: Differences between WikiJS and why/when to choose one over the other
 published: 1
-date: 2021-02-22T13:25:17.935Z
+date: 2021-02-23T06:28:59.623Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-22T13:06:04.284Z
@@ -12,6 +12,7 @@ dateCreated: 2021-02-22T13:06:04.284Z
 
 > see also:
 >  - [Installing WikiJS for Local Use](./installing-wikijs-for-local-use.md)
+{.is-info}
 
 ## KaTeX is only a minor disadvantage
 
