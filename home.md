@@ -2,19 +2,29 @@
 title: Home
 description: 
 published: true
-date: 2021-02-23T00:20:09.996Z
+date: 2021-02-23T21:53:26.606Z
 tags: 
 editor: markdown
-dateCreated: 2021-02-22T03:21:18.823Z
+dateCreated: 2021-02-23T12:43:26.784Z
 ---
 
-# Header
-Your content here
+# Our Wiki
 
-So this is the home page [linky](./link.md)
+The more ~~students~~ people that collaborate here the more useful
+this will be to everybody so please, make some input.
+
+> As an aside I was sort of torn between this wiki and [this dokuwiki
+> instance](http://ryansnotes.org:82/dokuwiki/doku.php), maybe others could provide some input on this? some of
+> the advantages and disadvantages are discussed in [this page](./dokuwiki-vs-wikijs.md)
+{.is-info}
 
 
-Here's another page [Currently-Implemented-Self-Hosting](./Currently-Implemented-Self-Hosting)
+The input for this wiki is available [here on GitHub](https://github.com/RyanGreenup/wiki) [^1] and i'll
+write in structions on how to implement your own local version of
+WikiJS [here](./implement-local-instance-of-wikijs.md) (as well as [dokuwiki](./implement-local-instance-of-dokuwiki.md) and [mediawiki](./implement-local-instance-of-mediawiki.md).
 
+## Starting points
 
-[Applicatoins of Big Data](./University/applications-of-big-data.md)
+- [Notetaking](./Notetaking/home.md)
+
+[^1]: Although this might change to [GitLab](https://about.gitlab.com/) in the future.
