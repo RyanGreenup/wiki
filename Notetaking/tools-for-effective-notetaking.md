@@ -2,7 +2,7 @@
 title: Tools for Effective Notetaking
 description: Tools that are useful for effective notetaking
 published: true
-date: 2021-02-23T23:41:31.546Z
+date: 2021-02-24T00:36:40.249Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-23T22:41:43.587Z
@@ -37,7 +37,7 @@ There is a lot, some that come to mind:
 - [Manuel Genovés / Apostrophe · GitLab](https://gitlab.gnome.org/somas/apostrophe)
 - [Remarkable - Linux](https://remarkableapp.github.io/linux.html)
 - [Stack Edit](https://stackedit.io/app#)
-- Zettlr
+- [Zettlr](https://github.com/Zettlr/Zettlr)
   
   - JS so cross platform
 
