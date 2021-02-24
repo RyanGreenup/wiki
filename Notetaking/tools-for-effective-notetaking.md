@@ -2,7 +2,7 @@
 title: Tools for Effective Notetaking
 description: Tools that are useful for effective notetaking
 published: true
-date: 2021-02-24T00:37:13.332Z
+date: 2021-02-24T01:07:39.819Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-23T22:41:43.587Z
@@ -26,6 +26,8 @@ Use [*Marktext*](https://github.com/marktext/marktext) to go through your notes 
 Use `grep` and for a better search use Recoll.
 
 These can all be set up with bindings.
+
+[for vim users](https://alexnorman.xyz/blog/20200329_zettelkasten-with-vim.html)
 
 ### Alternative Markdown Tools
 
