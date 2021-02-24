@@ -2,7 +2,7 @@
 title: WikiJS vs Dokuwiki
 description: Differences between WikiJS and why/when to choose one over the other
 published: true
-date: 2021-02-23T23:55:45.057Z
+date: 2021-02-24T01:41:31.121Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-23T12:48:07.848Z
@@ -37,6 +37,9 @@ Unfourtunately it's slower, clunkier, does not support per-section editing and l
 
 Also the `{.is-info}` and `{.tabset}` extensions aren't going to render very well in other MD editors.
 
+No media manager makes it really hard to include images, they can be included but it's very hard to preview them before hand.
+
+Essentially the UI for WikiJS is just inferior to Dokuwiki with respect to editing etc.
 
 ### Dokuwiki
 
