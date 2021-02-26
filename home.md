@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2021-02-23T22:17:44.286Z
+date: 2021-02-26T03:02:43.222Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-23T12:43:26.784Z
@@ -32,3 +32,5 @@ WikiJS [here](./implement-local-instance-of-wikijs.md) (as well as [dokuwiki](./
 - [People on Here](./social/home.md)
 
 [^1]: Although this might change to [GitLab](https://about.gitlab.com/) in the future.
+
+[link name](./my-example.md)
